@@ -1,3 +1,4 @@
+/*Sección Navbar*/
 #logo{
     width: 100%;
 }
@@ -24,9 +25,10 @@
     border-color: #FEEFEC;
 
 }
+/*Color Rosado Fondo Superior*/
 #colorFondo{
     background-color: #FEEFEC;
-    height: 400px;
+    height: 390px;
     width: 50%;
     position: absolute;
     margin-left: 50%;
@@ -63,6 +65,8 @@
     }
     
 }
+
+/*Sección Burdeo Saludo */
 
 #saludoBienvenida{
     background-color: #931941;
@@ -101,3 +105,37 @@
         font-weight: bold;
     }
 }
+
+/*Sección Portafolio*/
+
+#tituloPortafolio{
+    font-family: 'Roboto', sans-serif;
+    color: #363636;
+    font-weight: 300;
+    text-align: center;
+    padding-top: 30%;  
+}
+
+#subrayado{
+    background-color: #931941;
+    width: 100%;
+    padding-top: 0;
+    padding-bottom: 1.5%;
+    height: 2%;
+    margin-left: 37%;
+}
+
+@media (min-width: 960px) {
+    #tituloPortafolio{
+        font-size: 35px;
+        padding-top: 20%;
+    }
+    #subrayado{
+        background-color: #931941;
+        width: 100%;
+        padding-top: 0;
+        padding-bottom: 7px;
+        margin-left: 41.5%;
+    }
+}
+

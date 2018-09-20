@@ -26,7 +26,7 @@
 }
 #colorFondo{
     background-color: #FEEFEC;
-    height: 347px;
+    height: 400px;
     width: 50%;
     position: absolute;
     margin-left: 50%;
@@ -67,7 +67,7 @@
 #saludoBienvenida{
     background-color: #931941;
     border: 10px solid white;
-    margin-left: 3%;
+    margin-left: 4.5%;
     margin-top: 3%;
 }
 #saludo{
@@ -86,13 +86,18 @@
 }
 
 @media (min-width: 960px) {
+    #saludoBienvenida{
+        margin-left: 1.5%;
+    }
     #saludo{
         font-size: 35px;
     }
     #parrafo{
         font-size: 26px;
+        padding-bottom: 3%;
     }
     #ux{
-        font-size: 30px;
+        font-size: 33px;
+        font-weight: bold;
     }
 }

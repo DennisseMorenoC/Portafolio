@@ -1,3 +1,69 @@
 #logo{
     width: 100%;
 }
+#nombre{
+    font-family: 'Source Serif Pro', serif;
+    color: #363636;
+    font-size: 20px;
+    margin-top: 20px;
+}
+#portafolio{
+    color: #363636;
+    font-size: 14px;
+}
+#sobreMi{
+    color: #363636;
+    font-size: 14px;
+}
+.navbar-collapse {
+    transform: translate3d(-30px, 0px, 0px);
+}
+.navbar-light .navbar-toggler {
+    border-color: #FEEFEC;
+
+}
+#colorFondo{
+    background-color: #FEEFEC;
+    height: 347px;
+    width: 50%;
+    position: absolute;
+    margin-left: 50%;
+}
+ 
+@media (min-width: 960px) {
+    #nombrecol{
+        text-align: center;
+    }
+    #nombre{
+        font-size: 40px;
+        padding-top: 10%;
+    }
+    .navbar-nav{
+        margin-left: 5%;
+    }
+    #portafolio{
+        font-size: 20px;
+    }
+    #sobreMi{
+        font-size: 20px;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: 6rem;
+    }
+    #colorFondo{
+        background-color: #FEEFEC;
+        height: 500px;
+        width: 50%;
+        position: absolute;
+        margin-left: 50%;
+    }
+}
+
+#saludoBienvenida{
+    background-color: #931941;
+    border: 10px solid white;
+    margin-left: 3%;
+}
+#saludo{
+    color: #F8BAAB;
+}

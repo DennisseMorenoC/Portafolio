@@ -1,0 +1,9 @@
+#logo{
+    width: 100%;
+}
+#nombre{
+    font-family: 'Source Serif Pro', serif;
+    color: #363636;
+    font-size: 20px;
+    margin-top: 20px;
+}

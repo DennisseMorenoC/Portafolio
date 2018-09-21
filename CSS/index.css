@@ -156,7 +156,6 @@
     padding-left: 15%;
 }
 
-
 @media (min-width: 960px) {
     #colorFondoProyectos{
         margin-top: 12%;
@@ -165,4 +164,11 @@
         padding-top: 23%;
         font-size: 50px;
     }
+}
+
+#infoProyectoRedSocial{
+    color: #363636;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    padding-left: 7%;
 }

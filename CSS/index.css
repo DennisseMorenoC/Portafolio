@@ -141,3 +141,17 @@
     }
 }
 
+/*Sección Proyectos*/
+#colorFondoProyectos{
+    background-color: #FEEFEC;
+    margin-top: 18%;
+    height: 390px;
+    width: 100%;
+    position: absolute;
+}
+#nombreProyecto{
+    color: #363636;
+    font-family: 'Source Serif Pro', serif;
+    padding-top: 35%;
+    padding-left: 15%;
+}

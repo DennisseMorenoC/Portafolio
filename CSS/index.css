@@ -129,7 +129,7 @@
 @media (min-width: 960px) {
     #tituloPortafolio{
         font-size: 35px;
-        padding-top: 20%;
+        padding-top: 30%;
     }
     #subrayado{
         background-color: #931941;
@@ -154,4 +154,15 @@
     font-family: 'Source Serif Pro', serif;
     padding-top: 35%;
     padding-left: 15%;
+}
+
+
+@media (min-width: 960px) {
+    #colorFondoProyectos{
+        margin-top: 12%;
+    }
+    #nombreProyecto{
+        padding-top: 23%;
+        font-size: 50px;
+    }
 }

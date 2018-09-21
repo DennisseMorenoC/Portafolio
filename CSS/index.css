@@ -66,6 +66,15 @@
     
 }
 
+@media (max-width: 350px) {
+    #nombre{
+        font-size: 18px;
+    }
+    #colorFondo{
+        height: 60%;
+    }
+}
+
 /*Sección Burdeo Saludo */
 
 #saludoBienvenida{
@@ -106,6 +115,15 @@
     }
 }
 
+@media (max-width: 350px) {
+    #ux{
+        font-size: 18px;
+    }
+    #parrafo{
+        font-size: 16px;
+    }
+}
+
 /*Sección Portafolio*/
 
 #tituloPortafolio{
@@ -138,6 +156,13 @@
         padding-top: 0;
         padding-bottom: 7px;
 
+    }
+}
+
+@media (max-width: 350px) {
+    #tituloPortafolio{
+        font-size: 20px;
+        padding-top: 20%;
     }
 }
 
@@ -175,13 +200,22 @@
         padding-top: 15%;
     }
 }
+@media (max-width: 350px) {
+    #colorFondoProyectos{
+        margin-top: 17%;
+        height: 47000%;
+    }
+    #nombreProyecto{
+        font-size: 22px;
+    }
+}
 
 #infoProyectoRedSocial{
     color: #363636;
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     padding-left: 7%;
-    padding-top: 2%;
+    margin-top: 7%;
 }
 #grupoListaProcesos{
     color: #363636;
@@ -190,6 +224,18 @@
     font-weight: 300;
     margin-top: 10%;
     padding-left: 7%;
+}
+#leerMas{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    background-color: #931941;
+    color: white;
+    border: none;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    padding-left: 40%;
+    padding-right: 7%;
+    margin-top: 20%;
 }
 @media (min-width: 960px) {
     #infoProyectoRedSocial{
@@ -205,5 +251,16 @@
         padding-top: 3%;
     }
 }
-
+@media (max-width: 350px) {
+    #infoProyectoRedSocial{
+        font-size: 14px;
+        padding-top: 0;
+    }
+    #grupoListaProcesos{
+        font-size: 14px;
+    }
+    #leerMas{
+        margin-top: 15%;
+    }
+}
 

@@ -164,6 +164,7 @@
 @media (min-width: 960px) {
     #colorFondoProyectos{
         margin-top: 11.5%;
+        height: 680px;
     }
     #nombreProyecto{
         padding-top: 23%;
@@ -182,15 +183,6 @@
     padding-left: 7%;
     padding-top: 2%;
 }
-
-@media (min-width: 960px) {
-    #infoProyectoRedSocial{
-        font-size: 22px;
-        padding-top: 3%;
-        padding-left: 10%;
-    }
-}
-
 #grupoListaProcesos{
     color: #363636;
     font-family: 'Roboto', sans-serif;
@@ -199,6 +191,19 @@
     margin-top: 10%;
     padding-left: 7%;
 }
-.listaProcesos{
-   
+@media (min-width: 960px) {
+    #infoProyectoRedSocial{
+        font-size: 22px;
+        padding-top: 3%;
+        padding-left: 10%;
+    }
+    #grupoListaProcesos{
+        font-size: 22px;
+        padding-left: 10%;
+    }
+    .listaProcesos{
+        padding-top: 3%;
+    }
 }
+
+

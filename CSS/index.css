@@ -145,7 +145,7 @@
 #colorFondoProyectos{
     background-color: #FEEFEC;
     margin-top: 18%;
-    height: 390px;
+    height: 500px;
     width: 100%;
     position: absolute;
 }
@@ -163,11 +163,15 @@
 }
 @media (min-width: 960px) {
     #colorFondoProyectos{
-        margin-top: 12%;
+        margin-top: 11.5%;
     }
     #nombreProyecto{
         padding-top: 23%;
         font-size: 50px;
+    }
+    #fotoPrototipoRedSocial{
+        width: 130%;
+        padding-top: 15%;
     }
 }
 

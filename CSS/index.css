@@ -25,6 +25,14 @@
     border-color: #FEEFEC;
 
 }
+
+
+
+
+
+
+
+
 /*Color Rosado Fondo Superior*/
 #colorFondo{
     background-color: #FEEFEC;
@@ -75,6 +83,14 @@
     }
 }
 
+
+
+
+
+
+
+
+
 /*Sección Burdeo Saludo */
 
 #saludoBienvenida{
@@ -124,6 +140,11 @@
     }
 }
 
+
+
+
+
+
 /*Sección Portafolio*/
 
 #tituloPortafolio{
@@ -165,6 +186,13 @@
         padding-top: 20%;
     }
 }
+
+
+
+
+
+
+
 
 /*Sección Proyecto Red Social*/
 #colorFondoProyectos{
@@ -276,6 +304,13 @@
     }
 }
 
+
+
+
+
+
+
+
 /*Sección Proyecto Joyería*/
 
 #proyectoJoyería{
@@ -366,8 +401,33 @@
     }
 }
 
+
+
+
+
+
+
 /*Sección Proyecto Banco*/
 
+#colorFondoProyectoBanco{
+    background-color: #FEEFEC;
+    margin-top: 18%;
+    height: 58000%;
+    width: 100%;
+    position: absolute;
+}
+@media (min-width: 960px) {
+    #colorFondoProyectoBanco{
+        margin-top: 11.5%;
+        height: 720px;
+    }
+}
+@media (max-width: 350px) {
+    #colorFondoProyectoBanco{
+        margin-top: 17%;
+        height: 49700%;
+    }
+}
 #proyectoBanco{
     margin-top: 30%;
 }
@@ -453,5 +513,35 @@
     }
     #leerMas{
         margin-top: 15%;
+    }
+}
+
+
+
+
+
+
+
+/*Sobre Mi*/
+
+#tituloSobreMi{
+    font-family: 'Roboto', sans-serif;
+    color: #363636;
+    font-weight: 300;
+    text-align: center;
+    padding-top: 60%;  
+}
+
+@media (min-width: 960px) {
+    #tituloSobreMi{
+        font-size: 35px;
+        padding-top: 30%;
+    }
+}
+
+@media (max-width: 350px) {
+    #tituloSobreMi{
+        font-size: 20px;
+        padding-top: 50%;
     }
 }

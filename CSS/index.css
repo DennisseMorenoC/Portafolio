@@ -170,7 +170,7 @@
 #colorFondoProyectos{
     background-color: #FEEFEC;
     margin-top: 18%;
-    height: 530px;
+    height: 56500%;
     width: 100%;
     position: absolute;
 }
@@ -189,7 +189,7 @@
 @media (min-width: 960px) {
     #colorFondoProyectos{
         margin-top: 11.5%;
-        height: 680px;
+        height: 700px;
     }
     #nombreProyecto{
         padding-top: 23%;
@@ -203,7 +203,7 @@
 @media (max-width: 350px) {
     #colorFondoProyectos{
         margin-top: 17%;
-        height: 47000%;
+        height: 48000%;
     }
     #nombreProyecto{
         font-size: 26px;
@@ -276,3 +276,12 @@
     }
 }
 
+#proyectoJoyería{
+    margin-top: 30%;
+}
+
+@media (min-width: 960px) {
+    #proyectoJoyería{
+        margin-top: 10%;
+    }
+}

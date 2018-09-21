@@ -145,7 +145,7 @@
 #colorFondoProyectos{
     background-color: #FEEFEC;
     margin-top: 18%;
-    height: 500px;
+    height: 530px;
     width: 100%;
     position: absolute;
 }
@@ -159,7 +159,7 @@
     width: 250%;
     position: absolute;
     padding-top: 24%;
-    padding-left: 60%;
+    padding-left: 66%;
 }
 @media (min-width: 960px) {
     #colorFondoProyectos{
@@ -189,4 +189,16 @@
         padding-top: 3%;
         padding-left: 10%;
     }
+}
+
+#grupoListaProcesos{
+    color: #363636;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    margin-top: 10%;
+    padding-left: 7%;
+}
+.listaProcesos{
+   
 }

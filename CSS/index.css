@@ -230,10 +230,10 @@
 }
 @media (max-width: 350px) {
     #colorFondoProyectos{
-        margin-top: 17%;
+        margin-top: 17.5%;
         height: 48000%;
     }
-    #nombreProyecto{
+    #nombreProyectoRedSocial{
         font-size: 26px;
     }
 }
@@ -424,7 +424,7 @@
 }
 @media (max-width: 350px) {
     #colorFondoProyectoBanco{
-        margin-top: 17%;
+        margin-top: 17.5%;
         height: 49700%;
     }
 }
@@ -531,17 +531,52 @@
     text-align: center;
     padding-top: 60%;  
 }
-
 @media (min-width: 960px) {
     #tituloSobreMi{
         font-size: 35px;
         padding-top: 30%;
     }
 }
-
 @media (max-width: 350px) {
     #tituloSobreMi{
         font-size: 20px;
         padding-top: 50%;
+    }
+}
+
+#fotoPerfil{
+    width: 90%;
+    padding-top: 10%;
+    position: absolute;
+}
+@media (min-width: 960px) {
+    #fotoPerfil{
+        width: 100%;
+    }
+}
+
+@media (max-width: 350px) {
+    #fotoPerfil{
+        padding-top: 14%;
+    }
+}
+
+#nombrePerfil{
+    padding-top: 145%;
+    margin-bottom: 0;
+}
+#uxPerfil{
+    margin-top: 0;
+}
+
+@media (max-width: 350px) {
+    #nombrePerfil{
+        padding-top: 150%;
+    }
+}
+
+@media (min-width: 960px) {
+    #fotoPerfil{
+        width: 100%;
     }
 }

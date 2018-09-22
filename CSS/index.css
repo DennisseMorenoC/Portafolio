@@ -692,5 +692,32 @@
 
 #rosadoFooter{
     background-color: #F8BAAB;
-    padding: 3%;
+    padding: 4%;
+}
+#medium{
+    text-align: center;
+    color: white;
+}
+#linkedin{
+    text-align: center;
+    color: white;
+}
+#github{
+    text-align: center;
+    color: white;
+}
+
+@media (min-width: 960px) {
+    #iconMedium{
+        font-size: 70px;
+    }
+    #iconLinkedin{
+        font-size: 70px;
+    }
+    #iconGithub{
+        font-size: 70px;
+    }
+    #rosadoFooter{
+        padding: 3%;
+    }
 }

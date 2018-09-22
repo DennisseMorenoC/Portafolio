@@ -560,23 +560,27 @@
         padding-top: 14%;
     }
 }
-
 #nombrePerfil{
     padding-top: 145%;
     margin-bottom: 0;
+    padding-left: 7%;
 }
-#uxPerfil{
-    margin-top: 0;
-}
-
 @media (max-width: 350px) {
     #nombrePerfil{
         padding-top: 150%;
     }
 }
-
 @media (min-width: 960px) {
     #fotoPerfil{
         width: 100%;
+        margin-top: 11%;
+
     }
+    #nombrePerfil{
+        font-size: 50px;
+        margin-top: 20%;
+        padding-left: 115%;
+        padding-top: 0%;
+    }
+
 }

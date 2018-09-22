@@ -1,0 +1,299 @@
+/*Sección Navbar*/
+#logo{
+    width: 100%;
+}
+#nombre{
+    font-family: 'Source Serif Pro', serif;
+    color: #363636;
+    font-size: 21px;
+    margin-top: 20px;
+}
+#portafolio{
+    color: #363636;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+}
+#sobreMi{
+    color: #363636;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+}
+.navbar-collapse {
+    transform: translate3d(-30px, 0px, 0px);
+}
+.navbar-light .navbar-toggler {
+    border-color: #FEEFEC;
+
+}
+
+#subrayado{
+    background-color: #931941;
+    width: 20%;
+    margin-left: 40%;
+    padding-top: 0;
+    padding-bottom: 1.5%;
+    height: 2%;
+   
+}
+
+
+
+
+
+
+/*Color Rosado Fondo Superior*/
+#colorFondo{
+    background-color: #FEEFEC;
+    height: 20%;
+    width: 50%;
+    position: absolute;
+    margin-left: 50%;
+}
+@media (min-width: 960px) {
+    #nombrecol{
+        text-align: center;
+    }
+    #nombre{
+        font-size: 40px;
+        padding-top: 10%;
+    }
+    .navbar-nav{
+        margin-left: 0;
+    }
+    #portafolio{
+        font-size: 20px;
+        font-family: 'Roboto', sans-serif;
+    }
+    #sobreMi{
+        font-size: 20px;
+        font-family: 'Roboto', sans-serif;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: 6rem;
+    }
+    #colorFondo{
+        background-color: #FEEFEC;
+        height: 40%;
+        width: 50%;
+        position: absolute;
+        margin-left: 50%;
+    }
+    #subrayado{
+        background-color: #931941;
+        width: 14%;
+        margin-left: 43%;
+        padding-top: 0;
+        padding-bottom: 7px;
+
+    }
+    
+}
+
+@media (max-width: 350px) {
+    #nombre{
+        font-size: 18px;
+    }
+    #colorFondo{
+        height: 15%;
+    }
+}
+
+/*Sobre Mi*/
+
+#tituloSobreMi{
+    font-family: 'Roboto', sans-serif;
+    color: #363636;
+    font-weight: 300;
+    text-align: center;
+    padding-top: 30%;  
+}
+@media (min-width: 960px) {
+    #tituloSobreMi{
+        font-size: 35px;
+        padding-top: 30%;
+    }
+}
+@media (max-width: 350px) {
+    #tituloSobreMi{
+        font-size: 20px;
+        padding-top: 20%;
+    }
+}
+
+#fotoPerfil{
+    width: 90%;
+    padding-top: 10%;
+    position: absolute;
+}
+
+#nombrePerfil{
+    color: #363636;
+    font-family: 'Source Serif Pro', serif;
+    padding-top: 145%;
+    margin-bottom: 0;
+    padding-left: 7%;
+}
+#parrafoSobreMi{
+    color: #363636;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    padding-left: 3%;
+    margin-top: 7%;
+}
+#parrafoSobreMi2{
+    color: #363636;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    padding-left: 3%;
+    margin-top: 0%;
+}
+#parrafoSobreMi3{
+    color: #363636;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    padding-left: 3%;
+    margin-top: 0%;
+}
+#trabajarEquipo{
+    background-color: #F8BAAB;
+    padding-right: 1.5%;
+    padding-bottom: 1%;
+}
+#enlaceCv{
+    color: #931941;
+    font-weight: bold;
+}
+#enlaceMedium{
+    color: #931941;
+    font-weight: bold;
+}
+@media (min-width: 960px) {
+    #fotoPerfil{
+        width: 100%;
+        margin-top: 10%;
+
+    }
+    #nombrePerfil{
+        font-size: 50px;
+        margin-top: 14%;
+        padding-left: 85%;
+        padding-top: 0%;
+    }
+    #parrafoSobreMi{
+        font-size: 22px;
+        margin-top: 6%;
+        margin-left: 50%;
+    }
+    #parrafoSobreMi2{
+        font-size: 22px;
+        margin-top: 5%;
+        padding-left: 2%;    
+    }
+    #parrafoSobreMi3{
+        font-size: 22px;
+        margin-top: 2%;
+        padding-left: 2%;    
+    }
+
+}
+@media (max-width: 350px) {
+    #nombrePerfil{
+        padding-top: 150%;
+    }
+    #fotoPerfil{
+        padding-top: 14%;
+    }
+}
+
+
+
+
+
+/*Sección Contacto*/
+#tituloContacto{
+    font-family: 'Roboto', sans-serif;
+    color: #363636;
+    font-weight: 300;
+    text-align: center;
+    padding-top: 25%;  
+}
+#tituloEmail{
+    color: #363636;
+    font-family: 'Source Serif Pro', serif;
+    padding-top: 12%;
+    margin-bottom: 0;
+    padding-left: 7%;
+}
+#email{
+    color: #931941;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 0%;
+    margin-bottom: 0;
+    padding-left: 7%;
+    font-size: 22px;
+}
+#contacto{
+    padding-bottom: 17%;
+}
+@media (min-width: 960px) {
+    #tituloContacto{
+        font-size: 35px;
+        padding-top: 15%;
+    }
+    #tituloEmail{
+        font-size: 50px;
+        margin-top: 25%;
+        padding-left: 6%;
+        padding-top: 0%;
+    }
+    #email{
+        font-size: 48px;
+        margin-top: 40.5%;
+        padding-left: 6%;
+        padding-top: 0%;
+    }
+}
+@media (max-width: 350px) {
+    #tituloContacto{
+        font-size: 20px;
+        padding-top: 25%;
+    }
+    #tituloEmail{
+        padding-top: 10%;
+    }
+}
+
+
+/*Footer*/
+
+#rosadoFooter{
+    background-color: #F8BAAB;
+    padding: 4%;
+}
+#medium{
+    text-align: center;
+    color: white;
+}
+#linkedin{
+    text-align: center;
+    color: white;
+}
+#github{
+    text-align: center;
+    color: white;
+}
+
+@media (min-width: 960px) {
+    #iconMedium{
+        font-size: 70px;
+    }
+    #iconLinkedin{
+        font-size: 70px;
+    }
+    #iconGithub{
+        font-size: 70px;
+    }
+    #rosadoFooter{
+        padding: 3%;
+    }
+}

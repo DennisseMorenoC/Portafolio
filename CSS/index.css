@@ -549,38 +549,148 @@
     padding-top: 10%;
     position: absolute;
 }
-@media (min-width: 960px) {
-    #fotoPerfil{
-        width: 100%;
-    }
-}
 
-@media (max-width: 350px) {
-    #fotoPerfil{
-        padding-top: 14%;
-    }
-}
 #nombrePerfil{
+    color: #363636;
+    font-family: 'Source Serif Pro', serif;
     padding-top: 145%;
     margin-bottom: 0;
     padding-left: 7%;
+}
+#parrafoSobreMi{
+    color: #363636;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    padding-left: 3%;
+    margin-top: 7%;
+}
+#parrafoSobreMi2{
+    color: #363636;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    padding-left: 3%;
+    margin-top: 0%;
+}
+#parrafoSobreMi3{
+    color: #363636;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    padding-left: 3%;
+    margin-top: 0%;
+}
+#trabajarEquipo{
+    background-color: #F8BAAB;
+    padding-right: 1.5%;
+    padding-bottom: 1%;
+}
+#enlaceCv{
+    color: #931941;
+    font-weight: bold;
+}
+#enlaceMedium{
+    color: #931941;
+    font-weight: bold;
+}
+@media (min-width: 960px) {
+    #fotoPerfil{
+        width: 100%;
+        margin-top: 10%;
+
+    }
+    #nombrePerfil{
+        font-size: 50px;
+        margin-top: 14%;
+        padding-left: 85%;
+        padding-top: 0%;
+    }
+    #parrafoSobreMi{
+        font-size: 22px;
+        margin-top: 6%;
+        margin-left: 50%;
+    }
+    #parrafoSobreMi2{
+        font-size: 22px;
+        margin-top: 5%;
+        padding-left: 2%;    
+    }
+    #parrafoSobreMi3{
+        font-size: 22px;
+        margin-top: 2%;
+        padding-left: 2%;    
+    }
+
 }
 @media (max-width: 350px) {
     #nombrePerfil{
         padding-top: 150%;
     }
+    #fotoPerfil{
+        padding-top: 14%;
+    }
+}
+
+
+
+
+
+/*Sección Contacto*/
+#tituloContacto{
+    font-family: 'Roboto', sans-serif;
+    color: #363636;
+    font-weight: 300;
+    text-align: center;
+    padding-top: 25%;  
+}
+#tituloEmail{
+    color: #363636;
+    font-family: 'Source Serif Pro', serif;
+    padding-top: 12%;
+    margin-bottom: 0;
+    padding-left: 7%;
+}
+#email{
+    color: #931941;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 0%;
+    margin-bottom: 0;
+    padding-left: 7%;
+    font-size: 22px;
+}
+#contacto{
+    padding-bottom: 17%;
 }
 @media (min-width: 960px) {
-    #fotoPerfil{
-        width: 100%;
-        margin-top: 11%;
-
+    #tituloContacto{
+        font-size: 35px;
+        padding-top: 15%;
     }
-    #nombrePerfil{
+    #tituloEmail{
         font-size: 50px;
-        margin-top: 20%;
-        padding-left: 115%;
+        margin-top: 25%;
+        padding-left: 6%;
         padding-top: 0%;
     }
+    #email{
+        font-size: 48px;
+        margin-top: 40.5%;
+        padding-left: 6%;
+        padding-top: 0%;
+    }
+}
+@media (max-width: 350px) {
+    #tituloContacto{
+        font-size: 20px;
+        padding-top: 25%;
+    }
+    #tituloEmail{
+        padding-top: 10%;
+    }
+}
 
+
+/*Footer*/
+
+#rosadoFooter{
+    background-color: #F8BAAB;
+    padding: 3%;
 }

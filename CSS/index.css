@@ -1,6 +1,6 @@
 /*Sección Navbar*/
 #logo{
-    width: 100%;
+    max-width: 100%;
 }
 #nombre{
     font-family: 'Source Serif Pro', serif;
@@ -219,7 +219,7 @@
         margin-top: 11.5%;
         height: 700px;
     }
-    #nombreProyecto{
+    #nombreProyectoRedSocial{
         padding-top: 23%;
         font-size: 50px;
     }
@@ -449,6 +449,12 @@
     padding-top: 24%;
     padding-left: 66%;
 }
+@media (max-width: 450px){
+    #fotoPrototipoJoyeriaRecortada{
+        width: 10%;
+    }
+}
+
 @media (min-width: 960px) {
     #nombreProyectoJoyeria{
         padding-top: 23%;
@@ -524,7 +530,7 @@
 
 /*Sobre Mi*/
 
-#tituloSobreMi{
+#tituloProblemática{
     font-family: 'Roboto', sans-serif;
     color: #363636;
     font-weight: 300;
@@ -538,7 +544,7 @@
     }
 }
 @media (max-width: 350px) {
-    #tituloSobreMi{
+    #tituloProblemática{
         font-size: 20px;
         padding-top: 50%;
     }
@@ -550,7 +556,7 @@
     position: absolute;
 }
 
-#nombrePerfil{
+#nombreProblemática{
     color: #363636;
     font-family: 'Source Serif Pro', serif;
     padding-top: 145%;

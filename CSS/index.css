@@ -530,7 +530,7 @@
 
 /*Sobre Mi*/
 
-#tituloProblemática{
+#tituloSobreMi{
     font-family: 'Roboto', sans-serif;
     color: #363636;
     font-weight: 300;
@@ -544,9 +544,8 @@
     }
 }
 @media (max-width: 350px) {
-    #tituloProblemática{
+    #tituloSobreMi{
         font-size: 20px;
-        padding-top: 50%;
     }
 }
 
@@ -556,7 +555,7 @@
     position: absolute;
 }
 
-#nombreProblemática{
+#nombrePerfil{
     color: #363636;
     font-family: 'Source Serif Pro', serif;
     padding-top: 145%;

@@ -93,9 +93,9 @@
 #subrayado{
     background-color: #931941;
     width: 40%;
-    margin-left: 8%;
+    margin-left: 5.5%;
     padding-bottom: 0.8%;
-    height: 1%;
+    margin-top: 15%;
     position: absolute;
 }
 @media (min-width: 960px) {
@@ -113,9 +113,10 @@
     }
     #subrayado{
         width: 47.5%;
-        margin-left: 2.6%;
+        margin-left: 1.7%;
         padding-top: 0;
         padding-bottom: 0.4%;
+        margin-top: 6%;
     }
 
 }
@@ -126,6 +127,8 @@
     }
     #subrayado{
         padding-bottom: 0.7%;
+        margin-top: 17%;
+        margin-left: 6.3%;
     }
 }
 

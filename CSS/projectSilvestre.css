@@ -108,7 +108,7 @@
 @media (min-width: 960px) {
     #nombreProyectoComercioD{
         font-size: 35px;
-        padding-top: 16%;
+        padding-top: 13%;
         padding-left: 3%;
         text-align: left;
     }
@@ -127,8 +127,8 @@
         margin-top: 8%;
     }
     #fotoPrototipoComercioD{
-        margin-top: 5%;
-        width: 70%;
+        margin-top: 4%;
+        width: 65%;
         margin-left: 20%;
     }
 }

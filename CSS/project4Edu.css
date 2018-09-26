@@ -28,7 +28,7 @@
 /*Color Rosado Fondo Superior*/
 #colorFondo{
     background-color: #FEEFEC;
-    height: 20%;
+    height: 20.4%;
     width: 50%;
     position: absolute;
     margin-left: 50%;
@@ -77,10 +77,10 @@
 /*Projecto*/
 
 #nombreProyectoRedSocial{
-    font-size: 22px;
+    font-size: 25px;
     color: #363636;
     font-family: 'Source Serif Pro', serif;
-    padding-left: 7%;
+    padding-left: 6%;
 }
 #titulo4Edu{
     font-family: 'Roboto', sans-serif;
@@ -89,6 +89,14 @@
     font-weight: 300;
     padding-left: 3%;
     margin-bottom: 0%;
+}
+#subrayado{
+    background-color: #931941;
+    width: 40%;
+    margin-left: 8%;
+    padding-bottom: 0.8%;
+    height: 1%;
+    position: absolute;
 }
 @media (min-width: 960px) {
     #nombreProyectoRedSocial{
@@ -103,20 +111,32 @@
         padding-left: 1%;
         text-align: left;
     }
+    #subrayado{
+        width: 47.5%;
+        margin-left: 2.6%;
+        padding-top: 0;
+        padding-bottom: 0.4%;
+    }
 
 }
-#subrayado{
-    background-color: #931941;
-    width: 43%;
-    margin-left: 8%;
-    padding-bottom: 0.7%;
+@media (max-width: 350px) {
+    #nombreProyectoRedSocial{
+        font-size: 22px;
+        padding-left: 7%;
+    }
+    #subrayado{
+        padding-bottom: 0.7%;
+    }
+}
+
+#fotoPrototipoRedSocial{
+    width: 130%;
+    padding-left: 0%;
+    margin-left: 0%;
 }
 @media (min-width: 960px) {
-    #subrayado{
-        width: 14%;
-        margin-left: 43%;
-        padding-top: 0;
-        padding-bottom: 0.5%;
+    #fotoPrototipoRedSocial{
+        width: 70%;
     }
 }
 

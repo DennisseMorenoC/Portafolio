@@ -152,7 +152,7 @@
     color: #363636;
     font-weight: 300;
     text-align: center;
-    padding-top: 30%;  
+    padding-top: 45%;  
 }
 
 #subrayado{
@@ -183,7 +183,7 @@
 @media (max-width: 350px) {
     #tituloPortafolio{
         font-size: 20px;
-        padding-top: 20%;
+        padding-top: 40%;
     }
 }
 

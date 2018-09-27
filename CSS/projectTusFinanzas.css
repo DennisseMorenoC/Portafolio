@@ -180,10 +180,19 @@
     color: #F8BAAB;
     margin-bottom: 2%;
 }
-#descProblemática{
+#descProblemáticaCompu{
+    display: none;
+}
+#descProblemáticaCelu{
     font-family: 'Roboto', sans-serif;
     color: #363636;
-    padding-left: 6%;
+    padding-left: 5.5%;
+    margin-bottom: 0%;
+}
+#descProblemáticaCelu2{
+    font-family: 'Roboto', sans-serif;
+    color: #363636;
+    padding-left: 3%;
     margin-bottom: 0%;
 }
 #tituloSolución{
@@ -197,7 +206,7 @@
 #descSolución{
     font-family: 'Roboto', sans-serif;
     color: #363636;
-    padding-left: 6%;
+    padding-left: 3%;
     margin-bottom: 0%;
 }
 @media (min-width: 960px) {
@@ -226,10 +235,20 @@
         font-size: 32px;
         margin-bottom: 4%;
     }
-    #descProblemática{
-        font-size: 18px;
-        padding-left: 1.4%;
+    #descProblemáticaCompu{
+        font-family: 'Roboto', sans-serif;
+        color: #363636;
         margin-bottom: 0%;
+        font-size: 18px;
+        padding-left: 1.6%;
+        margin-bottom: 0%;
+        display: block;
+    }
+    #descProblemáticaCelu{
+        display: none;
+    }
+    #descProblemáticaCelu2{
+        display: none;
     }
     #tituloSolución{
         padding-left: 2%;
@@ -246,6 +265,7 @@
 }
 @media (max-width: 350px) {
     #tituloRol{
+        padding-top: 2%;
         padding-left: 13%;
     }
     #descRol{
@@ -257,14 +277,17 @@
     #tituloProblemática{
         padding-left: 13%;
     }
-    #descProblemática{
+    #descProblemáticaCelu{
         padding-left: 7%;
+    }
+    #descProblemáticaCelu2{
+        padding-left: 4%;
     }
     #tituloSolución{
         padding-left: 13%;
     }
     #descSolución{
-        padding-left: 7%;
+        padding-left: 4%;
     }
 }
 

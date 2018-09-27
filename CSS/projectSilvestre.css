@@ -27,7 +27,7 @@
 /*Color Rosado Fondo Superior*/
 #colorFondo{
     background-color: #FEEFEC;
-    height: 20.4%;
+    height: 16%;
     width: 50%;
     position: absolute;
     margin-left: 50%;
@@ -56,7 +56,7 @@
     }
     #colorFondo{
         background-color: #FEEFEC;
-        height: 30%;
+        height: 28%;
         width: 50%;
         position: absolute;
         margin-left: 50%;
@@ -67,7 +67,7 @@
         font-size: 18px;
     }
     #colorFondo{
-        height: 20.7%;
+        height: 17%;
     }
 }
 
@@ -80,42 +80,42 @@
     color: #363636;
     font-family: 'Source Serif Pro', serif;
     padding-left: 5%;
-    padding-top: 3.5%;
+    padding-top: 5%;
 }
 #tituloJoyeria{
     font-family: 'Roboto', sans-serif;
     color: #363636;
     font-size: 30px;
     font-weight: 300;
-    padding-left: 7%;
+    padding-left: 9%;
     margin-bottom: 0%;
-    margin-top: 2%;
+    margin-top: 12%;
 }
 #subrayado{
     background-color: #931941;
-    width: 44%;
+    width: 42%;
     margin-left: 7%;
     padding-bottom: 0.8%;
-    margin-top: 18%;
+    margin-top: 21%;
     position: absolute;
 }
 #fotoPrototipoComercioD{
     width: 100%;
     padding-left: 5%;
-    margin-left: 0%;
+    margin-left: 8%;
     margin-top: 5%;
     position: absolute;
 }
 @media (min-width: 960px) {
     #nombreProyectoComercioD{
         font-size: 35px;
-        padding-top: 13%;
+        padding-top: 30%;
         padding-left: 2%;
         text-align: left;
     }
     #tituloJoyeria{
         font-size: 70px;
-        padding-top: 0%;
+        padding-top: 8%;
         padding-left: 1.5%;
         text-align: left;
         margin-top: 4%;
@@ -125,11 +125,11 @@
         margin-left: 2%;
         padding-top: 0;
         padding-bottom: 0.3%;
-        margin-top: 8%;
+        margin-top: 11.5%;
     }
     #fotoPrototipoComercioD{
-        margin-top: 4%;
-        width: 70%;
+        margin-top: 11%;
+        width: 80%;
         margin-left: 20%;
     }
 }
@@ -137,7 +137,7 @@
     #nombreProyectoComercioD{
         font-size: 17px;
         padding-left: 6%;
-        margin-top: 12%;
+        margin-top: 14%;
     }
     #tituloJoyeria{
         font-size: 26px;
@@ -145,7 +145,7 @@
     }
     #subrayado{
         padding-bottom: 0.7%;
-        margin-top: 18%;
+        margin-top: 21%;
         margin-left: 8%;
         width: 42%;
     }
@@ -155,7 +155,7 @@
 #tituloRol{
     font-family: 'Roboto', sans-serif;
     padding-left: 11%;
-    padding-top: 50%;
+    padding-top: 40%;
     font-size: 16px;
     color: #F8BAAB;
     margin-bottom: 1%;
@@ -212,7 +212,7 @@
 @media (min-width: 960px) {
     #tituloRol{
         padding-left: 2.5%;
-        padding-top: 15%;
+        padding-top: 25%;
         color: #F8BAAB;
         font-size: 32px;
         margin-bottom: 4%;

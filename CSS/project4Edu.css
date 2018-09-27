@@ -28,7 +28,7 @@
 /*Color Rosado Fondo Superior*/
 #colorFondo{
     background-color: #FEEFEC;
-    height: 20.4%;
+    height: 16%;
     width: 50%;
     position: absolute;
     margin-left: 50%;
@@ -57,7 +57,7 @@
     }
     #colorFondo{
         background-color: #FEEFEC;
-        height: 30%;
+        height: 28%;
         width: 50%;
         position: absolute;
         margin-left: 50%;
@@ -68,7 +68,7 @@
         font-size: 18px;
     }
     #colorFondo{
-        height: 20.7%;
+        height: 17%;
     }
 }
 
@@ -81,29 +81,29 @@
     color: #363636;
     font-family: 'Source Serif Pro', serif;
     padding-left: 6%;
-    padding-top: 3.5%;
+    padding-top: 5%;
 }
 #titulo4Edu{
     font-family: 'Roboto', sans-serif;
     color: #363636;
     font-size: 30px;
     font-weight: 300;
-    padding-left: 6%;
+    padding-left: 9%;
     margin-bottom: 0%;
-    margin-top: 2%;
+    margin-top: 12%;
 }
 #subrayado{
     background-color: #931941;
-    width: 44%;
+    width: 42%;
     margin-left: 7%;
     padding-bottom: 0.8%;
-    margin-top: 9%;
+    margin-top: 12%;
     position: absolute;
 }
 #fotoPrototipoRedSocial{
     width: 100%;
-    padding-left: 0%;
-    margin-left: 0%;
+    padding-left: 5%;
+    margin-left: 8%;
     margin-top: 5%;
     position: absolute;
 }

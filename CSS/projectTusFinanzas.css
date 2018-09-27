@@ -27,7 +27,7 @@
 /*Color Rosado Fondo Superior*/
 #colorFondo{
     background-color: #FEEFEC;
-    height: 20.4%;
+    height: 16%;
     width: 50%;
     position: absolute;
     margin-left: 50%;
@@ -56,7 +56,7 @@
     }
     #colorFondo{
         background-color: #FEEFEC;
-        height: 30%;
+        height: 28%;
         width: 50%;
         position: absolute;
         margin-left: 50%;
@@ -67,7 +67,7 @@
         font-size: 18px;
     }
     #colorFondo{
-        height: 20.7%;
+        height: 17%;
     }
 }
 
@@ -87,35 +87,35 @@
     color: #363636;
     font-size: 30px;
     font-weight: 300;
-    padding-left: 6%;
+    padding-left: 9%;
     margin-bottom: 0%;
-    margin-top: 2%;
+    margin-top: 12%;
 }
 #subrayado{
     background-color: #931941;
     width: 42%;
     margin-left: 7%;
     padding-bottom: 0.8%;
-    margin-top: 18%;
+    margin-top: 21%;
     position: absolute;
 }
 #fotoPrototipoPlataformaF{
     width: 100%;
-    padding-left: 0%;
-    margin-left: 0%;
+    padding-left: 5%;
+    margin-left: 8%;
     margin-top: 5%;
     position: absolute;
 }
 @media (min-width: 960px) {
     #nombreProyectoFinanciero{
         font-size: 35px;
-        padding-top: 10%;
+        padding-top: 23.5%;
         padding-left: 2%;
         text-align: left;
     }
     #tituloTusFinanzas{
         font-size: 70px;
-        padding-top: 0%;
+        padding-top: 8%;
         padding-left: 1.9%;
         text-align: left;
         margin-top: 4%;
@@ -125,28 +125,29 @@
         margin-left: 2%;
         padding-top: 0;
         padding-bottom: 0.3%;
-        margin-top: 7%;
+        margin-top: 10.5%;
     }
     #fotoPrototipoPlataformaF{
-        margin-top: 4.9%;
-        width: 68%;
-        margin-left: 21%;
+        margin-top: 11%;
+        width: 80%;
+        margin-left: 20%;
     }
 }
 @media (max-width: 350px) {
     #nombreProyectoFinanciero{
         font-size: 17px;
-        padding-left: 7%;
-        margin-top: 15%;
+        padding-left: 6%;
+        margin-top: 14%;
     }
     #tituloTusFinanzas{
         font-size: 26px;
-        padding-left: 7.5%;
+        padding-left: 8%;
     }
     #subrayado{
         padding-bottom: 0.7%;
-        margin-top: 18%;
+        margin-top: 21%;
         margin-left: 8%;
+        width: 42%;
     }
 
 }
@@ -154,7 +155,7 @@
 #tituloRol{
     font-family: 'Roboto', sans-serif;
     padding-left: 11%;
-    padding-top: 15%;
+    padding-top: 40%;
     font-size: 16px;
     color: #F8BAAB;
     margin-bottom: 2%;
@@ -202,7 +203,7 @@
 @media (min-width: 960px) {
     #tituloRol{
         padding-left: 2%;
-        padding-top: 15%;
+        padding-top: 25%;
         color: #F8BAAB;
         font-size: 32px;
         margin-bottom: 4%;

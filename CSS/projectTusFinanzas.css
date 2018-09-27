@@ -79,7 +79,7 @@
     font-size: 20px;
     color: #363636;
     font-family: 'Source Serif Pro', serif;
-    padding-left: 6%;
+    padding-left: 5%;
     padding-top: 1%;
 }
 #tituloTusFinanzas{
@@ -87,14 +87,14 @@
     color: #363636;
     font-size: 30px;
     font-weight: 300;
-    padding-left: 3%;
+    padding-left: 6%;
     margin-bottom: 0%;
     margin-top: 2%;
 }
 #subrayado{
     background-color: #931941;
-    width: 44%;
-    margin-left: 5.5%;
+    width: 42%;
+    margin-left: 7%;
     padding-bottom: 0.8%;
     margin-top: 18%;
     position: absolute;
@@ -110,13 +110,13 @@
     #nombreProyectoFinanciero{
         font-size: 35px;
         padding-top: 10%;
-        padding-left: 3%;
+        padding-left: 2%;
         text-align: left;
     }
     #tituloTusFinanzas{
         font-size: 70px;
         padding-top: 0%;
-        padding-left: 2%;
+        padding-left: 1.9%;
         text-align: left;
         margin-top: 4%;
     }
@@ -141,18 +141,19 @@
     }
     #tituloTusFinanzas{
         font-size: 26px;
+        padding-left: 7.5%;
     }
     #subrayado{
         padding-bottom: 0.7%;
         margin-top: 18%;
-        margin-left: 6.3%;
+        margin-left: 8%;
     }
 
 }
 
 #tituloRol{
     font-family: 'Roboto', sans-serif;
-    padding-left: 6%;
+    padding-left: 11%;
     padding-top: 15%;
     font-size: 16px;
     color: #F8BAAB;
@@ -161,18 +162,18 @@
 #descRol{
     font-family: 'Roboto', sans-serif;
     color: #363636;
-    padding-left: 6%;
+    padding-left: 12%;
     margin-bottom: 0%;
 }
 #descRol2{
     font-family: 'Roboto', sans-serif;
     color: #363636;
-    padding-left: 6%;
+    padding-left: 12%;
     margin-bottom: 0%;
 }
 #tituloProblemática{
     font-family: 'Roboto', sans-serif;
-    padding-left: 6%;
+    padding-left: 11%;
     padding-top: 15%;
     font-size: 16px;
     color: #F8BAAB;
@@ -181,12 +182,12 @@
 #descProblemática{
     font-family: 'Roboto', sans-serif;
     color: #363636;
-    padding-left: 3%;
+    padding-left: 6%;
     margin-bottom: 0%;
 }
 #tituloProcesos{
     font-family: 'Roboto', sans-serif;
-    padding-left: 6%;
+    padding-left: 11%;
     padding-top: 15%;
     font-size: 16px;
     color: #F8BAAB;
@@ -229,6 +230,26 @@
         color: #F8BAAB;
         font-size: 32px;
         margin-bottom: 4%;
+    }
+}
+@media (max-width: 350px) {
+    #tituloRol{
+        padding-left: 13%;
+    }
+    #descRol{
+        padding-left: 13%;
+    }
+    #descRol2{
+        padding-left: 13%;
+    }
+    #tituloProblemática{
+        padding-left: 13%;
+    }
+    #descProblemática{
+        padding-left: 7%;
+    }
+    #tituloProcesos{
+        padding-left: 13%;
     }
 }
 

@@ -188,7 +188,7 @@
 }
 #tituloProcesos{
     font-family: 'Roboto', sans-serif;
-    padding-left: 6%;
+    padding-left: 11%;
     padding-top: 15%;
     font-size: 16px;
     color: #F8BAAB;
@@ -211,7 +211,7 @@
     #descRol2{
         font-size: 32px;
         padding-left: 2.4%;
-        margin-bottom: 0%
+        margin-bottom: 0%;
     }
     #tituloProblemática{
         padding-left: 2.5%;
@@ -233,6 +233,27 @@
         margin-bottom: 4%;
     }
 }
+@media (max-width: 350px) {
+    #tituloRol{
+        padding-left: 13%;
+    }
+    #descRol{
+        padding-left: 13%;
+    }
+    #descRol2{
+        padding-left: 13%;
+    }
+    #tituloProblemática{
+        padding-left: 13%;
+    }
+    #descProblemática{
+        padding-left: 7%;
+    }
+    #tituloProcesos{
+        padding-left: 13%;
+    }
+}
+
 
 /*Footer*/
 

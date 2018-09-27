@@ -27,7 +27,7 @@
 /*Color Rosado Fondo Superior*/
 #colorFondo{
     background-color: #FEEFEC;
-    height: 19.7%;
+    height: 20.4%;
     width: 50%;
     position: absolute;
     margin-left: 50%;
@@ -79,21 +79,22 @@
     font-size: 20px;
     color: #363636;
     font-family: 'Source Serif Pro', serif;
-    padding-left: 6%;
+    padding-left: 5%;
+    padding-top: 3.5%;
 }
 #tituloJoyeria{
     font-family: 'Roboto', sans-serif;
     color: #363636;
     font-size: 30px;
     font-weight: 300;
-    padding-left: 3%;
+    padding-left: 7%;
     margin-bottom: 0%;
     margin-top: 2%;
 }
 #subrayado{
     background-color: #931941;
     width: 44%;
-    margin-left: 5.5%;
+    margin-left: 7%;
     padding-bottom: 0.8%;
     margin-top: 18%;
     position: absolute;
@@ -109,19 +110,19 @@
     #nombreProyectoComercioD{
         font-size: 35px;
         padding-top: 13%;
-        padding-left: 3%;
+        padding-left: 2%;
         text-align: left;
     }
     #tituloJoyeria{
         font-size: 70px;
         padding-top: 0%;
-        padding-left: 1%;
+        padding-left: 1.5%;
         text-align: left;
         margin-top: 4%;
     }
     #subrayado{
         width: 42.5%;
-        margin-left: 1.7%;
+        margin-left: 2%;
         padding-top: 0;
         padding-bottom: 0.3%;
         margin-top: 8%;
@@ -135,23 +136,25 @@
 @media (max-width: 350px) {
     #nombreProyectoComercioD{
         font-size: 17px;
-        padding-left: 7%;
-        margin-top: 15%;
+        padding-left: 6%;
+        margin-top: 12%;
     }
     #tituloJoyeria{
         font-size: 26px;
+        padding-left: 8%;
     }
     #subrayado{
         padding-bottom: 0.7%;
         margin-top: 18%;
-        margin-left: 6.3%;
+        margin-left: 8%;
+        width: 42%;
     }
 
 }
 
 #tituloRol{
     font-family: 'Roboto', sans-serif;
-    padding-left: 6%;
+    padding-left: 11%;
     padding-top: 15%;
     font-size: 16px;
     color: #F8BAAB;
@@ -160,18 +163,18 @@
 #descRol{
     font-family: 'Roboto', sans-serif;
     color: #363636;
-    padding-left: 6%;
+    padding-left: 11%;
     margin-bottom: 0%;
 }
 #descRol2{
     font-family: 'Roboto', sans-serif;
     color: #363636;
-    padding-left: 6%;
+    padding-left: 11%;
     margin-bottom: 0%;
 }
 #tituloProblemática{
     font-family: 'Roboto', sans-serif;
-    padding-left: 6%;
+    padding-left: 11%;
     padding-top: 15%;
     font-size: 16px;
     color: #F8BAAB;
@@ -180,7 +183,7 @@
 #descProblemática{
     font-family: 'Roboto', sans-serif;
     color: #363636;
-    padding-left: 3%;
+    padding-left: 5.5%;
     margin-bottom: 0%;
 }
 #tituloProcesos{
@@ -193,7 +196,7 @@
 }
 @media (min-width: 960px) {
     #tituloRol{
-        padding-left: 2%;
+        padding-left: 2.5%;
         padding-top: 15%;
         color: #F8BAAB;
         font-size: 32px;
@@ -201,17 +204,17 @@
     }
     #descRol{
         font-size: 32px;
-        padding-left: 2.1%;
+        padding-left: 2.5%;
         padding-top: 2%;
         margin-bottom: 0%;
     }
     #descRol2{
         font-size: 32px;
-        padding-left: 2.1%;
+        padding-left: 2.4%;
         margin-bottom: 0%
     }
     #tituloProblemática{
-        padding-left: 2%;
+        padding-left: 2.5%;
         padding-top: 15%;
         color: #F8BAAB;
         font-size: 32px;
@@ -219,11 +222,11 @@
     }
     #descProblemática{
         font-size: 32px;
-        padding-left: 1.4%;
+        padding-left: 1.6%;
         margin-bottom: 0%;
     }
     #tituloProcesos{
-        padding-left: 2%;
+        padding-left: 2.5%;
         padding-top: 15%;
         color: #F8BAAB;
         font-size: 32px;

@@ -27,7 +27,7 @@
 /*Color Rosado Fondo Superior*/
 #colorFondo{
     background-color: #FEEFEC;
-    height: 19.7%;
+    height: 20.4%;
     width: 50%;
     position: absolute;
     margin-left: 50%;
@@ -80,6 +80,7 @@
     color: #363636;
     font-family: 'Source Serif Pro', serif;
     padding-left: 6%;
+    padding-top: 1%;
 }
 #tituloTusFinanzas{
     font-family: 'Roboto', sans-serif;

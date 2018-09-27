@@ -101,7 +101,7 @@
 }
 #fotoPrototipoComercioD{
     width: 100%;
-    padding-left: 0%;
+    padding-left: 5%;
     margin-left: 0%;
     margin-top: 5%;
     position: absolute;
@@ -155,10 +155,10 @@
 #tituloRol{
     font-family: 'Roboto', sans-serif;
     padding-left: 11%;
-    padding-top: 15%;
+    padding-top: 50%;
     font-size: 16px;
     color: #F8BAAB;
-    margin-bottom: 2%;
+    margin-bottom: 1%;
 }
 #descRol{
     font-family: 'Roboto', sans-serif;
@@ -175,15 +175,24 @@
 #tituloProblemática{
     font-family: 'Roboto', sans-serif;
     padding-left: 11%;
-    padding-top: 15%;
+    padding-top: 30%;
     font-size: 16px;
     color: #F8BAAB;
-    margin-bottom: 2%;
+    margin-bottom: 1%;
 }
-#descProblemática{
+#descProblemáticaCompu{
+    display: none;
+}
+#descProblemáticaCelu{
     font-family: 'Roboto', sans-serif;
     color: #363636;
     padding-left: 5.5%;
+    margin-bottom: 0%;
+}
+#descProblemáticaCelu2{
+    font-family: 'Roboto', sans-serif;
+    color: #363636;
+    padding-left: 3%;
     margin-bottom: 0%;
 }
 #tituloSolución{
@@ -197,7 +206,7 @@
 #descSolución{
     font-family: 'Roboto', sans-serif;
     color: #363636;
-    padding-left: 5.5%;
+    padding-left: 3%;
     margin-bottom: 0%;
 }
 @media (min-width: 960px) {
@@ -226,10 +235,20 @@
         font-size: 32px;
         margin-bottom: 4%;
     }
-    #descProblemática{
+    #descProblemáticaCompu{
+        font-family: 'Roboto', sans-serif;
+        color: #363636;
+        margin-bottom: 0%;
         font-size: 18px;
         padding-left: 1.6%;
         margin-bottom: 0%;
+        display: block;
+    }
+    #descProblemáticaCelu{
+        display: none;
+    }
+    #descProblemáticaCelu2{
+        display: none;
     }
     #tituloSolución{
         padding-left: 2.5%;
@@ -246,6 +265,7 @@
 }
 @media (max-width: 350px) {
     #tituloRol{
+        padding-top: 2%;
         padding-left: 13%;
     }
     #descRol{
@@ -255,16 +275,24 @@
         padding-left: 13%;
     }
     #tituloProblemática{
+        padding-top: 5%;
         padding-left: 13%;
     }
     #descProblemática{
         padding-left: 7%;
     }
+    #descProblemáticaCelu{
+        padding-left: 7%;
+    }
+    #descProblemáticaCelu2{
+        padding-left: 4%;
+    }
     #tituloSolución{
+        padding-top: 6%;
         padding-left: 13%;
     }
     #descSolución{
-        padding-left: 7%;
+        padding-left: 4%;
     }
 }
 

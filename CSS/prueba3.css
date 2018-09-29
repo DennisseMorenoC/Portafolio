@@ -1,0 +1,825 @@
+/*Sección Navbar*/
+#logo{
+    max-width: 20%;
+
+}
+@media (min-width: 960px) {
+    #logo{
+        max-width:7%;
+        margin-right: 20%;
+    }
+}
+#nombre{
+    font-family: 'Source Serif Pro', serif;
+    color: #363636;
+    font-size: 21px;
+
+}
+#portafolio{
+    color: #363636;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+}
+#sobreMi{
+    color: #363636;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+}
+/*.navbar-collapse {
+    transform: translate3d(-30px, 0px, 0px);
+}*/
+.navbar-light .navbar-toggler {
+    border-color: #FEEFEC;
+
+}
+.navbar-brand {
+    display: contents;
+    padding-top: .3125rem;
+    padding-bottom: .3125rem;
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap;
+}
+
+.navbar{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 1px;
+    padding-left: 9px;
+}
+
+
+
+
+
+
+/*Color Rosado Fondo Superior*/
+#colorFondo{
+    background-color: #FEEFEC;
+    height: 60%;
+    width: 50%;
+    position: absolute;
+    margin-left: 50%;
+}
+ 
+@media (min-width: 960px) {
+    #nombrecol{
+        text-align: center;
+    }
+    #nombre{
+        font-size: 40px;
+
+    }
+    .navbar{
+        padding-left: 12px;
+    }
+    .navbar-nav{
+        margin-left: 0;
+    }
+    #portafolio{
+        font-size: 20px;
+        font-family: 'Roboto', sans-serif;
+    }
+    #sobreMi{
+        font-size: 20px;
+        font-family: 'Roboto', sans-serif;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: 6rem;
+    }
+    #colorFondo{
+        background-color: #FEEFEC;
+        height: 83%;
+        width: 50%;
+        position: absolute;
+        margin-left: 50%;
+    }
+    
+}
+
+@media (max-width: 350px) {
+    #nombre{
+        font-size: 18px;
+    }
+    #colorFondo{
+        height: 60%;
+    }
+}
+
+
+
+
+
+
+
+
+
+/*Sección Burdeo Saludo */
+
+#saludoBienvenida{
+    background-color: #931941;
+    border: 10px solid white;
+    margin-left: 4.5%;
+    margin-top: 3%;
+}
+#saludo{
+    color: #F8BAAB;
+    font-family: 'Roboto', sans-serif;
+}
+#ux{
+    color: #F8BAAB;
+    font-weight: bold;
+    font-size: 22px;
+}
+#parrafo{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 18px;
+}
+
+@media (min-width: 960px) {
+    #saludoBienvenida{
+        margin-left: 1.5%;
+    }
+    #saludo{
+        font-size: 35px;
+    }
+    #parrafo{
+        font-size: 26px;
+        padding-bottom: 3%;
+    }
+    #ux{
+        font-size: 33px;
+        font-weight: bold;
+    }
+}
+
+@media (max-width: 350px) {
+    #ux{
+        font-size: 18px;
+    }
+    #parrafo{
+        font-size: 16px;
+    }
+}
+
+
+
+
+
+
+/*Sección Portafolio*/
+
+#tituloPortafolio{
+    font-family: 'Roboto', sans-serif;
+    color: #363636;
+    font-weight: 300;
+    text-align: center;
+    padding-top: 45%;  
+}
+
+#subrayado{
+    background-color: #931941;
+    width: 20%;
+    margin-left: 40%;
+    padding-top: 0;
+    padding-bottom: 1.5%;
+    height: 2%;
+   
+}
+
+@media (min-width: 960px) {
+    #tituloPortafolio{
+        font-size: 35px;
+        padding-top: 30%;
+    }
+    #subrayado{
+        background-color: #931941;
+        width: 14%;
+        margin-left: 43%;
+        padding-top: 0;
+        padding-bottom: 7px;
+
+    }
+}
+
+@media (max-width: 350px) {
+    #tituloPortafolio{
+        font-size: 20px;
+        padding-top: 40%;
+    }
+}
+
+
+
+
+
+
+
+
+/*Sección Proyecto Red Social*/
+#colorFondoProyectos{
+    background-color: #FEEFEC;
+    margin-top: 18%;
+    height: 56500%;
+    width: 100%;
+    position: absolute;
+}
+#nombreProyectoRedSocial{
+    color: #363636;
+    font-family: 'Source Serif Pro', serif;
+    padding-top: 35%;
+    padding-left: 15%;
+}
+#fotoPrototipoRedSocialCompu{
+    width: 250%;
+    position: absolute;
+    padding-top: 24%;
+    padding-left: 66%;
+    display: none;
+}
+#fotoPrototipoRedSocialCelu{
+    width: 105%;
+    position: absolute;
+    margin-left: 64%;
+    padding-top: 24%;
+}
+@media (min-width: 960px) {
+    #colorFondoProyectos{
+        margin-top: 11.5%;
+        height: 700px;
+    }
+    #nombreProyectoRedSocial{
+        padding-top: 23%;
+        font-size: 50px;
+    }
+    #fotoPrototipoRedSocialCompu{
+        position: absolute;
+        margin-left: 67%;
+        width: 130%;
+        padding-top: 11%;
+        display: block;
+    }
+    #fotoPrototipoRedSocialCelu{
+        display: none;
+    }
+}
+@media (max-width: 350px) {
+    #colorFondoProyectos{
+        margin-top: 17.5%;
+        height: 48000%;
+    }
+    #nombreProyectoRedSocial{
+        font-size: 26px;
+    }
+}
+
+#infoProyectoRedSocial{
+    color: #363636;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    padding-left: 7%;
+    margin-top: 7%;
+}
+#grupoListaProcesosRedSocial{
+    color: #363636;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    margin-top: 10%;
+    padding-left: 7%;
+}
+#leerMasRedSocial{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #931941;
+    color: white;
+    border: none;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    padding-left: 40%;
+    padding-right: 7%;
+    margin-top: 20%;
+}
+#leerMasRedSocial:hover{
+    box-shadow: 10px 10px 10px 0px rgba(0,0,0,0.24);
+}
+@media (min-width: 960px) {
+    #infoProyectoRedSocial{
+        font-size: 22px;
+        padding-top: 3%;
+        padding-left: 10%;
+    }
+    #grupoListaProcesosRedSocial{
+        font-size: 18px;
+        padding-left: 10%;
+    }
+    .listaProcesosRedSocial{
+        padding-top: 3%;
+    }
+    #leerMasRedSocial{
+        font-size: 24px;
+        margin-top: 10%;
+        padding-top: 2.5%;
+        padding-bottom: 2.5%;
+        padding-left: 68%;
+        padding-right: 10%;
+    }
+}
+@media (max-width: 350px) {
+    #infoProyectoRedSocial{
+        font-size: 14px;
+        padding-top: 0;
+    }
+    #grupoListaProcesosRedSocial{
+        font-size: 14px;
+    }
+    #leerMasRedSocial{
+        margin-top: 15%;
+    }
+}
+
+
+
+
+
+
+
+
+/*Sección Proyecto Joyería*/
+
+#proyectoJoyería{
+    margin-top: 40%;
+}
+
+@media (min-width: 960px) {
+    #proyectoJoyería{
+        margin-top: 10%;
+    }
+}
+#nombreProyectoJoyeria{
+    color: #363636;
+    font-family: 'Source Serif Pro', serif;
+    padding-top: 35%;
+    padding-left: 15%;
+}
+#fotoPrototipoJoyeriaCompu{
+    width: 250%;
+    position: absolute;
+    padding-top: 24%;
+    padding-left: 66%;
+    display: none;
+}
+#fotoPrototipoJoyeriaCelu{
+    width: 105%;
+    position: absolute;
+    margin-left: 64%;
+    padding-top: 24%;
+}
+@media (min-width: 960px) {
+    #nombreProyectoJoyeria{
+        padding-top: 23%;
+        font-size: 50px;
+    }
+    #fotoPrototipoJoyeriaCompu{
+        position: absolute;
+        margin-left: 67%;
+        width: 130%;
+        padding-top: 0%;
+        display: block;
+    }
+    #fotoPrototipoJoyeriaCelu{
+        display: none;
+    }
+}
+@media (max-width: 350px) {
+    #nombreProyectoJoyeria{
+        font-size: 26px;
+    }
+}
+
+#infoProyectoJoyeria{
+    color: #363636;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    padding-left: 7%;
+    margin-top: 7%;
+}
+#grupoListaProcesosJoyeria{
+    color: #363636;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    margin-top: 10%;
+    padding-left: 7%;
+}
+#leerMasJoyeria{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #931941;
+    color: white;
+    border: none;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    padding-left: 40%;
+    padding-right: 7%;
+    margin-top: 40%;
+}
+#leerMasJoyeria:hover{
+    box-shadow: 10px 10px 10px 0px rgba(0,0,0,0.24);
+}
+
+@media (min-width: 960px) {
+    #infoProyectoJoyeria{
+        font-size: 22px;
+        padding-top: 3%;
+        padding-left: 10%;
+    }
+    #grupoListaProcesosJoyeria{
+        font-size: 18px;
+        padding-left: 10%;
+    }
+    .listaProcesosJoyeria{
+        padding-top: 1%;
+    }
+    #leerMasJoyeria{
+        font-size: 24px;
+        margin-top: 10%;
+        padding-top: 2.5%;
+        padding-bottom: 2.5%;
+        padding-left: 68%;
+        padding-right: 10%;
+    }
+}
+@media (max-width: 350px) {
+    #infoProyectoJoyeria{
+        font-size: 14px;
+        padding-top: 0;
+    }
+    #grupoListaProcesosJoyeria{
+        font-size: 14px;
+    }
+    #leerMasJoyeria{
+        margin-top: 15%;
+    }
+}
+
+
+
+
+
+
+
+/*Sección Proyecto Banco*/
+
+#proyectoBanco{
+    margin-top: 40%;
+}
+
+#colorFondoProyectoBanco{
+    background-color: #FEEFEC;
+    margin-top: 18%;
+    height: 58000%;
+    width: 100%;
+    position: absolute;
+}
+@media (min-width: 960px) {
+    #colorFondoProyectoBanco{
+        margin-top: 11.5%;
+        height: 720px;
+    }
+}
+@media (max-width: 350px) {
+    #colorFondoProyectoBanco{
+        margin-top: 17.5%;
+        height: 49700%;
+    }
+}
+
+@media (min-width: 960px) {
+    #proyectoBanco{
+        margin-top: 10%;
+    }
+}
+#nombreProyectoBanco{
+    color: #363636;
+    font-family: 'Source Serif Pro', serif;
+    padding-top: 35%;
+    padding-left: 15%;
+}
+#fotoPrototipoBancoCompu{
+    width: 250%;
+    position: absolute;
+    padding-top: 24%;
+    padding-left: 66%;
+    display: none;
+}
+#fotoPrototipoBancoCelu{
+    width: 105%;
+    position: absolute;
+    margin-left: 64%;
+    padding-top: 24%;
+}
+@media (max-width: 450px){
+    #fotoPrototipoJoyeriaRecortada{
+        width: 10%;
+    }
+}
+
+@media (min-width: 960px) {
+    #nombreProyectoBanco{
+        padding-top: 23%;
+        font-size: 50px;
+    }
+    #fotoBanco{
+        margin-top: -12%;
+    }
+    #fotoPrototipoBancoCompu{
+        position: absolute;
+        margin-left: 67%;
+        width: 130%;
+        padding-top: 0%;
+        display: block;
+    }
+    #fotoPrototipoBancoCelu{
+        display: none;
+    }
+}
+@media (max-width: 350px) {
+    #nombreProyectoBanco{
+        font-size: 26px;
+    }
+}
+
+#infoProyectoBanco{
+    color: #363636;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    padding-left: 7%;
+    margin-top: 7%;
+}
+#grupoListaProcesosBanco{
+    color: #363636;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    margin-top: 10%;
+    padding-left: 7%;
+}
+#leerMasBanco{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #931941;
+    color: white;
+    border: none;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    padding-left: 40%;
+    padding-right: 7%;
+    margin-top: 30%;
+}
+#leerMasBanco:hover{
+    box-shadow: 10px 10px 10px 0px rgba(0,0,0,0.24);
+}
+@media (min-width: 960px) {
+    #infoProyectoBanco{
+        font-size: 22px;
+        padding-top: 3%;
+        padding-left: 10%;
+    }
+    #grupoListaProcesosBanco{
+        font-size: 18px;
+        padding-left: 10%;
+    }
+    .listaProcesosBanco{
+        padding-top: 1%;
+    }
+    #leerMasBanco{
+        font-size: 24px;
+        margin-top: 10%;
+        padding-top: 2.5%;
+        padding-bottom: 2.5%;
+        padding-left: 68%;
+        padding-right: 10%;
+    }
+}
+@media (max-width: 350px) {
+    #infoProyectoBanco{
+        font-size: 14px;
+        padding-top: 0;
+    }
+    #grupoListaProcesosBanco{
+        font-size: 14px;
+    }
+    #leerMasBanco{
+        margin-top: 15%;
+    }
+}
+
+
+
+
+
+
+
+/*Sobre Mi*/
+
+#tituloSobreMi{
+    font-family: 'Roboto', sans-serif;
+    color: #363636;
+    font-weight: 300;
+    text-align: center;
+    padding-top: 60%;  
+}
+@media (min-width: 960px) {
+    #tituloSobreMi{
+        font-size: 35px;
+        padding-top: 30%;
+    }
+}
+@media (max-width: 350px) {
+    #tituloSobreMi{
+        font-size: 20px;
+    }
+}
+
+#fotoPerfil{
+    width: 90%;
+    padding-top: 10%;
+    position: absolute;
+}
+
+#nombrePerfil{
+    color: #363636;
+    font-family: 'Source Serif Pro', serif;
+    padding-top: 145%;
+    margin-bottom: 0;
+    padding-left: 7%;
+}
+#parrafoSobreMi{
+    color: #363636;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    padding-left: 3%;
+    margin-top: 7%;
+}
+#parrafoSobreMi2{
+    color: #363636;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    padding-left: 3%;
+    margin-top: 0%;
+}
+#parrafoSobreMi3{
+    color: #363636;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    padding-left: 3%;
+    margin-top: 0%;
+}
+#trabajarEquipo{
+    background-color: #F8BAAB;
+    padding-right: 1.5%;
+    padding-bottom: 1%;
+}
+#enlaceCv{
+    color: #931941;
+    font-weight: bold;
+}
+#enlaceMedium{
+    color: #931941;
+    font-weight: bold;
+}
+@media (min-width: 960px) {
+    #fotoPerfil{
+        width: 100%;
+        margin-top: 10%;
+
+    }
+    #nombrePerfil{
+        font-size: 50px;
+        margin-top: 14%;
+        padding-left: 85%;
+        padding-top: 0%;
+    }
+    #parrafoSobreMi{
+        font-size: 22px;
+        margin-top: 6%;
+        margin-left: 50%;
+    }
+    #parrafoSobreMi2{
+        font-size: 22px;
+        margin-top: 5%;
+        padding-left: 2%;    
+    }
+    #parrafoSobreMi3{
+        font-size: 22px;
+        margin-top: 2%;
+        padding-left: 2%;    
+    }
+
+}
+@media (max-width: 350px) {
+    #nombrePerfil{
+        padding-top: 150%;
+    }
+    #fotoPerfil{
+        padding-top: 14%;
+    }
+}
+
+
+
+
+
+/*Sección Contacto*/
+#tituloContacto{
+    font-family: 'Roboto', sans-serif;
+    color: #363636;
+    font-weight: 300;
+    text-align: center;
+    padding-top: 25%;  
+}
+#tituloEmail{
+    color: #363636;
+    font-family: 'Source Serif Pro', serif;
+    padding-top: 12%;
+    margin-bottom: 0;
+    padding-left: 7%;
+}
+#email{
+    color: #931941;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 0%;
+    margin-bottom: 0;
+    padding-left: 7%;
+    font-size: 22px;
+}
+#contacto{
+    padding-bottom: 17%;
+}
+@media (min-width: 960px) {
+    #tituloContacto{
+        font-size: 35px;
+        padding-top: 15%;
+    }
+    #tituloEmail{
+        font-size: 50px;
+        margin-top: 25%;
+        padding-left: 6%;
+        padding-top: 0%;
+    }
+    #email{
+        font-size: 48px;
+        margin-top: 40.5%;
+        padding-left: 6%;
+        padding-top: 0%;
+    }
+}
+@media (max-width: 350px) {
+    #tituloContacto{
+        font-size: 20px;
+        padding-top: 25%;
+    }
+    #tituloEmail{
+        padding-top: 10%;
+    }
+}
+
+
+/*Footer*/
+
+#rosadoFooter{
+    background-color: #F8BAAB;
+    padding: 4%;
+}
+#medium{
+    text-align: center;
+    color: white;
+}
+#linkedin{
+    text-align: center;
+    color: white;
+}
+#github{
+    text-align: center;
+    color: white;
+}
+
+@media (min-width: 960px) {
+    #iconMedium{
+        font-size: 70px;
+    }
+    #iconLinkedin{
+        font-size: 70px;
+    }
+    #iconGithub{
+        font-size: 70px;
+    }
+    #rosadoFooter{
+        padding: 3%;
+    }
+}

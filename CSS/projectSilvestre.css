@@ -163,13 +163,13 @@
 #descRol{
     font-family: 'Roboto', sans-serif;
     color: #363636;
-    padding-left: 11%;
+    padding-left: 12%;
     margin-bottom: 0%;
 }
 #descRol2{
     font-family: 'Roboto', sans-serif;
     color: #363636;
-    padding-left: 11%;
+    padding-left: 12%;
     margin-bottom: 0%;
 }
 #tituloProblemática{
@@ -186,13 +186,13 @@
 #descProblemáticaCelu{
     font-family: 'Roboto', sans-serif;
     color: #363636;
-    padding-left: 5.5%;
+    padding-left: 6%;
     margin-bottom: 0%;
 }
 #descProblemáticaCelu2{
     font-family: 'Roboto', sans-serif;
     color: #363636;
-    padding-left: 3%;
+    padding-left: 3.3%;
     margin-bottom: 0%;
 }
 #tituloSolución{
@@ -293,6 +293,77 @@
         padding-left: 4%;
     }
 }
+
+
+
+
+
+
+/*Sección2*/
+
+#tituloProcesos{
+    font-family: 'Roboto', sans-serif;
+    padding-left: 11%;
+    padding-top: 15%;
+    font-size: 16px;
+    color: #F8BAAB;
+    margin-bottom: 1%;
+}
+#colorFondoParte2{
+    background-color: #FEEFEC;
+    margin-top: -4.2%;
+    z-index: -1;
+    height: 5800%;
+    width: 100%;
+    position: absolute;
+    margin-left: 3%;
+}
+#tituloResearch{
+    font-family: 'Roboto', sans-serif;
+    color: #363636;
+    font-size: 16px;
+    float: right;
+    margin-top: 1%;
+}
+#tituloInterview{
+    font-family: 'Roboto', sans-serif;
+    color: #363636;
+}
+@media (min-width: 960px) {
+    #tituloProcesos{
+        padding-left: 2.5%;
+        padding-top: 60%;
+        color: #F8BAAB;
+        font-size: 32px;
+        margin-bottom: 0%;
+    }
+    #colorFondoParte2{
+        margin-top: -2.3%;
+        height: 58000%;
+    }
+    #tituloResearch{
+        font-size: 30px;
+        padding-top: 2%;
+    }
+    #tituloInterview{
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 350px) {
+    #tituloProcesos{
+        padding-top: 20%;
+        padding-left: 13%;
+    }
+    #tituloResearch{
+        margin-top: 1%;
+    }
+    #colorFondoParte2{
+        margin-top: -6%;
+    }
+}
+
+
 
 
 /*Footer*/

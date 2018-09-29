@@ -121,10 +121,12 @@
     border: 10px solid white;
     margin-left: 4.5%;
     margin-top: 3%;
+
 }
 #saludo{
     color: #F8BAAB;
     font-family: 'Roboto', sans-serif;
+    padding-top: 8%;
 }
 #ux{
     color: #F8BAAB;
@@ -143,6 +145,7 @@
     }
     #saludo{
         font-size: 35px;
+        padding-top: 4%;
     }
     #parrafo{
         font-size: 26px;
@@ -221,14 +224,14 @@
 #colorFondoProyectos{
     background-color: #FEEFEC;
     margin-top: 18%;
-    height: 56500%;
+    height: 57000%;
     width: 100%;
     position: absolute;
 }
 #nombreProyectoRedSocial{
     color: #363636;
     font-family: 'Source Serif Pro', serif;
-    padding-top: 35%;
+    padding-top: 70%;
     padding-left: 15%;
 }
 #fotoPrototipoRedSocialCompu{
@@ -250,7 +253,7 @@
         height: 700px;
     }
     #nombreProyectoRedSocial{
-        padding-top: 23%;
+        padding-top: 29%;
         font-size: 50px;
     }
     #fotoPrototipoRedSocialCompu{
@@ -264,6 +267,7 @@
         display: none;
     }
 }
+
 @media (max-width: 350px) {
     #colorFondoProyectos{
         margin-top: 17.5%;
@@ -286,8 +290,11 @@
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
     font-weight: 300;
-    margin-top: 10%;
+    margin-top: 5%;
     padding-left: 7%;
+}
+.listaProcesosRedSocial{
+    margin-bottom: 4%;
 }
 #leerMasRedSocial{
     font-family: 'Roboto', sans-serif;
@@ -300,7 +307,7 @@
     padding-bottom: 4%;
     padding-left: 40%;
     padding-right: 7%;
-    margin-top: 20%;
+    margin-top: 28%;
 }
 #leerMasRedSocial:hover{
     box-shadow: 10px 10px 10px 0px rgba(0,0,0,0.24);
@@ -316,7 +323,7 @@
         padding-left: 10%;
     }
     .listaProcesosRedSocial{
-        padding-top: 3%;
+        margin-bottom: 4%;
     }
     #leerMasRedSocial{
         font-size: 24px;
@@ -327,6 +334,7 @@
         padding-right: 10%;
     }
 }
+
 @media (max-width: 350px) {
     #infoProyectoRedSocial{
         font-size: 14px;
@@ -348,20 +356,26 @@
 
 
 /*Sección Proyecto Joyería*/
-
+#colorFondoProyectoJoyeria{
+    background-color: #FEEFEC;
+    margin-top: 18%;
+    height: 57000%;
+    width: 100%;
+    position: absolute;
+}
 #proyectoJoyería{
     margin-top: 40%;
 }
 
 @media (min-width: 960px) {
     #proyectoJoyería{
-        margin-top: 10%;
+        margin-top: 15%;
     }
 }
 #nombreProyectoJoyeria{
     color: #363636;
     font-family: 'Source Serif Pro', serif;
-    padding-top: 35%;
+    padding-top: 66%;
     padding-left: 15%;
 }
 #fotoPrototipoJoyeriaCompu{
@@ -378,6 +392,10 @@
     padding-top: 24%;
 }
 @media (min-width: 960px) {
+    #colorFondoProyectoJoyeria{
+        margin-top: 10%;
+        height: 71000%;
+    }
     #nombreProyectoJoyeria{
         padding-top: 23%;
         font-size: 50px;
@@ -394,6 +412,10 @@
     }
 }
 @media (max-width: 350px) {
+    #colorFondoProyectoJoyeria{
+        margin-top: 17.5%;
+        height: 49000%;
+    }
     #nombreProyectoJoyeria{
         font-size: 26px;
     }
@@ -411,8 +433,11 @@
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
     font-weight: 300;
-    margin-top: 10%;
+    margin-top: 5%;
     padding-left: 7%;
+}
+.listaProcesosJoyeria{
+    margin-bottom: 4%;
 }
 #leerMasJoyeria{
     font-family: 'Roboto', sans-serif;
@@ -425,7 +450,7 @@
     padding-bottom: 4%;
     padding-left: 40%;
     padding-right: 7%;
-    margin-top: 40%;
+    margin-top: 30%;
 }
 #leerMasJoyeria:hover{
     box-shadow: 10px 10px 10px 0px rgba(0,0,0,0.24);
@@ -443,6 +468,7 @@
     }
     .listaProcesosJoyeria{
         padding-top: 1%;
+        margin-bottom: 1%;
     }
     #leerMasJoyeria{
         font-size: 24px;
@@ -506,7 +532,7 @@
 #nombreProyectoBanco{
     color: #363636;
     font-family: 'Source Serif Pro', serif;
-    padding-top: 35%;
+    padding-top: 62%;
     padding-left: 15%;
 }
 #fotoPrototipoBancoCompu{
@@ -530,7 +556,7 @@
 
 @media (min-width: 960px) {
     #nombreProyectoBanco{
-        padding-top: 23%;
+        padding-top: 29%;
         font-size: 50px;
     }
     #fotoBanco{
@@ -565,8 +591,11 @@
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
     font-weight: 300;
-    margin-top: 10%;
+    margin-top: 5%;
     padding-left: 7%;
+}
+.listaProcesosBanco{
+    margin-bottom: 4%;
 }
 #leerMasBanco{
     font-family: 'Roboto', sans-serif;
@@ -596,6 +625,7 @@
     }
     .listaProcesosBanco{
         padding-top: 1%;
+        margin-bottom: 1%;
     }
     #leerMasBanco{
         font-size: 24px;
@@ -615,7 +645,7 @@
         font-size: 14px;
     }
     #leerMasBanco{
-        margin-top: 15%;
+        margin-top: 25%;
     }
 }
 
@@ -655,7 +685,7 @@
 #nombrePerfil{
     color: #363636;
     font-family: 'Source Serif Pro', serif;
-    padding-top: 145%;
+    padding-top: 153%;
     margin-bottom: 0;
     padding-left: 7%;
 }
@@ -724,7 +754,7 @@
 }
 @media (max-width: 350px) {
     #nombrePerfil{
-        padding-top: 150%;
+        padding-top: 160%;
     }
     #fotoPerfil{
         padding-top: 14%;
@@ -753,7 +783,7 @@
 #email{
     color: #931941;
     font-family: 'Roboto', sans-serif;
-    padding-top: 0%;
+    padding-top: 5%;
     margin-bottom: 0;
     padding-left: 7%;
     font-size: 22px;
@@ -785,7 +815,10 @@
         padding-top: 25%;
     }
     #tituloEmail{
-        padding-top: 10%;
+        padding-top: 15%;
+    }
+    #email{
+        padding-top: 5%;
     }
 }
 

@@ -56,7 +56,7 @@
 /*Color Rosado Fondo Superior*/
 #colorFondo{
     background-color: #FEEFEC;
-    height: 60%;
+    height: 70%;
     width: 50%;
     position: absolute;
     margin-left: 50%;
@@ -102,7 +102,7 @@
         font-size: 18px;
     }
     #colorFondo{
-        height: 60%;
+        height: 65%;
     }
 }
 
@@ -120,7 +120,7 @@
     background-color: #931941;
     border: 10px solid white;
     margin-left: 4.5%;
-    margin-top: 3%;
+    margin-top: 8%;
 
 }
 #saludo{
@@ -178,7 +178,8 @@
     color: #363636;
     font-weight: 300;
     text-align: center;
-    padding-top: 45%;  
+    padding-top: 45%; 
+    margin-bottom: 0%; 
 }
 
 #subrayado{
@@ -186,8 +187,8 @@
     width: 20%;
     margin-left: 40%;
     padding-top: 0;
-    padding-bottom: 1.5%;
-    height: 2%;
+    padding-bottom: 1%;
+    height: 1%;
    
 }
 
@@ -201,7 +202,7 @@
         width: 14%;
         margin-left: 43%;
         padding-top: 0;
-        padding-bottom: 7px;
+        padding-bottom: 5px;
 
     }
 }
@@ -663,6 +664,7 @@
     font-weight: 300;
     text-align: center;
     padding-top: 60%;  
+    margin-bottom: 0%;
 }
 @media (min-width: 960px) {
     #tituloSobreMi{
@@ -771,7 +773,8 @@
     color: #363636;
     font-weight: 300;
     text-align: center;
-    padding-top: 25%;  
+    padding-top: 25%; 
+    margin-bottom: 0%; 
 }
 #tituloEmail{
     color: #363636;
@@ -829,22 +832,20 @@
     background-color: #F8BAAB;
     padding: 4%;
 }
-a {
+a{
+    color: #931941;
+}
+a:hover{
     color: white;
-    text-decoration: none;
-    background-color: transparent;
 }
 #medium{
     text-align: center;
-    color: white;
 }
 #linkedin{
     text-align: center;
-    color: white;
 }
 #github{
     text-align: center;
-    color: white;
 }
 
 @media (min-width: 960px) {

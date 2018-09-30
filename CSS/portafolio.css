@@ -17,13 +17,21 @@
 }
 #portafolio{
     color: #363636;
-    font-size: 14px;
+    font-size: 18px;
     font-family: 'Roboto', sans-serif;
+}
+#portafolio:hover{
+    color: #931941;
+    font-weight: 700;
 }
 #sobreMi{
     color: #363636;
-    font-size: 14px;
+    font-size: 18px;
     font-family: 'Roboto', sans-serif;
+}
+#sobreMi:hover{
+    color: #931941;
+    font-weight: 700;
 }
 /*.navbar-collapse {
     transform: translate3d(-30px, 0px, 0px);

@@ -349,7 +349,7 @@
     background-color: #FEEFEC;
     margin-top: -4.2%;
     z-index: -1;
-    height: 70000%;
+    height: 100000%;
     width: 100%;
     position: absolute;
     margin-left: 3%;
@@ -379,6 +379,11 @@
     margin-left: 8%;
     padding-top: 4%;
 }
+#journeJyoyeriaImagen{
+    width: 100%;
+    margin-left: 8%;
+    padding-top: 3%;
+}
 @media (min-width: 960px) {
     #tituloProcesos{
         padding-left: 2.5%;
@@ -389,7 +394,7 @@
     }
     #colorFondoParte2{
         margin-top: -2.3%;
-        height: 70000%;
+        height: 120000%;
     }
     #tituloResearch{
         font-size: 30px;
@@ -401,12 +406,16 @@
         font-size: 24px;
     }
     #personaJoyeriaImagen{
-        margin-left: 15%;
+        margin-left: 12%;
     }
     #parrafoInterviews{
         font-size: 18px;
         margin-left: 15%;
         padding-top: 5%;
+    }
+    #journeJyoyeriaImagen{
+        margin-left: 4.5%;
+        padding-top: 3%;
     }
 }
 

@@ -558,6 +558,180 @@
 
 
 
+/*Parte4*/
+
+#colorFondoParte4{
+    background-color: #FEEFEC;
+    margin-top: 35%;
+    height: 205%;
+    width: 100%;
+    position: absolute;
+}
+#tituloSolución{
+    font-family: 'Roboto', sans-serif;
+    color: #363636;
+    font-size: 16px;
+    padding-left: 11%;
+    margin-top: 90%;
+}
+#tituloPrototipoAF{
+    font-family: 'Roboto', sans-serif;
+    color: #363636;
+    font-size: 16px;
+    text-align: center;
+    padding: 7% 0; 
+}
+#landingFinanzas{
+    width: 100%;
+}
+#parrafoPrototipoAF{
+    font-family: 'Roboto', sans-serif;
+    color: #363636;
+    font-size: 14px;
+    margin-left: 0%;
+    padding-top: 7%;
+}
+#creaciónPrototipoAF{
+    width: 100%;
+}
+#tituloVerPrototipoFinal{
+    font-family: 'Roboto', sans-serif;
+    color: #363636;
+    font-size: 16px;
+    margin-left: 0%;
+    padding-top: 10%;
+}
+#verPrototipoFinal{
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    background-color: #931941;
+    color: white;
+    border: none;
+    margin-top: 3%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 5%;
+    padding-right: 35%;
+    float: right;
+
+}
+#verPrototipoFinal:hover{
+    box-shadow: 10px 10px 10px 0px rgba(0,0,0,0.24);
+}
+@media (min-width: 960px) {
+    #colorFondoParte4{
+        margin-top: 20%;
+        height: 180%;
+    }
+    #tituloSolución{
+        font-size: 30px;
+        margin-top: 54%;
+        padding-left: 2.5%;
+    }
+    #tituloPrototipoAF{
+        text-align: center;
+        font-size: 24px;
+        padding-top: 5%;
+    }
+    #parrafoPrototipoAF{
+        font-size: 18px;
+        margin-top: 0%;
+        margin-bottom: 0%;
+        padding-top: 0%;
+    }
+    #creaciónPrototipoAF{
+        padding-top: 10%;
+    }
+    #tituloVerPrototipoFinal{
+        font-size: 20px;
+        padding-top: 5%;
+        margin-left: 0%;
+    }
+    #verPrototipoFinal{
+        font-size: 24px;
+        padding-top: 0.5%;
+        padding-bottom: 0.5%;
+        padding-left: 3%;
+        padding-right: 50%;
+    }
+}
+
+@media (max-width: 350px) {
+    #tituloSolución{
+        padding-left: 13%;
+    }
+    #colorFondoParte4{
+        height: 192%;
+    }
+
+}
+
+/*Parte Leer*/
+#tituloLeerMedium{
+    font-family: 'Roboto', sans-serif;
+    padding-left: 11%;
+    padding-top: 90%;
+    font-size: 16px;
+    color: #F8BAAB;
+    margin-bottom: 1%;
+}
+#verMedium{
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    background-color: #931941;
+    color: white;
+    border: none;
+    margin-top: 67%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 5%;
+    padding-right: 57%;
+    float: right;
+}
+#verMedium:hover{
+    box-shadow: 10px 10px 10px 0px rgba(0,0,0,0.24);
+}
+@media (min-width: 960px) {
+    #tituloLeerMedium{
+        padding-left: 2.5%;
+        padding-top: 50%;
+        color: #F8BAAB;
+        font-size: 32px;
+        margin-bottom: 4%;
+    }
+    #verMedium{
+        font-size: 24px;
+        padding-top: 0.5%;
+        padding-bottom: 0.5%;
+        padding-left: 3%;
+        padding-right: 80%;
+        margin-top: 26%;
+    }
+}
+@media (max-width: 350px) {
+    #tituloLeerMedium{
+        padding-left: 13%;
+    }
+    #verMedium{
+        margin-top: 73%;
+        padding-right: 50%;
+    }
+}
+
+
+#parteLeer{
+    padding-bottom: 20%;
+}
+
+@media (min-width: 960px) {
+    #parteLeer{
+        padding-bottom: 8%;
+    }
+}
+
+
+
+
 
 /*Footer*/
 

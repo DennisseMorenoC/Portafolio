@@ -481,7 +481,7 @@
     color: #363636;
     font-size: 16px;
     text-align: center;
-    padding: 5% 0; 
+    padding: 7% 0; 
 }
 #fotoPrototipoBF1{
     width: 100%;
@@ -511,8 +511,9 @@
     border: none;
     padding-top: 2%;
     padding-bottom: 2%;
-    padding-left: 55%;
-    padding-right: 7%;
+    padding-left: 5%;
+    padding-right: 45%;
+    float: right;
 
 }
 #verTesteoSilvestre:hover{
@@ -522,7 +523,7 @@
 @media (min-width: 960px) {
     #colorFondoParte3{
         margin-top: 20%;
-        height: 140%;
+        height: 150%;
     }
     #tituloIdeación{
         font-size: 30px;
@@ -553,8 +554,6 @@
         padding-bottom: 0.5%;
         padding-left: 3%;
         padding-right: 31%;
-        float: right;
-        margin-right: 14%;
     }
 }
 @media (max-width: 350px) {
@@ -564,9 +563,117 @@
     #colorFondoParte3{
         height: 156%;
     }
-    #verTesteoSilvestre{
-        padding-left: 65%;
+}
+
+
+
+
+/*Parte4*/
+
+#colorFondoParte4{
+    background-color: #FEEFEC;
+    margin-top: 35%;
+    height: 205%;
+    width: 100%;
+    position: absolute;
+}
+#tituloSolución{
+    font-family: 'Roboto', sans-serif;
+    color: #363636;
+    font-size: 16px;
+    padding-left: 11%;
+    margin-top: 90%;
+}
+#tituloPrototipoAF{
+    font-family: 'Roboto', sans-serif;
+    color: #363636;
+    font-size: 16px;
+    text-align: center;
+    padding: 7% 0; 
+}
+#flujoJSilvestre{
+    width: 100%;
+}
+#parrafoPrototipoAF{
+    font-family: 'Roboto', sans-serif;
+    color: #363636;
+    font-size: 14px;
+    margin-left: 0%;
+    padding-top: 7%;
+}
+#creaciónPrototipoAF{
+    width: 100%;
+}
+#tituloVerPrototipoFinal{
+    font-family: 'Roboto', sans-serif;
+    color: #363636;
+    font-size: 16px;
+    margin-left: 0%;
+    padding-top: 10%;
+}
+#verPrototipoFinal{
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    background-color: #931941;
+    color: white;
+    border: none;
+    margin-top: 3%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 5%;
+    padding-right: 35%;
+    float: right;
+
+}
+#verTesteoSilvestre:hover{
+    box-shadow: 10px 10px 10px 0px rgba(0,0,0,0.24);
+}
+@media (min-width: 960px) {
+    #colorFondoParte4{
+        margin-top: 20%;
+        height: 180%;
     }
+    #tituloSolución{
+        font-size: 30px;
+        margin-top: 54%;
+        padding-left: 2.5%;
+    }
+    #tituloPrototipoAF{
+        text-align: center;
+        font-size: 24px;
+        padding-top: 5%;
+    }
+    #parrafoPrototipoAF{
+        font-size: 18px;
+        margin-top: 0%;
+        margin-bottom: 0%;
+        padding-top: 0%;
+    }
+    #creaciónPrototipoAF{
+        padding-top: 10%;
+    }
+    #tituloVerPrototipoFinal{
+        font-size: 20px;
+        padding-top: 5%;
+        margin-left: 0%;
+    }
+    #verPrototipoFinal{
+        font-size: 24px;
+        padding-top: 0.5%;
+        padding-bottom: 0.5%;
+        padding-left: 3%;
+        padding-right: 31%;
+    }
+}
+
+@media (max-width: 350px) {
+    #tituloSolución{
+        padding-left: 13%;
+    }
+    #colorFondoParte4{
+        height: 192%;
+    }
+
 }
 
 

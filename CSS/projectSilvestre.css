@@ -13,7 +13,6 @@
     font-family: 'Source Serif Pro', serif;
     color: #363636;
     font-size: 21px;
-
 }
 #portafolio{
     color: #363636;
@@ -431,7 +430,7 @@
         padding-top: 5%;
     }
     #imagenProceso1{
-        width: 100%;
+        width: 93%;
         padding-top: 8%;
         padding-left: 0.7%;
     }

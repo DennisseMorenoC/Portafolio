@@ -17,19 +17,28 @@
 }
 #portafolio{
     color: #363636;
-    font-size: 14px;
+    font-size: 18px;
     font-family: 'Roboto', sans-serif;
+}
+#portafolio:hover{
+    color: #931941;
+    font-weight: 700;
 }
 #sobreMi{
     color: #363636;
-    font-size: 14px;
+    font-size: 18px;
     font-family: 'Roboto', sans-serif;
+}
+#sobreMi:hover{
+    color: #931941;
+    font-weight: 700;
 }
 /*.navbar-collapse {
     transform: translate3d(-30px, 0px, 0px);
 }*/
 .navbar-light .navbar-toggler {
     border-color: #FEEFEC;
+    color: #931941;
 
 }
 .navbar-brand {
@@ -46,6 +55,10 @@
     padding-bottom: 10px;
     padding-right: 1px;
     padding-left: 9px;
+}
+
+.navbar-nav{
+    margin-top: 4%;
 }
 
 
@@ -68,7 +81,6 @@
     }
     #nombre{
         font-size: 40px;
-
     }
     .navbar{
         padding-left: 12px;

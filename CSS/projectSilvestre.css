@@ -132,7 +132,7 @@
     width: 42%;
     margin-left: 7%;
     padding-bottom: 0.8%;
-    margin-top: 21%;
+    margin-top: 22%;
     position: absolute;
 }
 #fotoPrototipoComercioD{
@@ -349,7 +349,7 @@
     background-color: #FEEFEC;
     margin-top: -4.2%;
     z-index: -1;
-    height: 5800%;
+    height: 70000%;
     width: 100%;
     position: absolute;
     margin-left: 3%;
@@ -359,11 +359,25 @@
     color: #363636;
     font-size: 16px;
     float: right;
-    margin-top: 1%;
+    margin-top: 2%;
 }
 #tituloInterview{
     font-family: 'Roboto', sans-serif;
     color: #363636;
+    font-size: 16px;
+    text-align: center;
+    padding: 3% 0; 
+}
+#personaJoyeriaImagen{
+    width: 100%;
+    margin-left: 8%;
+}
+#parrafoInterviews{
+    font-family: 'Roboto', sans-serif;
+    color: #363636;
+    font-size: 14px;
+    margin-left: 8%;
+    padding-top: 4%;
 }
 @media (min-width: 960px) {
     #tituloProcesos{
@@ -375,14 +389,24 @@
     }
     #colorFondoParte2{
         margin-top: -2.3%;
-        height: 58000%;
+        height: 70000%;
     }
     #tituloResearch{
         font-size: 30px;
         padding-top: 2%;
     }
     #tituloInterview{
+        padding-top: 7%;
+        text-align: center;
         font-size: 24px;
+    }
+    #personaJoyeriaImagen{
+        margin-left: 15%;
+    }
+    #parrafoInterviews{
+        font-size: 18px;
+        margin-left: 15%;
+        padding-top: 5%;
     }
 }
 
@@ -396,6 +420,13 @@
     }
     #colorFondoParte2{
         margin-top: -6%;
+    }
+    #personaJoyeriaImagen{
+        margin-left: 9%;
+    }
+    #parrafoInterviews{
+        margin-left: 9%;
+
     }
 }
 

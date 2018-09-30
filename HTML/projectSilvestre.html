@@ -11,35 +11,32 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/brands.css" integrity="sha384-7xAnn7Zm3QC1jFjVc1A6v/toepoG3JXboQYzbM0jrPzou9OFXm/fY6Z/XiIebl/k" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/fontawesome.css" integrity="sha384-ozJwkrqb90Oa3ZNb+yKFW2lToAWYdTiF1vt8JiH5ptTGHTGcN7qdoR1F95e0kYyG" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
     <link rel="stylesheet" href="../CSS/projectSilvestre.css">
 </head>
 <body>
     <header>
         <div id="colorFondo"></div>
         <section  class="container">
-            <div class="row navbar navbar-expand-lg navbar-light bg-transparent">
-                <div class="col-3 col-md-1 col-lg-1">
-                    <a href="index.html">
-                        <img id="logo" src="..//img/logo rosa.png" alt="imagenLogo">
-                    </a>
+            <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+                <a class="navbar-brand" href="index.html">
+                    <img id="logo" class="d-inline-block align-top" src="..//img/logo rosa.png" alt="imagenLogo">
+                </a>
+                <a id="nombre" class="navbar-brand" href="index.html">Dennisse Moreno</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-md-auto">
+                        <li class="nav-item ">
+                            <a id="portafolio" class="nav-link" href="portafolio.html">Portafolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a id="sobreMi" class="nav-link" href="about.html">Sobre Mi</a>
+                        </li>
+                    </ul>
                 </div>
-                <div id="nombrecol" class="col-7 col-md-7 col-lg-7">
-                    <a id="nombre" href="index.html">Dennisse Moreno</a>
-                </div> 
-                <div id="desplegable" class="col-2 col-md-4 col-lg-4">
-                    <button id="rayas" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                        <div  class="navbar-nav">
-                            <a id="portafolio" class="nav-item nav-link" href="portafolio.html">Portafolio</a>  
-                            <a id="sobreMi" class="nav-item nav-link" href="about.html">Sobre Mi</a>         
-                        </div>
-                    </div> 
-                </div>            
-            </div>                     
+            </nav>          
         </section>
     </header>
     <section class="container">
@@ -139,21 +136,27 @@
         </div>
     </section>
 
-<!--<footer id="rosadoFooter">
+<!--
+    <footer id="rosadoFooter">
         <div class="container">
-                <div class="row">
-                        <div id="medium" class="col-4 col-md-4 col-lg-4">
-                            <i id="iconMedium" class="fab fa-medium-m fa-2x"></i>
-                        </div>
-                        <div id="linkedin" class="col-4 col-md-4 col-lg-4">
-                            <i id="iconLinkedin" class="fab fa-linkedin-in fa-2x"></i>
-                        </div>
-                        <div id="github" class="col-4 col-md-4 col-lg-4">
-                            <i id="iconGithub" class="fab fa-github fa-2x"></i>
-                        </div>
-                    </div>
+            <div class="row">
+                <div id="medium" class="col-4 col-md-4 col-lg-4">
+                    <a href="https://medium.com/@deni.moreno11">
+                        <i  id="iconMedium" class="fab fa-medium-m fa-2x"></i>
+                    </a>
+                </div>
+                <div id="linkedin" class="col-4 col-md-4 col-lg-4">
+                    <a href="https://www.linkedin.com/in/dennisse-moreno-cornejo-/">
+                        <i id="iconLinkedin" class="fab fa-linkedin-in fa-2x"></i>
+                    </a>
+                </div>
+                <div id="github" class="col-4 col-md-4 col-lg-4">
+                    <a href="https://github.com/DennisseMorenoC">
+                        <i id="iconGithub" class="fab fa-github fa-2x"></i>
+                    </a>
+                </div>
+            </div>
         </div>
-        
     </footer>
 -->
 

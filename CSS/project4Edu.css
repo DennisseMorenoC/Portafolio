@@ -56,6 +56,9 @@
 }
 
 
+
+
+
 /*Color Rosado Fondo Superior*/
 #colorFondo{
     background-color: #FEEFEC;
@@ -393,17 +396,20 @@
     background-color: #F8BAAB;
     padding: 4%;
 }
+a{
+    color: #931941;
+}
+a:hover{
+    color: white;
+}
 #medium{
     text-align: center;
-    color: white;
 }
 #linkedin{
     text-align: center;
-    color: white;
 }
 #github{
     text-align: center;
-    color: white;
 }
 
 @media (min-width: 960px) {

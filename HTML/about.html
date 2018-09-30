@@ -19,32 +19,30 @@
     <header>
         <div id="colorFondo"></div>
         <section class="container">
-            <div class="row navbar navbar-expand-lg navbar-light bg-transparent">
-                <div class="col-3 col-md-1 col-lg-1">
-                    <a href="index.html">
-                        <img id="logo" src="..//img/logo rosa.png" alt="imagenLogo">
-                    </a>
+            <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+                <a class="navbar-brand" href="index.html">
+                    <img id="logo" class="d-inline-block align-top" src="..//img/logo rosa.png" alt="imagenLogo">
+                </a>
+                <a id="nombre" class="navbar-brand" href="index.html">Dennisse Moreno</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-md-auto">
+                        <li class="nav-item ">
+                            <a id="portafolio" class="nav-link" href="portafolio.html">Portafolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a id="sobreMi" class="nav-link" href="about.html">Sobre Mi</a>
+                        </li>
+                    </ul>
                 </div>
-                <div id="nombrecol" class="col-7 col-md-7 col-lg-7">
-                    <a id="nombre" href="index.html">Dennisse Moreno</a>
-                </div>
-                <div id="desplegable" class="col-2 col-md-4 col-lg-4">
-                    <button id="rayas" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-                        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                        <div class="navbar-nav">
-                            <a id="portafolio" class="nav-item nav-link" href="portafolio.html">Portafolio</a>
-                            <a id="sobreMi" class="nav-item nav-link" href="about.html">Sobre Mi</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            </nav>
         </section>
     </header>
 
-    <section id="sobreMi" class="container">
+    <section id="seccionSobreMi" class="container">
         <div class="row">
             <div class="col-12 col-md-12 col-lg-12">
                 <h3 id="tituloSobreMi">SOBRE MI</h3>
@@ -67,7 +65,7 @@
                     y poder ser un aporte a los desarrollos de proyectos y mejorar constantemente diversos productos.
                     Actualmente soy estudiante de Ux del Bootcamp de Laboratoria, en el cual he estado
                     <span id="trabajarEquipo">aprendiendo lo que es trabajo en equipo, dar y recibir feedback, y
-                        metodología ágil.</span>
+                    metodología ágil.</span>
                 </p>
                 <p id="parrafoSobreMi2">
                     Además de conocimientos técnicos como <span id="trabajarEquipo"> Js, HTML, CSS,</span>
@@ -76,14 +74,15 @@
                     importante y necesario para mi es la usabilidad.
                 </p>
                 <p id="parrafoSobreMi3">
-                    Si quieres ver más información puedes ver mi <a href="" id="enlaceCv">cv aquí</a>
+                    Si quieres ver más información puedes ver mi <a href="../img/CV Dennisse Moreno.pdf" id="enlaceCv">cv aquí</a>
                 </p>
                 <p id="parrafoSobreMi3">
-                    O puedes seguirme en Medium y leer mis historias <a href="" id="enlaceMedium">aquí</a>
+                    O puedes seguirme en Medium y leer mis historias <a href="https://medium.com/@deni.moreno11" id="enlaceMedium">aquí</a>
                 </p>
             </div>
         </div>
     </section>
+
     <section id="contacto" class="container">
         <div class="row">
             <div class="col-12 col-md-12 col-lg-12">
@@ -100,30 +99,33 @@
             </div>
         </div>
     </section>
-
+    
+    
+    
     <footer id="rosadoFooter">
         <div class="container">
             <div class="row">
                 <div id="medium" class="col-4 col-md-4 col-lg-4">
-                    <i id="iconMedium" class="fab fa-medium-m fa-2x"></i>
+                    <a href="https://medium.com/@deni.moreno11">
+                        <i  id="iconMedium" class="fab fa-medium-m fa-2x"></i>
+                    </a>
                 </div>
                 <div id="linkedin" class="col-4 col-md-4 col-lg-4">
-                    <i id="iconLinkedin" class="fab fa-linkedin-in fa-2x"></i>
+                    <a href="https://www.linkedin.com/in/dennisse-moreno-cornejo-/">
+                        <i id="iconLinkedin" class="fab fa-linkedin-in fa-2x"></i>
+                    </a>
                 </div>
                 <div id="github" class="col-4 col-md-4 col-lg-4">
-                    <i id="iconGithub" class="fab fa-github fa-2x"></i>
+                    <a href="https://github.com/DennisseMorenoC">
+                        <i id="iconGithub" class="fab fa-github fa-2x"></i>
+                    </a>
                 </div>
             </div>
         </div>
-
     </footer>
-
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em"
-        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
 </body>
 
 </html>

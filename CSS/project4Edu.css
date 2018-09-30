@@ -345,7 +345,7 @@
     background-color: #FEEFEC;
     margin-top: 20%;
     z-index: -1;
-    height: 190%;
+    height: 140%;
     width: 100%;
     position: absolute;
 
@@ -374,6 +374,28 @@
     margin-left: 0%;
     padding-top: 4%;
 }
+#escucharEntrevista{
+    font-family: 'Roboto', sans-serif;
+    color: #363636;
+    font-size: 14px;
+    margin-left: 0%;
+    padding-top: 1%;
+}
+#botonEscucharEntrevista{
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    background-color: #931941;
+    color: white;
+    border: none;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 5%;
+    padding-right: 45%;
+    float: right;
+}
+#botonEscucharEntrevista:hover{
+    box-shadow: 10px 10px 10px 0px rgba(0,0,0,0.24);
+}
 @media (min-width: 960px) {
     #tituloProcesos{
         padding-left: 2.5%;
@@ -384,7 +406,7 @@
     }
     #colorFondoParte2{
         margin-top: 24%;
-        height: 260%;
+        height: 130%;
     }
     #tituloResearch{
         font-size: 30px;
@@ -404,6 +426,18 @@
         margin-left: 5%;
         margin-top: -4%;
     }
+    #escucharEntrevista{
+        font-size: 18px;
+        padding-top: 2%;
+        margin-left: 0%;
+    }
+    #botonEscucharEntrevista{
+        font-size: 24px;
+        padding-top: 0.5%;
+        padding-bottom: 0.5%;
+        padding-left: 3%;
+        padding-right: 50%;
+    }
 }
 
 @media (max-width: 350px) {
@@ -415,11 +449,115 @@
     }
     #colorFondoParte2{
         margin-top: 20%;
-        height: 184%;
+        height: 150%;
     }
 }
 
 
+
+/*Parte 3*/
+#colorFondoParte3{
+    background-color: #FEEFEC;
+    margin-top: 25.5%;
+    z-index: -1;
+    height: 170%;
+    width: 100%;
+    position: absolute;
+}
+#tituloIdeación{
+    font-family: 'Roboto', sans-serif;
+    color: #363636;
+    font-size: 16px;
+    padding-left: 11%;
+    margin-top: 90%;
+}
+#tituloPrototipoBF{
+    font-family: 'Roboto', sans-serif;
+    color: #363636;
+    font-size: 16px;
+    text-align: center;
+    padding: 7% 0; 
+}
+#fotoPrototipoBF1{
+    width: 100%;
+}
+#fotoPrototipoBF2{
+    width: 100%;
+}
+#parrafoPrototipoBF{
+    font-family: 'Roboto', sans-serif;
+    color: #363636;
+    font-size: 14px;
+    margin-left: 0%;
+    padding-top: 6%;
+}
+#verTest{
+    font-family: 'Roboto', sans-serif;
+    color: #363636;
+    font-size: 14px;
+    margin-left: 0%;
+    padding-top: 1%;
+}
+#verTesteoSilvestre{
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    background-color: #931941;
+    color: white;
+    border: none;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 5%;
+    padding-right: 45%;
+    float: right;
+
+}
+#verTesteoSilvestre:hover{
+    box-shadow: 10px 10px 10px 0px rgba(0,0,0,0.24);
+}
+@media (min-width: 960px) {
+    #colorFondoParte3{
+        margin-top: 20%;
+        height: 150%;
+    }
+    #tituloIdeación{
+        font-size: 30px;
+        margin-top: 70%;
+        padding-left: 2.5%;
+    }
+    #tituloPrototipoBF{
+        text-align: center;
+        font-size: 24px;
+        padding-top: 5%;
+    }
+    #parrafoMedio{
+        margin-left: 11%;
+    }
+    #parrafoPrototipoBF{
+        font-size: 18px;
+        margin-top: 1%;
+        margin-bottom: 0%;
+    }
+    #verTest{
+        font-size: 18px;
+        padding-top: 2%;
+        margin-left: 0%;
+    }
+    #verTesteoSilvestre{
+        font-size: 24px;
+        padding-top: 0.5%;
+        padding-bottom: 0.5%;
+        padding-left: 3%;
+        padding-right: 50%;
+    }
+}
+@media (max-width: 350px) {
+    #tituloIdeación{
+        padding-left: 13%;
+    }
+    #colorFondoParte3{
+        height: 156%;
+    }
+}
 
 
 

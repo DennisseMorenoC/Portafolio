@@ -829,6 +829,11 @@
     background-color: #F8BAAB;
     padding: 4%;
 }
+a {
+    color: white;
+    text-decoration: none;
+    background-color: transparent;
+}
 #medium{
     text-align: center;
     color: white;

@@ -457,7 +457,11 @@
         height: 150%;
     }
 }
-
+@media (max-width: 280px) {
+    #colorFondoParte2{
+        height: 153%;
+    }
+}
 
 
 /*Parte 3*/
@@ -561,6 +565,11 @@
     }
     #colorFondoParte3{
         height: 160%;
+    }
+}
+@media (max-width: 280px) {
+    #colorFondoParte3{
+        height: 175%;
     }
 }
 

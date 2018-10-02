@@ -451,7 +451,7 @@
     background-color: #FEEFEC;
     margin-top: 25.5%;
     z-index: -1;
-    height: 160%;
+    height: 150%;
     width: 100%;
     position: absolute;
 }
@@ -567,12 +567,12 @@
     width: 100%;
     position: absolute;
 }
-#tituloSolución{
+#tituloCreación{
     font-family: 'Roboto', sans-serif;
     color: #363636;
     font-size: 16px;
     padding-left: 11%;
-    margin-top: 90%;
+    margin-top: 127%;
 }
 #tituloPrototipoAF{
     font-family: 'Roboto', sans-serif;
@@ -623,9 +623,9 @@
         margin-top: 20%;
         height: 190%;
     }
-    #tituloSolución{
+    #tituloCreación{
         font-size: 30px;
-        margin-top: 54%;
+        margin-top: 68%;
         padding-left: 2.5%;
     }
     #tituloPrototipoAF{
@@ -657,11 +657,11 @@
 }
 
 @media (max-width: 350px) {
-    #tituloSolución{
+    #tituloCreación{
         padding-left: 13%;
     }
     #colorFondoParte4{
-        height: 192%;
+        height: 200%;
     }
 
 }

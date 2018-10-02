@@ -387,7 +387,7 @@
 }
 #imagenProceso1{
     padding-top: 10%;
-    width: 100%;
+    width: 92%;
     padding-left: 0%;
 }
 #imagenProceso2{
@@ -575,12 +575,12 @@
     width: 100%;
     position: absolute;
 }
-#tituloSolución{
+#tituloCreación{
     font-family: 'Roboto', sans-serif;
     color: #363636;
     font-size: 16px;
     padding-left: 11%;
-    margin-top: 90%;
+    margin-top: 127%;
 }
 #tituloPrototipoAF{
     font-family: 'Roboto', sans-serif;
@@ -631,9 +631,9 @@
         margin-top: 20%;
         height: 180%;
     }
-    #tituloSolución{
+    #tituloCreación{
         font-size: 30px;
-        margin-top: 54%;
+        margin-top: 68%;
         padding-left: 2.5%;
     }
     #tituloPrototipoAF{
@@ -665,7 +665,8 @@
 }
 
 @media (max-width: 350px) {
-    #tituloSolución{
+    #tituloCreación{
+        margin-top: 132%; 
         padding-left: 13%;
     }
     #colorFondoParte4{

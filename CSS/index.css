@@ -316,7 +316,7 @@ h2{
     }
     .grupoListaProcesos{
         padding-top: 0%;
-        line-height: 3;
+        line-height: 3.2;
         font-size: 12px;
     }
     .fotoPrototipoCelu{
@@ -466,7 +466,7 @@ h2{
     }
     #botonVerMedium{
         margin-left: 20%;
-        padding: 3% 9.5%;
+        padding: 3% 9%;
     }
 }
 

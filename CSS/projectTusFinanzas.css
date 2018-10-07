@@ -337,8 +337,7 @@ body{
     float: right;
     margin-top: 2%;
 }
-#tituloInterview{
-    font-size: 16px;
+
     text-align: center;
     padding: 5% 0; 
 }
@@ -518,7 +517,7 @@ body{
 #colorFondoParte4{
     background-color: #FEEFEC;
     margin-top: 35%;
-    height: 205%;
+   %;
     width: 100%;
     position: absolute;
 }

@@ -278,15 +278,6 @@ h1, h2{
     padding-left: 7%;
     margin-top: 7%;
 }
-#grupoListaProcesosRedSocial{
-    font-size: 14px;
-    font-weight: 300;
-    margin-top: 5%;
-    padding-left: 7%;
-}
-.listaProcesosRedSocial{
-    margin-bottom: 4%;
-}
 @media (min-width: 960px) {
     #infoProyectoRedSocial{
         font-size: 22px;
@@ -294,11 +285,8 @@ h1, h2{
         padding-left: 10%;
     }
     #grupoListaProcesosRedSocial{
-        font-size: 18px;
+        font-size: 16px;
         padding-left: 10%;
-    }
-    .listaProcesosRedSocial{
-        margin-bottom: 4%;
     }
 }
 
@@ -307,10 +295,9 @@ h1, h2{
         font-size: 14px;
         padding-top: 0;
     }
-    #grupoListaProcesosRedSocial{
-        font-size: 14px;
-    }
 }
+
+
 
 
 .leerMas{
@@ -328,12 +315,25 @@ h1, h2{
 .flecha{
     padding-left: 5%;
 }
+.grupoListaProcesos{
+    font-size: 14px;
+    font-weight: 300;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding-left: 7%;
+    line-height: 2.7;
+}
 @media (min-width: 960px) {
     .leerMas{
         font-size: 22px;
-        margin-top: 15%;
-        padding: 1.5% 10%;
+        margin-top: 20%;
+        padding: 1.5% 12%;
         margin-left: 30%;
+    }
+    .grupoListaProcesos{
+        font-size: 16px;
+        padding-left: 10%;
+        line-height: 2.6;
     }
 }
 @media (max-width: 350px) {
@@ -415,37 +415,17 @@ h1, h2{
     padding-left: 7%;
     margin-top: 7%;
 }
-#grupoListaProcesosJoyeria{
-    font-size: 14px;
-    font-weight: 300;
-    margin-top: 5%;
-    padding-left: 7%;
-}
-.listaProcesosJoyeria{
-    margin-bottom: 4%;
-}
 @media (min-width: 960px) {
     #infoProyectoJoyeria{
         font-size: 22px;
         padding-top: 3%;
         padding-left: 10%;
     }
-    #grupoListaProcesosJoyeria{
-        font-size: 18px;
-        padding-left: 10%;
-    }
-    .listaProcesosJoyeria{
-        padding-top: 1%;
-        margin-bottom: 1%;
-    }
 }
 @media (max-width: 350px) {
     #infoProyectoJoyeria{
         font-size: 14px;
         padding-top: 0;
-    }
-    #grupoListaProcesosJoyeria{
-        font-size: 14px;
     }
 }
 
@@ -539,37 +519,17 @@ h1, h2{
     padding-left: 7%;
     margin-top: 7%;
 }
-#grupoListaProcesosBanco{
-    font-size: 14px;
-    font-weight: 300;
-    margin-top: 5%;
-    padding-left: 7%;
-}
-.listaProcesosBanco{
-    margin-bottom: 4%;
-}
 @media (min-width: 960px) {
     #infoProyectoBanco{
         font-size: 22px;
         padding-top: 3%;
         padding-left: 10%;
     }
-    #grupoListaProcesosBanco{
-        font-size: 18px;
-        padding-left: 10%;
-    }
-    .listaProcesosBanco{
-        padding-top: 1%;
-        margin-bottom: 1%;
-    }
 }
 @media (max-width: 350px) {
     #infoProyectoBanco{
         font-size: 14px;
         padding-top: 0;
-    }
-    #grupoListaProcesosBanco{
-        font-size: 14px;
     }
 }
 

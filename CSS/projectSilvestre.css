@@ -1,5 +1,6 @@
 body{
     color: #363636;
+    font-family: 'Roboto', sans-serif;
 }
 /*Sección Navbar*/
 #logo{
@@ -83,11 +84,9 @@ body{
     }
     #portafolio{
         font-size: 20px;
-        font-family: 'Roboto', sans-serif;
     }
     #sobreMi{
         font-size: 20px;
-        font-family: 'Roboto', sans-serif;
     }
     .navbar-expand-lg .navbar-nav .nav-link {
         padding-right: 6rem;
@@ -120,7 +119,6 @@ body{
     padding-top: 5%;
 }
 #tituloJoyeria{
-    font-family: 'Roboto', sans-serif;
     font-size: 30px;
     font-weight: 300;
     padding-left: 9%;
@@ -189,7 +187,6 @@ body{
 }
 
 #tituloRol{
-    font-family: 'Roboto', sans-serif;
     padding-left: 11%;
     padding-top: 40%;
     font-size: 16px;
@@ -197,17 +194,14 @@ body{
     margin-bottom: 1%;
 }
 #descRol{
-    font-family: 'Roboto', sans-serif;
     padding-left: 12%;
     margin-bottom: 0%;
 }
 #descRol2{
-    font-family: 'Roboto', sans-serif;
     padding-left: 12%;
     margin-bottom: 0%;
 }
 #tituloProblemática{
-    font-family: 'Roboto', sans-serif;
     padding-left: 11%;
     padding-top: 30%;
     font-size: 16px;
@@ -218,17 +212,14 @@ body{
     display: none;
 }
 #descProblemáticaCelu{
-    font-family: 'Roboto', sans-serif;
     padding-left: 6%;
     margin-bottom: 0%;
 }
 #descProblemáticaCelu2{
-    font-family: 'Roboto', sans-serif;
     padding-left: 3.3%;
     margin-bottom: 0%;
 }
 #tituloSolución{
-    font-family: 'Roboto', sans-serif;
     padding-left: 11%;
     padding-top: 40%;
     font-size: 16px;
@@ -236,7 +227,6 @@ body{
     margin-bottom: 2%;
 }
 #descSolución{
-    font-family: 'Roboto', sans-serif;
     padding-left: 3%;
     margin-bottom: 0%;
 }
@@ -267,7 +257,6 @@ body{
         margin-bottom: 4%;
     }
     #descProblemáticaCompu{
-        font-family: 'Roboto', sans-serif;
         margin-bottom: 0%;
         font-size: 18px;
         padding-left: 1.6%;
@@ -332,7 +321,6 @@ body{
 /*Sección2*/
 
 #tituloProcesos{
-    font-family: 'Roboto', sans-serif;
     padding-left: 11%;
     padding-top: 40%;
     font-size: 16px;
@@ -348,23 +336,15 @@ body{
     position: absolute;
 }
 #tituloResearch{
-    font-family: 'Roboto', sans-serif;
     font-size: 16px;
     float: right;
     margin-top: 2%;
-}
-#tituloInterview{
-    font-family: 'Roboto', sans-serif;
-    font-size: 16px;
-    text-align: center;
-    padding: 5% 0; 
 }
 #personaJoyeriaImagen{
     width: 100%;
 
 }
 #parrafoInterviews{
-    font-family: 'Roboto', sans-serif;
     font-size: 14px;
     margin-left: 0%;
     padding-top: 4%;
@@ -402,11 +382,6 @@ body{
     #tituloResearch{
         font-size: 30px;
         padding-top: 2%;
-    }
-    #tituloInterview{
-        padding-top: 7%;
-        text-align: center;
-        font-size: 24px;
     }
     #personaJoyeriaImagen{
         margin-left: 0%;
@@ -461,16 +436,9 @@ body{
     position: absolute;
 }
 #tituloIdeación{
-    font-family: 'Roboto', sans-serif;
     font-size: 16px;
     padding-left: 11%;
     margin-top: 90%;
-}
-#tituloPrototipoBF{
-    font-family: 'Roboto', sans-serif;
-    font-size: 16px;
-    text-align: center;
-    padding: 7% 0; 
 }
 #fotoPrototipoBF1{
     width: 100%;
@@ -479,20 +447,17 @@ body{
     width: 100%;
 }
 #parrafoPrototipoBF{
-    font-family: 'Roboto', sans-serif;
     font-size: 14px;
     margin-left: 0%;
     padding-top: 6%;
 }
 #verTest{
-    font-family: 'Roboto', sans-serif;
     font-size: 14px;
     margin-left: 0%;
     padding-top: 1%;
 }
 #verTesteoSilvestre{
     font-size: 16px;
-    font-family: 'Roboto', sans-serif;
     background-color: #931941;
     color: white;
     border: none;
@@ -501,7 +466,6 @@ body{
     padding-left: 5%;
     padding-right: 45%;
     float: right;
-
 }
 #verTesteoSilvestre:hover{
     box-shadow: 10px 10px 10px 0px rgba(0,0,0,0.24);
@@ -515,11 +479,6 @@ body{
         font-size: 30px;
         margin-top: 70%;
         padding-left: 2.5%;
-    }
-    #tituloPrototipoBF{
-        text-align: center;
-        font-size: 24px;
-        padding-top: 5%;
     }
     #parrafoMedio{
         margin-left: 11%;
@@ -564,22 +523,14 @@ body{
     position: absolute;
 }
 #tituloCreación{
-    font-family: 'Roboto', sans-serif;
     font-size: 16px;
     padding-left: 11%;
     margin-top: 127%;
-}
-#tituloPrototipoAF{
-    font-family: 'Roboto', sans-serif;
-    font-size: 16px;
-    text-align: center;
-    padding: 7% 0; 
 }
 #flujoJSilvestre{
     width: 100%;
 }
 #parrafoPrototipoAF{
-    font-family: 'Roboto', sans-serif;
     font-size: 14px;
     margin-left: 0%;
     padding-top: 7%;
@@ -588,14 +539,12 @@ body{
     width: 100%;
 }
 #tituloVerPrototipoFinal{
-    font-family: 'Roboto', sans-serif;
     font-size: 16px;
     margin-left: 0%;
     padding-top: 10%;
 }
 #verPrototipoFinal{
     font-size: 16px;
-    font-family: 'Roboto', sans-serif;
     background-color: #931941;
     color: white;
     border: none;
@@ -619,11 +568,6 @@ body{
         font-size: 30px;
         margin-top: 68%;
         padding-left: 2.5%;
-    }
-    #tituloPrototipoAF{
-        text-align: center;
-        font-size: 24px;
-        padding-top: 5%;
     }
     #parrafoPrototipoAF{
         font-size: 18px;
@@ -664,7 +608,6 @@ body{
 
 /*Parte Leer*/
 #tituloLeerMedium{
-    font-family: 'Roboto', sans-serif;
     padding-left: 11%;
     padding-top: 90%;
     font-size: 16px;
@@ -673,7 +616,6 @@ body{
 }
 #verMedium{
     font-size: 16px;
-    font-family: 'Roboto', sans-serif;
     background-color: #931941;
     color: white;
     border: none;

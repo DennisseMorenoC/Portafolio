@@ -316,14 +316,14 @@ h2{
     }
     .grupoListaProcesos{
         padding-top: 0%;
-        line-height: 2.9;
+        line-height: 3;
         font-size: 12px;
     }
     .fotoPrototipoCelu{
         width: 115%;
     }
     .leerMas{
-        margin-top: 10%;
+        margin-top: 5%;
         margin-left: 7%;
     }
 }

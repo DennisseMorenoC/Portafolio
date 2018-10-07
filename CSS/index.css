@@ -20,11 +20,6 @@ h2{
         margin-right: 20%;
     }
 }
-#nombre{
-    color: #363636;
-    font-size: 21px;
-    font-family: 'Source Serif Pro', serif;
-}
 #portafolio{
     color: #363636;
     font-size: 18px;
@@ -316,7 +311,7 @@ h2{
     }
     .grupoListaProcesos{
         padding-top: 0%;
-        line-height: 3.2;
+        line-height: 3;
         font-size: 12px;
     }
     .fotoPrototipoCelu{
@@ -466,7 +461,7 @@ h2{
     }
     #botonVerMedium{
         margin-left: 20%;
-        padding: 3% 9%;
+        padding: 3% 10%;
     }
 }
 

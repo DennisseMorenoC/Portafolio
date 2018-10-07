@@ -1,3 +1,7 @@
+body{
+    color: #363636;
+    font-family: 'Roboto', sans-serif;
+}
 /*Sección Navbar*/
 #logo{
     max-width: 20%;
@@ -82,11 +86,9 @@
     }
     #portafolio{
         font-size: 20px;
-        font-family: 'Roboto', sans-serif;
     }
     #sobreMi{
         font-size: 20px;
-        font-family: 'Roboto', sans-serif;
     }
     .navbar-expand-lg .navbar-nav .nav-link {
         padding-right: 6rem;
@@ -114,14 +116,11 @@
 
 #nombreProyectoRedSocial{
     font-size: 20px;
-    color: #363636;
     font-family: 'Source Serif Pro', serif;
     padding-left: 5%;
     padding-top: 5%;
 }
 #titulo4Edu{
-    font-family: 'Roboto', sans-serif;
-    color: #363636;
     font-size: 30px;
     font-weight: 300;
     padding-left: 9%;
@@ -189,7 +188,6 @@
 }
 
 #tituloRol{
-    font-family: 'Roboto', sans-serif;
     padding-left: 11%;
     padding-top: 40%;
     font-size: 16px;
@@ -197,19 +195,14 @@
     margin-bottom: 1%;
 }
 #descRol{
-    font-family: 'Roboto', sans-serif;
-    color: #363636;
     padding-left: 12%;
     margin-bottom: 0%;
 }
 #descRol2{
-    font-family: 'Roboto', sans-serif;
-    color: #363636;
     padding-left: 12%;
     margin-bottom: 0%;
 }
 #tituloProblemática{
-    font-family: 'Roboto', sans-serif;
     padding-left: 11%;
     padding-top: 30%;
     font-size: 16px;
@@ -220,19 +213,14 @@
     display: none;
 }
 #descProblemáticaCelu{
-    font-family: 'Roboto', sans-serif;
-    color: #363636;
     padding-left: 6%;
     margin-bottom: 0%;
 }
 #descProblemáticaCelu2{
-    font-family: 'Roboto', sans-serif;
-    color: #363636;
     padding-left: 3.3%;
     margin-bottom: 0%;
 }
 #tituloSolución{
-    font-family: 'Roboto', sans-serif;
     padding-left: 11%;
     padding-top: 40%;
     font-size: 16px;
@@ -240,8 +228,6 @@
     margin-bottom: 2%;
 }
 #descSolución{
-    font-family: 'Roboto', sans-serif;
-    color: #363636;
     padding-left: 3%;
     margin-bottom: 0%;
 }
@@ -272,7 +258,6 @@
         margin-bottom: 4%;
     }
     #descProblemáticaCompu{
-        font-family: 'Roboto', sans-serif;
         color: #363636;
         margin-bottom: 0%;
         font-size: 18px;
@@ -334,7 +319,6 @@
 /*Sección2*/
 
 #tituloProcesos{
-    font-family: 'Roboto', sans-serif;
     padding-left: 11%;
     padding-top: 40%;
     font-size: 16px;
@@ -351,39 +335,25 @@
 
 }
 #tituloResearch{
-    font-family: 'Roboto', sans-serif;
-    color: #363636;
     font-size: 16px;
     float: right;
     margin-top: 2%;
-}
-#tituloInterview{
-    font-family: 'Roboto', sans-serif;
-    color: #363636;
-    font-size: 16px;
-    text-align: center;
-    padding: 5% 0; 
 }
 #diagramaFlujo4edu{
     width: 100%;
 }
 #parrafoInterviews{
-    font-family: 'Roboto', sans-serif;
-    color: #363636;
     font-size: 14px;
     margin-left: 0%;
     padding-top: 4%;
 }
 #escucharEntrevista{
-    font-family: 'Roboto', sans-serif;
-    color: #363636;
     font-size: 14px;
     margin-left: 0%;
     padding-top: 1%;
 }
 #botonEscucharEntrevista{
     font-size: 16px;
-    font-family: 'Roboto', sans-serif;
     background-color: #931941;
     color: white;
     border: none;
@@ -411,11 +381,6 @@
     #tituloResearch{
         font-size: 30px;
         padding-top: 2%;
-    }
-    #tituloInterview{
-        padding-top: 7%;
-        text-align: center;
-        font-size: 24px;
     }
     #diagramaFlujo4edu{
         margin-left: 0%;
@@ -474,18 +439,9 @@
     position: absolute;
 }
 #tituloIdeación{
-    font-family: 'Roboto', sans-serif;
-    color: #363636;
     font-size: 16px;
     padding-left: 11%;
     margin-top: 90%;
-}
-#tituloPrototipoBF{
-    font-family: 'Roboto', sans-serif;
-    color: #363636;
-    font-size: 16px;
-    text-align: center;
-    padding: 7% 0; 
 }
 #fotoPrototipoBF{
     width: 100%;
@@ -494,22 +450,17 @@
     width: 100%;
 }
 #parrafoPrototipoBF{
-    font-family: 'Roboto', sans-serif;
-    color: #363636;
     font-size: 14px;
     margin-left: 0%;
     padding-top: 6%;
 }
 #verTest{
-    font-family: 'Roboto', sans-serif;
-    color: #363636;
     font-size: 14px;
     margin-left: 0%;
     padding-top: 1%;
 }
 #verTesteoSilvestre{
     font-size: 16px;
-    font-family: 'Roboto', sans-serif;
     background-color: #931941;
     color: white;
     border: none;
@@ -532,11 +483,6 @@
         font-size: 30px;
         margin-top: 70%;
         padding-left: 2.5%;
-    }
-    #tituloPrototipoBF{
-        text-align: center;
-        font-size: 24px;
-        padding-top: 5%;
     }
     #parrafoMedio{
         margin-left: 11%;
@@ -585,25 +531,14 @@
     position: absolute;
 }
 #tituloCreación{
-    font-family: 'Roboto', sans-serif;
-    color: #363636;
     font-size: 16px;
     padding-left: 11%;
     margin-top: 127%;
-}
-#tituloPrototipoAF{
-    font-family: 'Roboto', sans-serif;
-    color: #363636;
-    font-size: 16px;
-    text-align: center;
-    padding: 7% 0; 
 }
 #flujo4edu{
     width: 100%;
 }
 #parrafoPrototipoAF{
-    font-family: 'Roboto', sans-serif;
-    color: #363636;
     font-size: 14px;
     margin-left: 0%;
     padding-top: 7%;
@@ -611,16 +546,8 @@
 #prototipoAlta4edu{
     width: 100%;
 }
-#tituloVerPrototipoFinal{
-    font-family: 'Roboto', sans-serif;
-    color: #363636;
-    font-size: 16px;
-    margin-left: 0%;
-    padding-top: 10%;
-}
 #verPrototipoFinal{
     font-size: 16px;
-    font-family: 'Roboto', sans-serif;
     background-color: #931941;
     color: white;
     border: none;
@@ -644,11 +571,6 @@
         font-size: 30px;
         margin-top: 68%;
         padding-left: 2.5%;
-    }
-    #tituloPrototipoAF{
-        text-align: center;
-        font-size: 24px;
-        padding-top: 5%;
     }
     #parrafoPrototipoAF{
         font-size: 18px;

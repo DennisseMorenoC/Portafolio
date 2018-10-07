@@ -1,3 +1,6 @@
+body{
+    color: #363636;
+}
 /*Sección Navbar*/
 #logo{
     max-width: 20%;
@@ -112,14 +115,12 @@
 
 #nombreProyectoComercioD{
     font-size: 20px;
-    color: #363636;
     font-family: 'Source Serif Pro', serif;
     padding-left: 5%;
     padding-top: 5%;
 }
 #tituloJoyeria{
     font-family: 'Roboto', sans-serif;
-    color: #363636;
     font-size: 30px;
     font-weight: 300;
     padding-left: 9%;
@@ -197,13 +198,11 @@
 }
 #descRol{
     font-family: 'Roboto', sans-serif;
-    color: #363636;
     padding-left: 12%;
     margin-bottom: 0%;
 }
 #descRol2{
     font-family: 'Roboto', sans-serif;
-    color: #363636;
     padding-left: 12%;
     margin-bottom: 0%;
 }
@@ -220,13 +219,11 @@
 }
 #descProblemáticaCelu{
     font-family: 'Roboto', sans-serif;
-    color: #363636;
     padding-left: 6%;
     margin-bottom: 0%;
 }
 #descProblemáticaCelu2{
     font-family: 'Roboto', sans-serif;
-    color: #363636;
     padding-left: 3.3%;
     margin-bottom: 0%;
 }
@@ -240,7 +237,6 @@
 }
 #descSolución{
     font-family: 'Roboto', sans-serif;
-    color: #363636;
     padding-left: 3%;
     margin-bottom: 0%;
 }
@@ -272,7 +268,6 @@
     }
     #descProblemáticaCompu{
         font-family: 'Roboto', sans-serif;
-        color: #363636;
         margin-bottom: 0%;
         font-size: 18px;
         padding-left: 1.6%;
@@ -354,14 +349,12 @@
 }
 #tituloResearch{
     font-family: 'Roboto', sans-serif;
-    color: #363636;
     font-size: 16px;
     float: right;
     margin-top: 2%;
 }
 #tituloInterview{
     font-family: 'Roboto', sans-serif;
-    color: #363636;
     font-size: 16px;
     text-align: center;
     padding: 5% 0; 
@@ -372,7 +365,6 @@
 }
 #parrafoInterviews{
     font-family: 'Roboto', sans-serif;
-    color: #363636;
     font-size: 14px;
     margin-left: 0%;
     padding-top: 4%;
@@ -470,14 +462,12 @@
 }
 #tituloIdeación{
     font-family: 'Roboto', sans-serif;
-    color: #363636;
     font-size: 16px;
     padding-left: 11%;
     margin-top: 90%;
 }
 #tituloPrototipoBF{
     font-family: 'Roboto', sans-serif;
-    color: #363636;
     font-size: 16px;
     text-align: center;
     padding: 7% 0; 
@@ -490,14 +480,12 @@
 }
 #parrafoPrototipoBF{
     font-family: 'Roboto', sans-serif;
-    color: #363636;
     font-size: 14px;
     margin-left: 0%;
     padding-top: 6%;
 }
 #verTest{
     font-family: 'Roboto', sans-serif;
-    color: #363636;
     font-size: 14px;
     margin-left: 0%;
     padding-top: 1%;
@@ -577,14 +565,12 @@
 }
 #tituloCreación{
     font-family: 'Roboto', sans-serif;
-    color: #363636;
     font-size: 16px;
     padding-left: 11%;
     margin-top: 127%;
 }
 #tituloPrototipoAF{
     font-family: 'Roboto', sans-serif;
-    color: #363636;
     font-size: 16px;
     text-align: center;
     padding: 7% 0; 
@@ -594,7 +580,6 @@
 }
 #parrafoPrototipoAF{
     font-family: 'Roboto', sans-serif;
-    color: #363636;
     font-size: 14px;
     margin-left: 0%;
     padding-top: 7%;
@@ -604,7 +589,6 @@
 }
 #tituloVerPrototipoFinal{
     font-family: 'Roboto', sans-serif;
-    color: #363636;
     font-size: 16px;
     margin-left: 0%;
     padding-top: 10%;

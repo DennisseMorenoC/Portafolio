@@ -21,16 +21,15 @@
         <section class="container">
             <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
                 <a class="navbar-brand" href="index.html">
-                    <img id="logo" class="d-inline-block align-top" src="..//img/logo rosa.png" alt="imagenLogo">
+                    <img id="logo" class="img-fluid" src="..//img/logo rosa.png" alt="imagenLogo">
                 </a>
-                <a id="nombre" class="navbar-brand" href="index.html">Dennisse Moreno</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav ml-md-auto">
-                        <li class="nav-item ">
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
                             <a id="portafolio" class="nav-link" href="portafolio.html">Portafolio</a>
                         </li>
                         <li class="nav-item">
@@ -44,153 +43,136 @@
 
 
 
-
     <section id="portafolio" class="container">
         <div class="row">
             <div class="col-12 col-md-12 col-lg-12">
-                <h3 id="tituloPortafolio">PORTAFOLIO</h3>
+                <h1 id="tituloPortafolio">PORTAFOLIO</h1>
             </div>
-            <div id="subrayado"></div>
+            <div class="subrayado"></div>
         </div>
     </section>
-    <section class="container">
+
+
+    <section class="container colorFondoProyecto">
         <div class="row">
-            <div class="col-11 col-md-12 col-lg-12">
-                <div id="colorFondoProyectos"></div>
-            </div>
             <div class="col-3 col-md-4 col-lg-4">
-                <h2 id="nombreProyectoRedSocial"><i>Red Social</i></h2>
-            </div>
-            <div class="col-5">
-                <img id="fotoPrototipoRedSocialCelu" src="../img/4EduAppMitad.png" alt="RedSocial">
-            </div>
-            <div id="fotoBanco" class="col-md-6 col-lg-6">
-                <img id="fotoPrototipoRedSocialCompu" src="../img/4EduAppRecortada.png" alt="RedSocial">
+                <h2 class="nombreProyecto">Red Social</h2>
             </div>
         </div>
         <div class="row">
             <div class="col-7 col-md-6 col-lg-6">
-                <p id="infoProyectoRedSocial">
-                    Centrada en educación, fomenta el aprendizaje
-                    de forma lúdica e innovadora a través de la tecnología.
-                </p>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-8 col-md-6 col-lg-6">
-                <div id="grupoListaProcesosRedSocial">
-                    <p class="listaProcesosRedSocial">User Research</p>
-                    <p class="listaProcesosRedSocial">Arquitectura Información</p>
-                    <p class="listaProcesosRedSocial">User Testing</p>
-                    <p class="listaProcesosRedSocial">Ideación</p>
-                    <p class="listaProcesosRedSocial">Diseño Prototipado</p>
+                <div class="parrafoInfoProyecto">
+                    <p>
+                        Centrada en educación, fomenta el aprendizaje
+                        de forma lúdica e innovadora a través de la tecnología.
+                    </p>
+                </div>
+                <div class="grupoListaProcesos">
+                    <p class="d-inline p-2 bg-white text-dark">#user research</p>
+                    <p class="d-inline p-2 bg-white text-dark">#arquitectura información</p>
+                    <p class="d-inline p-2 bg-white text-dark">#user testing</p>
+                    <p class="d-inline p-2 bg-white text-dark">#ideación</p>
+                    <p class="d-inline p-2 bg-white text-dark">#diseño prototipado</p>
+                </div>
+                <div>
+                    <a href="./project4Edu.html">
+                        <button type="button" class="leerMas"> Leer más <i class="fas fa-caret-right flecha"></i>
+                        </button>
+                    </a>
                 </div>
             </div>
-        </div>
-        <div class="row">
-            <div class="col-8 col-md-6 col-lg-6">
-                <a href="./project4Edu.html">
-                    <button type="button" id="leerMasRedSocial"> Leer Más!</button>
-                </a>
+            <div class="col-5 col-md-6 col-lg-6">
+                <img class="fotoPrototipoCompu" src="../img/4EduAppRecortada.png" alt="RedSocial">
+                <img class="fotoPrototipoCelu" src="../img/4EduAppMitad.png" alt="RedSocial">
             </div>
         </div>
     </section>
-    
-    
-    <section id="proyectoJoyería" class="container">
+
+
+
+    <section class="container colorFondoProyecto">
         <div class="row">
-            <div class="col-11 col-md-12 col-lg-12">
-                <div id="colorFondoProyectoJoyeria"></div>
-            </div>
             <div class="col-3 col-md-4 col-lg-4">
-                <h2 id="nombreProyectoJoyeria"><i>Comercio Digital</i></h2>
-            </div>
-            <div class="col-5">
-                <img id="fotoPrototipoJoyeriaCelu" src="../img/joyeriaSilvestreAppMitad.png" alt="RedSocial">
-            </div>
-            <div id="fotoBanco" class="col-md-6 col-lg-6">
-                <img id="fotoPrototipoJoyeriaCompu" src="../img/joyeriaSilvestreAppRecortada.png" alt="RedSocial">
+                <h2 class="nombreProyecto">Comercio Digital</h2>
             </div>
         </div>
         <div class="row">
             <div class="col-7 col-md-6 col-lg-6">
-                <p id="infoProyectoJoyeria">
-                    Ayudar a una pequeña empresa de redes cociales a posicionarse como e-commerce.
-                </p>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-8 col-md-6 col-lg-6">
-                <div id="grupoListaProcesosJoyeria">
-                    <p class="listaProcesosJoyeria">User Research</p>
-                    <p class="listaProcesosJoyeria">Arquitectura Información</p>
-                    <p class="listaProcesosJoyeria">User Testing</p>
-                    <p class="listaProcesosJoyeria">Ideación</p>
-                    <p class="listaProcesosJoyeria">Diseño Prototipado</p>
-                    <p class="listaProcesosJoyeria">Interaction Design</p>
+                <div class="parrafoInfoProyecto">
+                    <p>
+                        Ayudar a una pequeña empresa de redes cociales a
+                        posicionarse como e-commerce.
+                    </p>
+                </div>
+                <div class="grupoListaProcesos">
+                    <p class="d-inline p-2 bg-white text-dark">#user research</p>
+                    <p class="d-inline p-2 bg-white text-dark">#arquitectura información</p>
+                    <p class="d-inline p-2 bg-white text-dark">#user testing</p>
+                    <p class="d-inline p-2 bg-white text-dark">#ideación</p>
+                    <p class="d-inline p-2 bg-white text-dark">#diseño prototipado</p>
+                    <p class="d-inline p-2 bg-white text-dark">#interaction design</p>
+                </div>
+                <div>
+                    <a href="./projectSilvestre.html">
+                        <button type="button" class="leerMas"> Leer más <i class="fas fa-caret-right flecha"></i>
+                        </button>
+                    </a>
                 </div>
             </div>
-        </div>
-        <div class="row">
-            <div class="col-8 col-md-6 col-lg-6">
-                <a href="./projectSilvestre.html"> 
-                    <button type="button" id="leerMasJoyeria">Leer Más!</button>
-                </a>
+            <div class="col-5 col-md-6 col-lg-6">
+                <img class="fotoPrototipoCompu2" src="../img/joyeriaSilvestreAppRecortada.png" alt="Silvestrel">
+                <img class="fotoPrototipoCelu" src="../img/joyeriaSilvestreAppMitad.png" alt="Silvestre">
             </div>
         </div>
     </section>
-    
-    
-    
-    <section id="proyectoBanco" class="container">
+
+
+
+
+
+    <section class="container colorFondoProyecto">
         <div class="row">
-            <div class="col-11 col-md-12 col-lg-12">
-                <div id="colorFondoProyectoBanco"></div>
-            </div>
             <div class="col-3 col-md-4 col-lg-4">
-                <h2 id="nombreProyectoBanco"><i>Plataforma Financiera</i></h2>
-            </div>
-            <div class="col-5">
-                <img id="fotoPrototipoBancoCelu" src="../img/rediseñoFinancieroAppMitad.png" alt="RedSocial">
-            </div>
-            <div id="fotoBanco" class="col-md-6 col-lg-6">
-                <img id="fotoPrototipoBancoCompu" src="..//img/rediseñoFinancieroAppRecortada.png" alt="RedSocial">
+                <h2 class="nombreProyecto">Plataforma Financiera</h2>
             </div>
         </div>
         <div class="row">
             <div class="col-7 col-md-6 col-lg-6">
-                <p id="infoProyectoBanco">
-                    Rediseñar una App Financiera para incentivar el ahorro en el país.
-                </p>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-8 col-md-6 col-lg-6">
-                <div id="grupoListaProcesosBanco">
-                    <p class="listaProcesosBanco">User Research</p>
-                    <p class="listaProcesosBanco">Arquitectura Información</p>
-                    <p class="listaProcesosBanco">User Testing</p>
-                    <p class="listaProcesosBanco">Ideación</p>
-                    <p class="listaProcesosBanco">Diseño Prototipado</p>
-                    <p class="listaProcesosBanco">Research</p>
+                <div class="parrafoInfoProyecto">
+                    <p>
+                        Rediseñar una App Financiera para incentivar el ahorro en el país.
+                    </p>
+                </div>
+                <div class="grupoListaProcesos">
+                    <p class="d-inline p-2 bg-white text-dark">#user research</p>
+                    <p class="d-inline p-2 bg-white text-dark">#arquitectura información</p>
+                    <p class="d-inline p-2 bg-white text-dark">#user testing</p>
+                    <p class="d-inline p-2 bg-white text-dark">#ideación</p>
+                    <p class="d-inline p-2 bg-white text-dark">#diseño prototipado</p>
+                    <p class="d-inline p-2 bg-white text-dark">#research</p>
+                </div>
+                <div>
+                    <a href="./projectTusFinanzas.html">
+                        <button type="button" class="leerMas"> Leer más <i class="fas fa-caret-right flecha"></i>
+                        </button>
+                    </a>
                 </div>
             </div>
-        </div>
-        <div class="row">
-            <div class="col-8 col-md-6 col-lg-6">
-                <a href="./projectTusFinanzas.html">
-                    <button type="button" id="leerMasBanco">Leer Más!</button>
-                </a>
+            <div class="col-5 col-md-6 col-lg-6">
+                <img class="fotoPrototipoCompu2" src="..//img/rediseñoFinancieroAppRecortada.png" alt="Finanzas">
+                <img class="fotoPrototipoCelu" src="../img/rediseñoFinancieroAppMitad.png" alt="Finanzas">
             </div>
         </div>
     </section>
-    
+
+
+
     <footer id="rosadoFooter">
         <div class="container">
             <div class="row">
                 <div id="medium" class="col-4 col-md-4 col-lg-4">
                     <a href="https://medium.com/@deni.moreno11">
-                        <i  id="iconMedium" class="fab fa-medium-m fa-2x"></i>
+                        <i id="iconMedium" class="fab fa-medium-m fa-2x"></i>
                     </a>
                 </div>
                 <div id="linkedin" class="col-4 col-md-4 col-lg-4">

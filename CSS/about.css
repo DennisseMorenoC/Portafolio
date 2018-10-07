@@ -1,4 +1,15 @@
-/*Sección Navbar*/
+body{
+    color: #363636;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2{
+    font-family: 'Source Serif Pro', serif;
+}
+h2{
+    font-style: italic;
+}
+
 #logo{
     max-width: 20%;
 
@@ -9,16 +20,9 @@
         margin-right: 20%;
     }
 }
-#nombre{
-    font-family: 'Source Serif Pro', serif;
-    color: #363636;
-    font-size: 21px;
-
-}
 #portafolio{
     color: #363636;
     font-size: 18px;
-    font-family: 'Roboto', sans-serif;
 }
 #portafolio:hover{
     color: #931941;
@@ -27,7 +31,6 @@
 #sobreMi{
     color: #363636;
     font-size: 18px;
-    font-family: 'Roboto', sans-serif;
 }
 #sobreMi:hover{
     color: #931941;
@@ -38,6 +41,7 @@
 }*/
 .navbar-light .navbar-toggler {
     border-color: #FEEFEC;
+    color: #931941;
 
 }
 .navbar-brand {
@@ -48,11 +52,16 @@
     line-height: inherit;
     white-space: nowrap;
 }
+
 .navbar{
     padding-top: 10px;
     padding-bottom: 10px;
     padding-right: 1px;
     padding-left: 9px;
+}
+
+.navbar-nav{
+    margin-top: 4%;
 }
 
 
@@ -68,39 +77,29 @@
     position: absolute;
     margin-left: 50%;
 }
+ 
 @media (min-width: 960px) {
     #nombrecol{
         text-align: center;
     }
     #nombre{
         font-size: 40px;
-
-    }
-    .navbar{
-        padding-left: 12px;
-    }
-    .navbar-nav{
-        margin-left: 0;
     }
     #portafolio{
         font-size: 20px;
-        font-family: 'Roboto', sans-serif;
     }
     #sobreMi{
         font-size: 20px;
-        font-family: 'Roboto', sans-serif;
     }
     .navbar-expand-lg .navbar-nav .nav-link {
         padding-right: 6rem;
     }
     #colorFondo{
         background-color: #FEEFEC;
-        height: 40%;
+        height: 30%;
         width: 50%;
-        position: absolute;
         margin-left: 50%;
-    }
-    
+    } 
 }
 
 @media (max-width: 350px) {
@@ -119,18 +118,16 @@
 /*Sobre Mi*/
 
 #tituloSobreMi{
-    font-family: 'Roboto', sans-serif;
-    color: #363636;
     font-weight: 300;
     text-align: center;
-    padding-top: 60%;  
+    padding-top: 50%;  
     margin-bottom: 0%;
+    font-size: 28px;
 }
-
-#subrayado{
+.subrayado{
     background-color: #931941;
-    width: 20%;
-    margin-left: 40%;
+    width: 30%;
+    margin-left: 35%;
     padding-top: 0;
     padding-bottom: 1%;
     height: 1%;
@@ -141,52 +138,39 @@
         font-size: 35px;
         padding-top: 30%;
     }
-    #subrayado{
+    .subrayado{
         width: 14%;
         margin-left: 43%;
-        padding-top: 0;
         padding-bottom: 5px;
-
     }
 }
 @media (max-width: 350px) {
     #tituloSobreMi{
         font-size: 20px;
+        padding-top: 40%; 
     }
 }
 
-#fotoPerfil{
-    width: 90%;
-    padding-top: 10%;
-    position: absolute;
-}
 
+
+
+
+
+
+
+#fotoPerfil{
+    width: 100%;
+    padding-top: 10%;
+}
 #nombrePerfil{
-    color: #363636;
-    font-family: 'Source Serif Pro', serif;
-    padding-top: 153%;
-    margin-bottom: 0;
-    padding-left: 7%;
+    margin-top: -17%;
 }
 #parrafoSobreMi{
-    color: #363636;
-    font-family: 'Roboto', sans-serif;
     font-size: 16px;
-    padding-left: 3%;
     margin-top: 7%;
 }
 #parrafoSobreMi2{
-    color: #363636;
-    font-family: 'Roboto', sans-serif;
     font-size: 16px;
-    padding-left: 3%;
-    margin-top: 0%;
-}
-#parrafoSobreMi3{
-    color: #363636;
-    font-family: 'Roboto', sans-serif;
-    font-size: 16px;
-    padding-left: 3%;
     margin-top: 0%;
 }
 #trabajarEquipo{
@@ -194,49 +178,84 @@
     padding-right: 1.5%;
     padding-bottom: 1%;
 }
-#enlaceCv{
-    color: #931941;
-    font-weight: bold;
+#textoVerCv{
+    font-size: 16px;
+    margin-bottom: 1%;
 }
-#enlaceMedium{
-    color: #931941;
-    font-weight: bold;
+#botonVerCv{
+    font-size: 16px;
+    background-color: #931941;
+    color: white;
+    padding: 3% 15%;
+    margin-top: 0%;
+    margin-left: 25%;
+    border: none;
+}
+#textoVerMedium{
+    font-size: 16px;
+    margin-top: 10%;
+    margin-bottom: 1%;
+}
+#botonVerMedium{
+    font-size: 16px;
+    background-color: #931941;
+    color: white;
+    padding: 3% 11%;
+    margin-top: 0%;
+    margin-left: 25%;
+    border: none;
 }
 @media (min-width: 960px) {
     #fotoPerfil{
-        width: 100%;
         margin-top: 10%;
-
     }
     #nombrePerfil{
         font-size: 50px;
         margin-top: 14%;
-        padding-left: 85%;
-        padding-top: 0%;
+        margin-left: -13%;
+
     }
     #parrafoSobreMi{
         font-size: 22px;
         margin-top: 6%;
-        margin-left: 50%;
     }
     #parrafoSobreMi2{
         font-size: 22px;
-        margin-top: 5%;
-        padding-left: 2%;    
+        margin-top: 5%;   
     }
-    #parrafoSobreMi3{
+    #textoVerCv{
         font-size: 22px;
-        margin-top: 2%;
-        padding-left: 2%;    
+        margin-top: -40%;   
+    }
+    #botonVerCv{
+        font-size: 22px;
+        padding: 1.5% 10%;
+        margin-left: 25%;
+    }
+    #textoVerMedium{
+        font-size: 22px;
+        margin-top: 7%;
+    }
+    #botonVerMedium{
+        font-size: 22px;
+        padding: 1.5% 6%;
+        margin-left: 25%;
     }
 
 }
 @media (max-width: 350px) {
     #nombrePerfil{
-        padding-top: 160%;
+        margin-top: -20%;
     }
     #fotoPerfil{
         padding-top: 14%;
+    }
+    #botonVerCv{
+        margin-left: 20%;
+    }
+    #botonVerMedium{
+        margin-left: 20%;
+        padding: 3% 10%;
     }
 }
 
@@ -246,23 +265,19 @@
 
 /*Sección Contacto*/
 #tituloContacto{
-    font-family: 'Roboto', sans-serif;
-    color: #363636;
     font-weight: 300;
     text-align: center;
-    padding-top: 25%; 
-    margin-bottom: 0%; 
+    padding-top: 40%;  
+    margin-bottom: 0%;
+    font-size: 28px;
 }
 #tituloEmail{
-    color: #363636;
-    font-family: 'Source Serif Pro', serif;
     padding-top: 12%;
     margin-bottom: 0;
     padding-left: 7%;
 }
 #email{
     color: #931941;
-    font-family: 'Roboto', sans-serif;
     padding-top: 5%;
     margin-bottom: 0;
     padding-left: 7%;
@@ -283,8 +298,8 @@
         padding-top: 0%;
     }
     #email{
-        font-size: 48px;
-        margin-top: 40.5%;
+        font-size: 38px;
+        margin-top: 44%;
         padding-left: 6%;
         padding-top: 0%;
     }
@@ -301,6 +316,10 @@
         padding-top: 5%;
     }
 }
+
+
+
+
 
 
 /*Footer*/

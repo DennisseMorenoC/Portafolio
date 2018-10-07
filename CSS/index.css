@@ -112,7 +112,7 @@ h2{
         font-size: 18px;
     }
     #colorFondo{
-        height: 60%;
+        height: 70%;
     }
 }
 
@@ -316,7 +316,7 @@ h2{
     }
     .grupoListaProcesos{
         padding-top: 0%;
-        line-height: 2.3;
+        line-height: 2.7;
         font-size: 12px;
     }
     .fotoPrototipoCelu{
@@ -460,6 +460,12 @@ h2{
     }
     #fotoPerfil{
         padding-top: 14%;
+    }
+    #botonVerCv{
+        margin-left: 20%;
+    }
+    #botonVerMedium{
+        margin-left: 20%;
     }
 }
 

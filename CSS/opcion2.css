@@ -169,19 +169,18 @@ h1, h2{
 
 #tituloRol{
     padding-top: 15%;
-    font-size: 16px;
+    font-size: 18px;
     color: #F8BAAB;
     margin-bottom: 1%;
 }
-#descRol{
-    margin-bottom: 0%;
-}
-#descRol2{
-    margin-bottom: 0%;
+.lista{
+    background-color: #FEEFEC;
+    line-height: 2.7;
+    font-size: 12px;
 }
 #tituloProblemática{
     padding-top: 15%;
-    font-size: 16px;
+    font-size: 18px;
     color: #F8BAAB;
     margin-bottom: 1%;
 }
@@ -192,9 +191,8 @@ h1, h2{
     margin-bottom: 0%;
 }
 #tituloSolución{
-    padding-left: 11%;
     padding-top: 40%;
-    font-size: 16px;
+    font-size: 18px;
     color: #F8BAAB;
     margin-bottom: 2%;
 }
@@ -204,25 +202,15 @@ h1, h2{
 }
 @media (min-width: 960px) {
     #tituloRol{
-        padding-left: 2.5%;
         padding-top: 25%;
         color: #F8BAAB;
         font-size: 32px;
         margin-bottom: 4%;
     }
-    #descRol{
-        font-size: 18px;
-        padding-left: 2.5%;
-        padding-top: 2%;
-        margin-bottom: 0%;
-    }
-    #descRol2{
-        font-size: 18px;
-        padding-left: 2.4%;
-        margin-bottom: 0%;
+    .lista{
+        font-size: 16px;
     }
     #tituloProblemática{
-        padding-left: 2.5%;
         padding-top: 15%;
         color: #F8BAAB;
         font-size: 32px;
@@ -231,7 +219,6 @@ h1, h2{
     #descProblemáticaCompu{
         margin-bottom: 0%;
         font-size: 18px;
-        padding-left: 1.6%;
         margin-bottom: 0%;
         display: block;
     }
@@ -242,7 +229,6 @@ h1, h2{
         display: none;
     }
     #tituloSolución{
-        padding-left: 2.5%;
         padding-top: 15%;
         color: #F8BAAB;
         font-size: 32px;
@@ -257,12 +243,6 @@ h1, h2{
 @media (max-width: 350px) {
     #tituloRol{
         padding-top: 2%;
-        padding-left: 13%;
-    }
-    #descRol{
-        padding-left: 13%;
-    }
-    #descRol2{
         padding-left: 13%;
     }
     #tituloProblemática{

@@ -6,6 +6,9 @@ body{
 h1, h2{
     font-family: 'Source Serif Pro', serif;
 }
+h2{
+    font-style: italic;
+}
 /*Sección Navbar*/
 #logo{
     max-width: 20%;
@@ -177,29 +180,10 @@ h1, h2{
     font-size: 28px;
     letter-spacing: 2px;
 }
-
-#subrayado{
-    background-color: #931941;
-    width: 30%;
-    margin-left: 35%;
-    padding-top: 0;
-    padding-bottom: 1%;
-    height: 1%;
-   
-}
-
 @media (min-width: 960px) {
     #tituloPortafolio{
         font-size: 35px;
         padding-top: 30%;
-    }
-    #subrayado{
-        background-color: #931941;
-        width: 14%;
-        margin-left: 43%;
-        padding-top: 0;
-        padding-bottom: 5px;
-
     }
 }
 
@@ -218,15 +202,12 @@ h1, h2{
 
 
 /*Sección Proyecto Red Social*/
-#colorFondoProyectos{
+.colorFondoProyecto{
     background-color: #FEEFEC;
     margin-top: 18%;
-    height: 57000%;
-    width: 100%;
-    position: absolute;
 }
 #nombreProyectoRedSocial{
-    padding-top: 70%;
+    margin-top: -30%;
     padding-left: 15%;
 }
 #fotoPrototipoRedSocialCompu{
@@ -243,12 +224,11 @@ h1, h2{
     padding-top: 24%;
 }
 @media (min-width: 960px) {
-    #colorFondoProyectos{
+    .colorFondoProyecto{
         margin-top: 11.5%;
-        height: 700px;
     }
     #nombreProyectoRedSocial{
-        padding-top: 29%;
+        margin-top: -9%;
         font-size: 50px;
     }
     #fotoPrototipoRedSocialCompu{
@@ -284,10 +264,6 @@ h1, h2{
         padding-top: 3%;
         padding-left: 10%;
     }
-    #grupoListaProcesosRedSocial{
-        font-size: 16px;
-        padding-left: 10%;
-    }
 }
 
 @media (max-width: 350px) {
@@ -298,8 +274,16 @@ h1, h2{
 }
 
 
-
-
+/*Generales*/
+.subrayado{
+    background-color: #931941;
+    width: 30%;
+    margin-left: 35%;
+    padding-top: 0;
+    padding-bottom: 1%;
+    height: 1%;
+   
+}
 .leerMas{
     font-size: 16px;
     background-color: #931941;
@@ -324,6 +308,11 @@ h1, h2{
     line-height: 2.7;
 }
 @media (min-width: 960px) {
+    .subrayado{
+        width: 14%;
+        margin-left: 43%;
+        padding-bottom: 5px;
+    }
     .leerMas{
         font-size: 22px;
         margin-top: 20%;

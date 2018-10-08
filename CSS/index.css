@@ -126,6 +126,7 @@ h2{
     border: none;
     margin-left: 4.5%;
     margin-top: 8%;
+    margin-bottom: 35%
 
 }
 #ux{
@@ -141,6 +142,7 @@ h2{
 @media (min-width: 960px) {
     #saludoBienvenida{
         margin-left: 1.5%;
+        margin-bottom: 30%
     }
     #parrafo{
         font-size: 26px;
@@ -152,6 +154,9 @@ h2{
 }
 
 @media (max-width: 350px) {
+    #saludoBienvenida{
+        margin-bottom: 15%
+    }
     #ux{
         font-size: 18px;
     }
@@ -170,7 +175,6 @@ h2{
 #tituloSeccionP{
     font-weight: 300;
     text-align: center;
-    padding-top: 50%; 
     margin-bottom: 0%; 
     font-size: 28px;
     letter-spacing: 2px;
@@ -192,7 +196,6 @@ h2{
     }
     #tituloSeccionP{
         font-size: 35px;
-        padding-top: 30%;
     }
 }
 
@@ -327,11 +330,19 @@ h2{
 
 
 
-
-
-
-
-
+#ultimoProyecto{
+    margin-bottom: 50%;
+}
+@media (min-width: 960px) {
+    #ultimoProyecto{
+        margin-bottom: 20%;
+    }
+}
+@media (max-width: 350px) {
+    #ultimoProyecto{
+        margin-bottom: 40%;
+    }
+}
 
 
 
@@ -341,20 +352,17 @@ h2{
 #tituloSobreMi{
     font-weight: 300;
     text-align: center;
-    padding-top: 50%;  
     margin-bottom: 0%;
     font-size: 28px;
 }
 @media (min-width: 960px) {
     #tituloSobreMi{
         font-size: 35px;
-        padding-top: 23%;
     }
 }
 @media (max-width: 350px) {
     #tituloSobreMi{
         font-size: 20px;
-        padding-top: 40%; 
     }
 }
 

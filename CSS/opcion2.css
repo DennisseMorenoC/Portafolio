@@ -132,8 +132,12 @@ h1, h2{
     padding-top: 3%;
     margin-top: 0%;
 }
-#fotoPrototipoComercioD{
-    width: 100%;
+.fotoPrototipoCompu{
+    display: none;
+}
+.fotoPrototipoCelu{
+    width: 105%;
+    margin-left: 0%;
 }
 
 @media (min-width: 960px) {
@@ -148,9 +152,14 @@ h1, h2{
         padding-bottom: 0.5%;
         padding-top: 0.5%;
     }
-    #fotoPrototipoComercioD{
-        margin-top: 11%;
+    .fotoPrototipoCompu{
         width: 80%;
+        padding-top: 20%;
+        margin-left: 20%;
+        display: inherit;
+    }
+    .fotoPrototipoCelu{
+        display: none;
     }
 }
 @media (max-width: 350px) {
@@ -164,12 +173,14 @@ h1, h2{
         margin-left: 8%;
         width: 80%;
     }
-
+    .fotoPrototipoCelu{
+        width: 115%;
+    }
 }
 
 #tituloRol{
     padding-top: 15%;
-    font-size: 18px;
+    font-size: 22px;
     color: #F8BAAB;
     margin-bottom: 1%;
 }
@@ -180,25 +191,26 @@ h1, h2{
 }
 #tituloProblemática{
     padding-top: 15%;
-    font-size: 18px;
+    font-size: 22px;
     color: #F8BAAB;
     margin-bottom: 1%;
 }
-#descProblemáticaCompu{
-    display: none;
+#descProblemática{
+    font-size: 14px;
 }
-#descProblemáticaCelu2{
-    margin-bottom: 0%;
-}
+
 #tituloSolución{
-    padding-top: 40%;
-    font-size: 18px;
+    padding-top: 15%;
+    font-size: 22px;
     color: #F8BAAB;
     margin-bottom: 2%;
 }
-#descSolución{
-    padding-left: 3%;
+#descSoluciónCelu{
     margin-bottom: 0%;
+    font-size: 14px;
+}
+#descSoluciónCompu{
+    display: none;
 }
 @media (min-width: 960px) {
     #tituloRol{
@@ -216,17 +228,11 @@ h1, h2{
         font-size: 32px;
         margin-bottom: 4%;
     }
-    #descProblemáticaCompu{
+    #descProblemática{
         margin-bottom: 0%;
         font-size: 18px;
         margin-bottom: 0%;
         display: block;
-    }
-    #descProblemáticaCelu{
-        display: none;
-    }
-    #descProblemáticaCelu2{
-        display: none;
     }
     #tituloSolución{
         padding-top: 15%;
@@ -234,10 +240,13 @@ h1, h2{
         font-size: 32px;
         margin-bottom: 4%;
     }
-    #descSolución{
+    #descSoluciónCompu{
         font-size: 18px;
-        padding-left: 1.6%;
         margin-bottom: 0%;
+        display: inherit;
+    }
+    #descSoluciónCelu{
+    display: none;
     }
 }
 @media (max-width: 350px) {

@@ -123,7 +123,7 @@ h2{
 
 #saludoBienvenida{
     background-color: #931941;
-    border: 10px solid white;
+    border: none;
     margin-left: 4.5%;
     margin-top: 8%;
 
@@ -244,13 +244,14 @@ h2{
     font-size: 16px;
     background-color: #931941;
     color: white;
-    border: 5px solid white;
+    border: none;
     padding: 3% 14%;
     margin-top: 8%;
     margin-left: 15%;
 }
 .leerMas:hover{
-    box-shadow: 10px 10px 10px 0px rgba(0,0,0,0.24);
+    background-color: #F8BAAB;
+    color: #931941;
 }
 
 @media (min-width: 960px) {
@@ -294,7 +295,7 @@ h2{
         margin-top: 25%;
         padding: 1.5% 12%;
         margin-left: 25%;
-        border: 7px solid white;
+        border: none;
     }
 }
 
@@ -347,7 +348,7 @@ h2{
 @media (min-width: 960px) {
     #tituloSobreMi{
         font-size: 35px;
-        padding-top: 30%;
+        padding-top: 23%;
     }
 }
 @media (max-width: 350px) {
@@ -397,6 +398,10 @@ h2{
     margin-left: 25%;
     border: none;
 }
+#botonVerCv:hover{
+    background-color: #F8BAAB;
+    color: #931941;
+}
 #textoVerMedium{
     font-size: 16px;
     margin-top: 10%;
@@ -406,10 +411,14 @@ h2{
     font-size: 16px;
     background-color: #931941;
     color: white;
-    padding: 3% 11%;
+    padding: 3% 10%;
     margin-top: 0%;
     margin-left: 25%;
     border: none;
+}
+#botonVerMedium:hover{
+    background-color: #F8BAAB;
+    color: #931941;
 }
 @media (min-width: 960px) {
     #fotoPerfil{
@@ -431,11 +440,11 @@ h2{
     }
     #textoVerCv{
         font-size: 22px;
-        margin-top: -40%;   
+        margin-top: -46%;   
     }
     #botonVerCv{
         font-size: 22px;
-        padding: 1.5% 10%;
+        padding: 1.5% 12%;
         margin-left: 25%;
     }
     #textoVerMedium{
@@ -444,7 +453,7 @@ h2{
     }
     #botonVerMedium{
         font-size: 22px;
-        padding: 1.5% 6%;
+        padding: 1.5% 7%;
         margin-left: 25%;
     }
 

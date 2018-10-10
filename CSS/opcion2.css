@@ -305,26 +305,32 @@ h1, h2{
 
 #colorFondoSeccion{
     background-color: #FEEFEC;
-    margin-top: 18%;
+    margin-top: 25%;
     padding-bottom: 5%;
 }
 #tituloResearch{
-    padding-top: 40%;
-    font-size: 22px;
+    margin-top: -4%;
+    font-size: 24px;
     color: #F8BAAB;
-    margin-bottom: 1%;
+    margin-bottom: 15%;
 }
 #personaJoyeriaImagen{
     width: 100%;
-
 }
 #parrafoInterviews{
     font-size: 14px;
     margin-left: 0%;
-    padding-top: 4%;
+    padding-top: 7%;
+}
+#parrafoInterviews2{
+    font-size: 14px;
+    margin-left: 0%;
+    padding-top: 2%;
 }
 #resaltar{
-    font-weight: 700;
+    background-color: #F8BAAB;
+    padding-right: 1.5%;
+    padding-bottom: 1%;
 }
 #journeJyoyeriaImagen{
     width: 100%;
@@ -343,22 +349,22 @@ h1, h2{
 }
 @media (min-width: 960px) {
     #colorFondoSeccion{
-        margin-top: 11.5%;
+        margin-top: 12%;
         padding-bottom: 2%;
     }
     #tituloResearch{
-        padding-top: 10%;
-        font-size: 32px;
-        margin-bottom: 0%;
-    }
-    #personaJoyeriaImagen{
-        margin-left: 0%;
-        padding-top: 1%;
+        margin-top: -2%;
+        font-size: 35px;
+        margin-bottom: 7%;
     }
     #parrafoInterviews{
         font-size: 18px;
         margin-left: 5%;
-        margin-top: -4%;
+        padding-top: 0%;
+    }
+    #parrafoInterviews2{
+        font-size: 18px;
+        margin-left: 5%;
     }
     #journeJyoyeriaImagen{
         margin-left: -1.5%;

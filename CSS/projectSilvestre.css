@@ -16,19 +16,27 @@ h1, h2, h3{
         margin-right: 20%;
     }
 }
-#portafolio{
+#menuPort{
     color: #363636;
     font-size: 18px;
 }
-#portafolio:hover{
+#menuPort:hover{
     color: #931941;
     font-weight: 700;
 }
-#sobreMi{
+#menuMi{
     color: #363636;
     font-size: 18px;
 }
-#sobreMi:hover{
+#menuMi:hover{
+    color: #931941;
+    font-weight: 700;
+}
+#menuContacto{
+    color: #363636;
+    font-size: 18px;
+}
+#menuContacto:hover{
     color: #931941;
     font-weight: 700;
 }
@@ -75,13 +83,13 @@ h1, h2, h3{
     #nombrecol{
         text-align: center;
     }
-    #nombre{
-        font-size: 40px;
-    }
-    #portafolio{
+    #menuPort{
         font-size: 20px;
     }
-    #sobreMi{
+    #menuMi{
+        font-size: 20px;
+    }
+    #menuContacto{
         font-size: 20px;
     }
     .navbar-expand-lg .navbar-nav .nav-link {
@@ -90,8 +98,8 @@ h1, h2, h3{
     #colorFondo{
         background-color: #FEEFEC;
         height: 30%;
-        width: 50%;
-        margin-left: 50%;
+        width: 55%;
+        margin-left: 45%;
     } 
 }
 @media (max-width: 350px) {

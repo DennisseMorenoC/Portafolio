@@ -3,7 +3,7 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
-h1, h2{
+h1, h2, h3{
     font-family: 'Source Serif Pro', serif;
     font-style: italic;
 }
@@ -359,7 +359,7 @@ h1, h2{
 }
 @media (min-width: 960px) {
     #colorFondoSeccion{
-        margin-top: 12%;
+        margin-top: 15%;
         padding-bottom: 5%;
     }
     #tituloResearch{
@@ -391,13 +391,6 @@ h1, h2{
     }
 }
 
-@media (max-width: 350px) {
-    #tituloResearch{
-        margin-top: 1%;
-    }
-
-}
-
 
 
 
@@ -413,6 +406,12 @@ h1, h2{
 #fotoPrototipoBF2{
     margin-top: 5%;
 }
+#fotoPrototipoBF1:hover{
+    opacity: 0.7;
+}
+#fotoPrototipoBF2:hover{
+    opacity: 0.7;
+}
 #parrafoPrototipoBF{
     font-size: 14px;
     margin-left: 0%;
@@ -423,17 +422,13 @@ h1, h2{
     margin-left: 0%;
 }
 #verTest{
-    font-size: 16px;
+    font-size: 18px;
     margin-left: 0%;
-    padding-top: 6%;
-}
-
-#verTesteoSilvestre:hover{
-    
+    padding-top: 10%;
 }
 @media (min-width: 960px) {
     #tituloIdeación{
-        margin-top: 40%;
+        margin-top: 50%;
         font-size: 32px;
         margin-bottom: 15%;
     }
@@ -442,7 +437,7 @@ h1, h2{
     }
     #parrafoPrototipoBF{
         font-size: 18px;
-        margin-top: 10%;
+        margin-top: 15%;
         margin-bottom: 0%;
     }
     #parrafoPrototipoBF2{
@@ -450,8 +445,9 @@ h1, h2{
         margin-top: 1%;
     }
     #verTest{
-        font-size: 20px;
-        margin-top: 2%;
+        font-size: 28px;
+        margin-top: 5%;
+        padding-bottom: 3%;
     }
 }
 @media (max-width: 350px) {
@@ -465,81 +461,65 @@ h1, h2{
 
 /*Parte4*/
 
-#colorFondoParte4{
-    background-color: #FEEFEC;
-    margin-top: 35%;
-    height: 205%;
-    width: 100%;
-    position: absolute;
-}
 #tituloCreación{
-    padding-top: 40%;
     font-size: 22px;
     color: #F8BAAB;
-    margin-bottom: 1%;
+    margin-bottom: 25%;
+    margin-top: -14%;
+}
+#tituloVerPrototipoFinal{
+    font-size: 18px;
+    padding-top: 1%;
 }
 #flujoJSilvestre{
-    width: 100%;
+    margin-top: 5%;
+}
+#flujoJSilvestre:hover{
+    opacity: 0.7;
 }
 #parrafoPrototipoAF{
     font-size: 14px;
     margin-left: 0%;
     padding-top: 7%;
 }
+#parrafoPrototipoAF2{
+    font-size: 14px;
+}
 #creaciónPrototipoAF{
     width: 100%;
 }
-#tituloVerPrototipoFinal{
-    font-size: 16px;
-    margin-left: 0%;
-    padding-top: 10%;
-}
-#verPrototipoFinal{
-    font-size: 16px;
-    background-color: #931941;
-    color: white;
-    border: none;
-    margin-top: 3%;
-    padding-top: 2%;
-    padding-bottom: 2%;
-    padding-left: 5%;
-    padding-right: 35%;
-    float: right;
 
-}
-#verPrototipoFinal:hover{
-    box-shadow: 10px 10px 10px 0px rgba(0,0,0,0.24);
-}
+
 @media (min-width: 960px) {
     #colorFondoParte4{
         margin-top: 20%;
         height: 180%;
     }
     #tituloCreación{
-        padding-top: 10%;
         font-size: 32px;
-        margin-bottom: 0%;
+        margin-top: -6%;
+        margin-bottom: 15%;
+    }
+    #tituloVerPrototipoFinal{
+        font-size: 26px;
+        padding-top: 5%;
+    }
+    .prototipoAlta{
+        margin-top: 5%;
     }
     #parrafoPrototipoAF{
         font-size: 18px;
-        margin-top: 0%;
-        margin-bottom: 0%;
-        padding-top: 0%;
+        margin-top: 9%;
+    }
+    #parrafoPrototipoAF2{
+        font-size: 18px;
     }
     #creaciónPrototipoAF{
         padding-top: 10%;
     }
-    #tituloVerPrototipoFinal{
-        font-size: 20px;
-        padding-top: 5%;
-        margin-left: 0%;
-    }
-    #verPrototipoFinal{
-        font-size: 24px;
-        padding-top: 0.5%;
-        padding-bottom: 0.5%;
-        padding-left: 3%;
-        padding-right: 50%;
+
+    #flujoJSilvestre{
+        margin-top: 7%;
     }
 }
 
@@ -559,57 +539,51 @@ h1, h2{
 
 /*Parte Leer*/
 #tituloLeerMedium{
-    padding-left: 11%;
-    padding-top: 90%;
+    margin-top: 25%;
     font-size: 16px;
     color: #F8BAAB;
     margin-bottom: 1%;
 }
-#verMedium{
+.leerMas{
     font-size: 16px;
     background-color: #931941;
     color: white;
     border: none;
-    margin-top: 67%;
-    padding-top: 2%;
-    padding-bottom: 2%;
-    padding-left: 5%;
-    padding-right: 57%;
-    float: right;
+    padding: 3% 14%;
+    margin-top: 30%;
 }
-#verMedium:hover{
-    box-shadow: 10px 10px 10px 0px rgba(0,0,0,0.24);
+.leerMas:hover{
+    background-color: #F8BAAB;
+    color: #931941;
 }
 @media (min-width: 960px) {
     #tituloLeerMedium{
         padding-left: 2.5%;
-        padding-top: 50%;
+        margin-top: 25%;
         color: #F8BAAB;
         font-size: 32px;
         margin-bottom: 4%;
     }
-    #verMedium{
-        font-size: 24px;
-        padding-top: 0.5%;
-        padding-bottom: 0.5%;
-        padding-left: 3%;
-        padding-right: 80%;
-        margin-top: 26%;
+    .leerMas{
+        font-size: 22px;
+        margin-top: 27%;
+        padding: 1.5% 12%;
+        border: none;
+        margin-left: 20%;
     }
 }
 @media (max-width: 350px) {
     #tituloLeerMedium{
         padding-left: 13%;
     }
-    #verMedium{
-        margin-top: 73%;
-        padding-right: 50%;
+    .leerMas{
+        margin-top: 5%;
     }
 }
 
 
 #parteLeer{
-    padding-bottom: 20%;
+    padding-bottom: 10%;
 }
 
 @media (min-width: 960px) {

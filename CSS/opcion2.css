@@ -132,12 +132,11 @@ h1, h2, h3{
     padding-top: 3%;
     margin-top: 0%;
 }
-.fotoPrototipoCompu{
+#fotoPrototipoCompu{
     display: none;
 }
-.fotoPrototipoCelu{
-    width: 90%;
-    margin-left: 0%;
+#fotoPrototipoCelu{
+    margin-left: 8%;
 }
 
 @media (min-width: 960px) {
@@ -152,13 +151,13 @@ h1, h2, h3{
         padding-bottom: 0.5%;
         padding-top: 0.5%;
     }
-    .fotoPrototipoCompu{
+    #fotoPrototipoCompu{
         width: 80%;
         padding-top: 20%;
         margin-left: 20%;
         display: inherit;
     }
-    .fotoPrototipoCelu{
+    #fotoPrototipoCelu{
         display: none;
     }
 }

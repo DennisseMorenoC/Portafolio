@@ -306,7 +306,7 @@ h1, h2{
 #colorFondoSeccion{
     background-color: #FEEFEC;
     margin-top: 25%;
-    padding-bottom: 5%;
+    padding-bottom: 7%;
 }
 #tituloResearch{
     margin-top: -4%;
@@ -314,8 +314,8 @@ h1, h2{
     color: #F8BAAB;
     margin-bottom: 15%;
 }
-#personaJoyeriaImagen{
-    width: 100%;
+#personaJoyeriaImagen:hover{
+    opacity: 0.7;
 }
 #parrafoInterviews{
     font-size: 14px;
@@ -332,25 +332,35 @@ h1, h2{
     padding-right: 1.5%;
     padding-bottom: 1%;
 }
-#journeJyoyeriaImagen{
-    width: 100%;
+#journeJoyeriaImagen{
     margin-left: -2%;
-    padding-top: 3%;
+    margin-top: 10%;
 }
-#imagenProceso1{
-    padding-top: 10%;
-    width: 92%;
-    padding-left: 0%;
+#journeJoyeriaImagen:hover{
+    opacity: 0.7;
 }
-#imagenProceso2{
-    padding-top: 10%;
-    width: 100%;
-    padding-right: 7%;
+.pieFoto{
+    font-size: 12px;
+    padding-top: 1%;
+    text-align: center;
+    color: #931941;
+}
+#imagenProcesoJ1{
+    margin-top: 20%;
+}
+#imagenProcesoJ1:hover{
+    opacity: 0.7;
+}
+#imagenProcesoJ2{
+    margin-top: 20%;
+}
+#imagenProcesoJ2:hover{
+    opacity: 0.7;
 }
 @media (min-width: 960px) {
     #colorFondoSeccion{
         margin-top: 12%;
-        padding-bottom: 2%;
+        padding-bottom: 5%;
     }
     #tituloResearch{
         margin-top: -2%;
@@ -366,19 +376,18 @@ h1, h2{
         font-size: 18px;
         margin-left: 5%;
     }
-    #journeJyoyeriaImagen{
+    #journeJoyeriaImagen{
         margin-left: -1.5%;
-        padding-top: 5%;
+        margin-top: 5%;
     }
-    #imagenProceso1{
-        width: 93%;
-        padding-top: 8%;
-        padding-left: 0.7%;
+    .pieFoto{
+        font-size: 14px;
     }
-    #imagenProceso2{
-        width: 100%;
-        padding-top: 8%;
-        padding-right: 5.5%;
+    #imagenProcesoJ1{
+        margin-top: 15%;
+    }
+    #imagenProcesoJ2{
+        margin-top: 15%;
     }
 }
 
@@ -386,10 +395,7 @@ h1, h2{
     #tituloResearch{
         margin-top: 1%;
     }
-    #colorFondoParte2{
-        margin-top: 20%;
-        height: 184%;
-    }
+
 }
 
 
@@ -398,16 +404,8 @@ h1, h2{
 
 
 /*Parte 3*/
-#colorFondoParte3{
-    background-color: #FEEFEC;
-    margin-top: 25.5%;
-    z-index: -1;
-    height: 170%;
-    width: 100%;
-    position: absolute;
-}
 #tituloIdeación{
-    padding-top: 40%;
+    margin-top: 60%;
     font-size: 22px;
     color: #F8BAAB;
     margin-bottom: 1%;
@@ -440,15 +438,11 @@ h1, h2{
     float: right;
 }
 #verTesteoSilvestre:hover{
-    box-shadow: 10px 10px 10px 0px rgba(0,0,0,0.24);
+    
 }
 @media (min-width: 960px) {
-    #colorFondoParte3{
-        margin-top: 20%;
-        height: 150%;
-    }
     #tituloIdeación{
-        padding-top: 10%;
+        padding-top: 40%;
         font-size: 32px;
         margin-bottom: 0%;
     }

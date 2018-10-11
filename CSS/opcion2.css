@@ -177,7 +177,7 @@ h1, h2, h3{
 
 #tituloRol{
     padding-top: 25%;
-    font-size: 22px;
+    font-size: 24px;
     color: #F8BAAB;
     margin-bottom: 1%;
 }
@@ -208,7 +208,7 @@ h1, h2, h3{
 }
 #tituloSoluciónCelu{
     padding-top: 10%;
-    font-size: 22px;
+    font-size: 24px;
     color: #F8BAAB;
     margin-bottom: 2%;
 }
@@ -225,7 +225,7 @@ h1, h2, h3{
 @media (min-width: 960px) {
     #tituloRol{
         padding-top: 25%;
-        font-size: 32px;
+        font-size: 34px;
         margin-bottom: 4%;
     }
     .grupoListaProcesos{
@@ -236,7 +236,7 @@ h1, h2, h3{
     }
     #tituloProblemática{
         padding-top: 15%;
-        font-size: 32px;
+        font-size: 34px;
         margin-bottom: 4%;
     }
     #descProblemáticaCompu{
@@ -253,7 +253,7 @@ h1, h2, h3{
     }
     #tituloSoluciónCompu{
         padding-top: 15%;
-        font-size: 32px;
+        font-size: 34px;
         margin-bottom: 4%;
         color: #F8BAAB;
         display: inherit;
@@ -361,7 +361,7 @@ h1, h2, h3{
     }
     #tituloResearch{
         margin-top: -2%;
-        font-size: 35px;
+        font-size: 34px;
         margin-bottom: 7%;
     }
     #parrafoInterviews{
@@ -387,6 +387,12 @@ h1, h2, h3{
         margin-top: 15%;
     }
 }
+@media (max-width: 350px) {
+    #tituloResearch{
+        margin-top: -5%;
+    }
+
+}
 
 
 
@@ -396,7 +402,7 @@ h1, h2, h3{
 /*Parte 3*/
 #tituloIdeación{
     margin-top: 80%;
-    font-size: 22px;
+    font-size: 24px;
     color: #F8BAAB;
     margin-bottom: 25%;
 }
@@ -426,7 +432,7 @@ h1, h2, h3{
 @media (min-width: 960px) {
     #tituloIdeación{
         margin-top: 50%;
-        font-size: 32px;
+        font-size: 34px;
         margin-bottom: 15%;
     }
     #fotoPrototipoBF2{
@@ -459,7 +465,7 @@ h1, h2, h3{
 /*Parte4*/
 
 #tituloCreación{
-    font-size: 22px;
+    font-size: 24px;
     color: #F8BAAB;
     margin-bottom: 25%;
     margin-top: -14%;
@@ -493,7 +499,7 @@ h1, h2, h3{
         height: 180%;
     }
     #tituloCreación{
-        font-size: 32px;
+        font-size: 34px;
         margin-top: -6%;
         margin-bottom: 15%;
     }
@@ -522,11 +528,8 @@ h1, h2, h3{
 
 @media (max-width: 350px) {
     #tituloCreación{
-        margin-top: 132%; 
         padding-left: 13%;
-    }
-    #colorFondoParte4{
-        height: 192%;
+        margin-top: -18%;
     }
 
 }

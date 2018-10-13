@@ -94,8 +94,8 @@ h1, h2, h3{
     #colorFondo{
         background-color: #FEEFEC;
         height: 30%;
-        width: 50%;
-        margin-left: 50%;
+        width: 55%;
+        margin-left: 45%;
     } 
 }
 
@@ -119,7 +119,7 @@ h1, h2, h3{
 
 /*Projecto*/
 
-#tituloComercio{
+#tituloTusFinanzas{
     font-size: 30px;
     font-weight: 300;
     margin-top: 30%;
@@ -140,16 +140,16 @@ h1, h2, h3{
 }
 
 @media (min-width: 960px) {
-    #tituloComercio{
-        padding-top: 20%;
+    #tituloTusFinanzas{
+        padding-top: 14%;
         margin-top: 4%; 
         font-size: 70px;
     }
     #subrayado{
         width: 70%;
         margin-left: 12%;
-        padding-bottom: 0.5%;
-        padding-top: 0.5%;
+        padding-bottom: 0.4%;
+        padding-top: 0.4%;
     }
     #fotoPrototipoCompu{
         width: 80%;
@@ -162,7 +162,7 @@ h1, h2, h3{
     }
 }
 @media (max-width: 350px) {
-    #tituloComercio{
+    #tituloTusFinanzas{
         font-size: 26px;
         margin-bottom: 0%;
     }
@@ -311,7 +311,7 @@ h1, h2, h3{
     color: #F8BAAB;
     margin-bottom: 15%;
 }
-#personaJoyeriaImagen:hover{
+#personaTusFinanzas:hover{
     opacity: 0.7;
 }
 #parrafoInterviews{
@@ -339,19 +339,18 @@ h1, h2, h3{
 .pieFoto{
     font-size: 12px;
     padding-top: 1%;
-    text-align: center;
     color: #931941;
 }
-#imagenProcesoJ1{
+#imagenProcesoF1{
     margin-top: 20%;
 }
-#imagenProcesoJ1:hover{
+#imagenProcesoF1:hover{
     opacity: 0.7;
 }
-#imagenProcesoJ2{
+#imagenProcesoF2{
     margin-top: 20%;
 }
-#imagenProcesoJ2:hover{
+#imagenProcesoF2:hover{
     opacity: 0.7;
 }
 @media (min-width: 960px) {
@@ -374,16 +373,16 @@ h1, h2, h3{
         margin-left: 5%;
     }
     #journeJoyeriaImagen{
-        margin-left: -1.5%;
+        margin-left: 0%;
         margin-top: 5%;
     }
     .pieFoto{
         font-size: 14px;
     }
-    #imagenProcesoJ1{
+    #imagenProcesoF1{
         margin-top: 15%;
     }
-    #imagenProcesoJ2{
+    #imagenProcesoF2{
         margin-top: 15%;
     }
 }

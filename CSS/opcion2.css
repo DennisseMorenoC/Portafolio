@@ -483,10 +483,10 @@ h1, h2, h3{
     font-size: 18px;
     padding-top: 1%;
 }
-#flujoJSilvestre{
+#landingFinanzas{
     margin-top: 5%;
 }
-#flujoJSilvestre:hover{
+#landingFinanzas:hover{
     opacity: 0.7;
 }
 #parrafoPrototipoAF{
@@ -529,9 +529,8 @@ h1, h2, h3{
     #creaciónPrototipoAF{
         padding-top: 10%;
     }
-
-    #flujoJSilvestre{
-        margin-top: 7%;
+    #landingFinanzas{
+        margin-top: 5%;
     }
 }
 

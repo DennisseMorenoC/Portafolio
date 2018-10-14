@@ -191,14 +191,13 @@ h1, h2, h3{
     font-size: 14px;
 }
 #tituloProblemática{
-    padding-top: 35%;
+    padding-top: 30%;
     font-size: 22px;
     color: #F8BAAB;
-    margin-bottom: 1%;
+    margin-bottom: 3%;
 }
 #descProblemáticaCelu{
     font-size: 14px;
-    padding-top: 10%;
 }
 #descProblemáticaCelu2{
     font-size: 14px;
@@ -272,7 +271,7 @@ h1, h2, h3{
 }
 @media (max-width: 350px) {
     #tituloRol{
-        padding-top: 25%;
+        padding-top: 20%;
     }
     #tituloProblemática{
         padding-top: 25%;
@@ -565,13 +564,12 @@ h1, h2, h3{
     }
 }
 @media (max-width: 350px) {
-    #tituloLeerMedium{
-        padding-left: 13%;
-    }
     .leerMas{
-        margin-top: 5%;
+        margin-top: 40%;
     }
 }
+
+
 #parteLeer{
     padding-bottom: 10%;
 }

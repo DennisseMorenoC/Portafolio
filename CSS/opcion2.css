@@ -128,8 +128,8 @@ h1, h2, h3{
 #subrayado{
     background-color: #931941;
     width: 70%;
-    margin-left: 10%;
-    padding-top: 3%;
+    margin-left: 8%;
+    padding-top: 2%;
     margin-top: 0%;
 }
 #fotoPrototipoCompu{
@@ -146,8 +146,8 @@ h1, h2, h3{
         font-size: 70px;
     }
     #subrayado{
-        width: 70%;
-        margin-left: 12%;
+        width: 30%;
+        margin-left: 6%;
         padding-bottom: 0.4%;
         padding-top: 0.4%;
     }
@@ -191,14 +191,13 @@ h1, h2, h3{
 
 }
 #tituloProblemática{
-    padding-top: 35%;
+    padding-top: 30%;
     font-size: 22px;
     color: #F8BAAB;
-    margin-bottom: 1%;
+    margin-bottom: 3%;
 }
 #descProblemáticaCelu{
     font-size: 14px;
-    padding-top: 10%;
 }
 #descProblemáticaCelu2{
     font-size: 14px;

@@ -1,4 +1,4 @@
-bbody{
+body{
     color: #363636;
     font-family: 'Roboto', sans-serif;
 }
@@ -113,156 +113,134 @@ h1, h2, h3{
 
 
 
+
+
+
+
 /*Projecto*/
 
-#nombreProyectoRedSocial{
-    font-size: 20px;
-    font-family: 'Source Serif Pro', serif;
-    padding-left: 5%;
-    padding-top: 5%;
-}
-#titulo4Edu{
+#tituloTusFinanzas{
     font-size: 30px;
     font-weight: 300;
-    padding-left: 9%;
+    margin-top: 30%;
     margin-bottom: 0%;
-    margin-top: 12%;
 }
 #subrayado{
     background-color: #931941;
-    width: 42%;
-    margin-left: 7%;
-    padding-bottom: 0.8%;
-    margin-top: 12%;
-    position: absolute;
-}
-#fotoPrototipoRedSocial{
-    width: 100%;
-    padding-left: 5%;
+    width: 70%;
     margin-left: 8%;
-    margin-top: 5%;
-    position: absolute;
+    padding-top: 2%;
+    margin-top: 0%;
 }
+#fotoPrototipoCompu{
+    display: none;
+}
+#fotoPrototipoCelu{
+    margin-left: 8%;
+}
+
 @media (min-width: 960px) {
-    #nombreProyectoRedSocial{
-        font-size: 35px;
-        padding-top: 30%;
-        padding-left: 2%;
-        text-align: left;
-    }
-    #titulo4Edu{
+    #tituloTusFinanzas{
+        padding-top: 14%;
+        margin-top: 4%; 
         font-size: 70px;
-        padding-top: 8%;
-        padding-left: 1.5%;
-        text-align: left;
-        margin-top: 4%;
     }
     #subrayado{
-        width: 42.5%;
-        margin-left: 2%;
-        padding-top: 0;
-        padding-bottom: 0.3%;
-        margin-top: 11.5%;
+        width: 30%;
+        margin-left: 6%;
+        padding-bottom: 0.4%;
+        padding-top: 0.4%;
     }
-    #fotoPrototipoRedSocial{
-        margin-top: 11%;
+    #fotoPrototipoCompu{
         width: 80%;
+        padding-top: 20%;
         margin-left: 20%;
+        display: inherit;
+    }
+    #fotoPrototipoCelu{
+        display: none;
     }
 }
 @media (max-width: 350px) {
-    #nombreProyectoRedSocial{
-        font-size: 17px;
-        padding-left: 6%;
-        margin-top: 14%;
-    }
-    #titulo4Edu{
+    #tituloTusFinanzas{
         font-size: 26px;
-        padding-left: 8%;
+        margin-bottom: 0%;
     }
     #subrayado{
-        padding-bottom: 0.7%;
-        margin-top: 12%;
+        padding-top: 2.5%;
+        margin-top: 1%;
         margin-left: 8%;
-        width: 42%;
+        width: 80%;
     }
+
 }
 
 #tituloRol{
-    padding-left: 11%;
-    padding-top: 40%;
-    font-size: 16px;
+    padding-top: 25%;
+    font-size: 24px;
     color: #F8BAAB;
     margin-bottom: 1%;
 }
-#descRol{
-    padding-left: 12%;
-    margin-bottom: 0%;
+.grupoListaProcesos{
+    margin-top: 10%;
 }
-#descRol2{
-    padding-left: 12%;
-    margin-bottom: 0%;
+.lista{
+    background-color: #FEEFEC;
+    line-height: 2.7;
+    font-size: 14px;
+
 }
 #tituloProblemática{
-    padding-left: 11%;
     padding-top: 30%;
-    font-size: 16px;
+    font-size: 22px;
     color: #F8BAAB;
-    margin-bottom: 1%;
+    margin-bottom: 3%;
+}
+#descProblemáticaCelu{
+    font-size: 14px;
+}
+#descProblemáticaCelu2{
+    font-size: 14px;
 }
 #descProblemáticaCompu{
     display: none;
 }
-#descProblemáticaCelu{
-    padding-left: 6%;
-    margin-bottom: 0%;
-}
-#descProblemáticaCelu2{
-    padding-left: 3.3%;
-    margin-bottom: 0%;
-}
-#tituloSolución{
-    padding-left: 11%;
-    padding-top: 40%;
-    font-size: 16px;
+#tituloSoluciónCelu{
+    padding-top: 10%;
+    font-size: 24px;
     color: #F8BAAB;
     margin-bottom: 2%;
 }
-#descSolución{
-    padding-left: 3%;
+#tituloSoluciónCompu{
+    display: none;
+}
+#descSoluciónCelu{
     margin-bottom: 0%;
+    font-size: 14px;
+}
+#descSoluciónCompu{
+    display: none;
 }
 @media (min-width: 960px) {
     #tituloRol{
-        padding-left: 2.5%;
         padding-top: 25%;
-        color: #F8BAAB;
-        font-size: 32px;
+        font-size: 34px;
         margin-bottom: 4%;
     }
-    #descRol{
-        font-size: 18px;
-        padding-left: 2.5%;
-        padding-top: 2%;
-        margin-bottom: 0%;
+    .grupoListaProcesos{
+        margin-top: 0%;
     }
-    #descRol2{
-        font-size: 18px;
-        padding-left: 2.4%;
-        margin-bottom: 0%
+    .lista{
+        font-size: 16px;
     }
     #tituloProblemática{
-        padding-left: 2.5%;
         padding-top: 15%;
-        color: #F8BAAB;
-        font-size: 32px;
+        font-size: 34px;
         margin-bottom: 4%;
     }
     #descProblemáticaCompu{
-        color: #363636;
         margin-bottom: 0%;
         font-size: 18px;
-        padding-left: 1.6%;
         margin-bottom: 0%;
         display: block;
     }
@@ -272,45 +250,47 @@ h1, h2, h3{
     #descProblemáticaCelu2{
         display: none;
     }
-    #tituloSolución{
-        padding-left: 2.15%;
+    #tituloSoluciónCompu{
         padding-top: 15%;
-        color: #F8BAAB;
-        font-size: 32px;
+        font-size: 34px;
         margin-bottom: 4%;
+        color: #F8BAAB;
+        display: inherit;
     }
-    #descSolución{
+    #tituloSoluciónCelu{
+        display: none;
+    }
+    #descSoluciónCompu{
         font-size: 18px;
-        padding-left: 1.6%;
         margin-bottom: 0%;
+        display: inherit;
     }
+    #descSoluciónCelu{
+    display: none;
+    }
+    
 }
 @media (max-width: 350px) {
     #tituloRol{
-        padding-top: 10%;
-        padding-left: 13%;
-    }
-    #descRol{
-        padding-left: 13%;
-    }
-    #descRol2{
-        padding-left: 13%;
+        padding-top: 25%;
     }
     #tituloProblemática{
-        padding-left: 13%;
+        padding-top: 25%;
     }
-    #descProblemática{
-        padding-left: 7%;
+    .grupoListaProcesos{
+        margin-top: 5%;
+    }
+    .lista{
+        font-size: 12px;
+    }
+    #descProblemáticaCelu{
+        padding-top: 5%;
     }
     #tituloSolución{
         padding-top: 40%;
-        padding-left: 13%;
     }
-    #descSolución{
-        padding-left: 4%;
-    }
-}
 
+}
 
 
 
@@ -319,315 +299,311 @@ h1, h2, h3{
 
 /*Sección2*/
 
-#tituloProcesos{
-    padding-left: 11%;
-    padding-top: 40%;
-    font-size: 16px;
-    color: #F8BAAB;
-    margin-bottom: 1%;
-}
-#colorFondoParte2{
+#colorFondoSeccion{
     background-color: #FEEFEC;
-    margin-top: 20%;
-    z-index: -1;
-    height: 140%;
-    width: 100%;
-    position: absolute;
-
+    margin-top: 25%;
+    padding-bottom: 7%;
 }
 #tituloResearch{
-    font-size: 16px;
-    float: right;
-    margin-top: 2%;
+    margin-top: -4%;
+    font-size: 24px;
+    color: #F8BAAB;
+    margin-bottom: 15%;
 }
-#diagramaFlujo4edu{
-    width: 100%;
+#benchmark4edu:hover{
+    opacity: 0.7;
 }
 #parrafoInterviews{
     font-size: 14px;
     margin-left: 0%;
-    padding-top: 4%;
+    padding-top: 7%;
 }
-#escucharEntrevista{
+#parrafoInterviews2{
     font-size: 14px;
     margin-left: 0%;
-    padding-top: 1%;
+    padding-top: 2%;
 }
-#botonEscucharEntrevista{
+#resaltar{
+    background-color: #F8BAAB;
+    padding-right: 1.5%;
+    padding-bottom: 1%;
+}
+#journeJoyeriaImagen{
+    margin-left: -2%;
+    margin-top: 10%;
+}
+#journeJoyeriaImagen:hover{
+    opacity: 0.7;
+}
+.pieFoto{
+    font-size: 12px;
+    padding-top: 1%;
+    color: #931941;
+}
+#imagenProcesoF1{
+    margin-top: 5%;
+}
+#imagenProcesoF1:hover{
+    opacity: 0.7;
+}
+#escuchar{
+    font-size: 18px;
+    margin-left: 0%;
+    margin-top: 10%;
+}
+#audio{
     font-size: 16px;
     background-color: #931941;
     color: white;
     border: none;
-    padding-top: 2%;
-    padding-bottom: 2%;
-    padding-left: 5%;
-    padding-right: 45%;
-    float: right;
+    padding: 3% 14%;
+    margin-top: 5%;
 }
-#botonEscucharEntrevista:hover{
-    box-shadow: 10px 10px 10px 0px rgba(0,0,0,0.24);
+#audio:hover{
+    background-color: #F8BAAB;
+    color: #931941;
 }
 @media (min-width: 960px) {
-    #tituloProcesos{
-        padding-left: 2.5%;
-        padding-top: 60%;
-        color: #F8BAAB;
-        font-size: 32px;
-        margin-bottom: 0%;
-    }
-    #colorFondoParte2{
-        margin-top: 24%;
-        height: 130%;
+    #colorFondoSeccion{
+        margin-top: 15%;
+        padding-bottom: 5%;
     }
     #tituloResearch{
-        font-size: 30px;
-        padding-top: 2%;
-    }
-    #diagramaFlujo4edu{
-        margin-left: 0%;
-        padding-top: 1%;
+        margin-top: -2%;
+        font-size: 34px;
+        margin-bottom: 7%;
     }
     #parrafoInterviews{
         font-size: 18px;
         margin-left: 5%;
-        margin-top: -4%;
+        padding-top: 0%;
     }
-    #escucharEntrevista{
+    #parrafoInterviews2{
         font-size: 18px;
-        padding-top: 2%;
-        margin-left: 0%;
+        margin-left: 5%;
     }
-    #botonEscucharEntrevista{
-        font-size: 24px;
-        padding-top: 0.5%;
-        padding-bottom: 0.5%;
-        padding-left: 3%;
-        padding-right: 50%;
+    #journeJoyeriaImagen{
+        margin-left: 0%;
+        margin-top: 5%;
+    }
+    .pieFoto{
+        font-size: 14px;
+    }
+    #imagenProcesoF1{
+        margin-top: 15%;
+    }
+    #escuchar{
+        font-size: 28px;
+        padding-bottom: 3%;
+        margin-top: 14%;
+    }
+    #audio{
+        font-size: 22px;
+        margin-top: 10%;
+        padding: 1.5% 12%;
+        margin-left: 20%;
     }
 }
-@media (min-width: 420px) {
-    #colorFondoParte2{
-        height: 145%;
+@media (max-width: 350px) {
+    #tituloResearch{
+        margin-top: -5%;
     }
+
 }
 
-@media (max-width: 350px) {
-    #tituloProcesos{
-        padding-left: 13%;
-    }
-    #tituloResearch{
-        margin-top: 1%;
-    }
-    #colorFondoParte2{
-        margin-top: 20%;
-        height: 150%;
-    }
-}
-@media (max-width: 280px) {
-    #colorFondoParte2{
-        height: 153%;
-    }
-}
+
+
+
 
 
 /*Parte 3*/
-#colorFondoParte3{
-    background-color: #FEEFEC;
-    margin-top: 25.5%;
-    z-index: -1;
-    height: 170%;
-    width: 100%;
-    position: absolute;
-}
 #tituloIdeación{
-    font-size: 16px;
-    padding-left: 11%;
-    margin-top: 90%;
+    margin-top: 80%;
+    font-size: 24px;
+    color: #F8BAAB;
+    margin-bottom: 30%;
 }
-#fotoPrototipoBF{
-    width: 100%;
+#fotoPrototipoBF2{
+    margin-top: 7%;
 }
-#fotoPrototipoMF{
-    width: 100%;
+#fotoPrototipoBF1:hover{
+    opacity: 0.7;
+}
+#fotoPrototipoBF2:hover{
+    opacity: 0.7;
 }
 #parrafoPrototipoBF{
     font-size: 14px;
     margin-left: 0%;
-    padding-top: 6%;
+    margin-top: 10%;
 }
-#verTest{
+.parrafoPrototipoBF2{
     font-size: 14px;
     margin-left: 0%;
-    padding-top: 1%;
 }
-#verTesteoSilvestre{
-    font-size: 16px;
-    background-color: #931941;
-    color: white;
-    border: none;
-    padding-top: 2%;
-    padding-bottom: 2%;
-    padding-left: 5%;
-    padding-right: 45%;
-    float: right;
-
+#fotoPrototipoMF{
+    margin-top: 5%;
 }
-#verTesteoSilvestre:hover{
-    box-shadow: 10px 10px 10px 0px rgba(0,0,0,0.24);
+#fotoPrototipoMF:hover{
+    opacity: 0.7;
 }
 @media (min-width: 960px) {
-    #colorFondoParte3{
-        margin-top: 20%;
-        height: 150%;
-    }
     #tituloIdeación{
-        font-size: 30px;
-        margin-top: 70%;
-        padding-left: 2.5%;
+        margin-top: 50%;
+        font-size: 34px;
+        margin-bottom: 15%;
     }
-    #parrafoMedio{
-        margin-left: 11%;
+    #fotoPrototipoBF2{
+        margin-top: 0%;
     }
     #parrafoPrototipoBF{
         font-size: 18px;
-        margin-top: 1%;
-        margin-bottom: 0%;
+        margin-top: 17%;
     }
-    #verTest{
+    .parrafoPrototipoBF2{
         font-size: 18px;
-        padding-top: 2%;
-        margin-left: 0%;
+        margin-top: 1%;
     }
-    #verTesteoSilvestre{
-        font-size: 24px;
-        padding-top: 0.5%;
-        padding-bottom: 0.5%;
-        padding-left: 3%;
-        padding-right: 50%;
+    #fotoPrototipoMF{
+        margin-top: 17%;
     }
 }
 @media (max-width: 350px) {
     #tituloIdeación{
         padding-left: 13%;
     }
-    #colorFondoParte3{
-        height: 160%;
-    }
 }
-@media (max-width: 280px) {
-    #colorFondoParte3{
-        height: 175%;
-    }
-}
+
 
 
 
 /*Parte4*/
 
-#colorFondoParte4{
-    background-color: #FEEFEC;
-    margin-top: 33%;
-    height: 195%;
-    width: 100%;
-    position: absolute;
-}
 #tituloCreación{
-    font-size: 16px;
-    padding-left: 11%;
-    margin-top: 127%;
+    font-size: 24px;
+    color: #F8BAAB;
+    margin-bottom: 25%;
+    margin-top: -14%;
 }
-#flujo4edu{
-    width: 100%;
+#tituloVerPrototipoFinal{
+    font-size: 18px;
+    padding-top: 1%;
+}
+#diagramaFlujo4edu{
+    margin-top: 5%;
+}
+#diagramaFlujo4edu:hover{
+    opacity: 0.7;
 }
 #parrafoPrototipoAF{
     font-size: 14px;
     margin-left: 0%;
     padding-top: 7%;
 }
-#prototipoAlta4edu{
+#parrafoPrototipoAF2{
+    font-size: 14px;
+}
+#creaciónPrototipoAF{
     width: 100%;
 }
-#verPrototipoFinal{
+
+
+@media (min-width: 960px) {
+    #colorFondoParte4{
+        margin-top: 20%;
+        height: 180%;
+    }
+    #tituloCreación{
+        font-size: 34px;
+        margin-top: -6%;
+        margin-bottom: 15%;
+    }
+    #tituloVerPrototipoFinal{
+        font-size: 26px;
+        padding-top: 5%;
+    }
+    .prototipoAlta{
+        margin-top: 5%;
+    }
+    #parrafoPrototipoAF{
+        font-size: 18px;
+        margin-top: 9%;
+    }
+    #parrafoPrototipoAF2{
+        font-size: 18px;
+    }
+    #creaciónPrototipoAF{
+        padding-top: 10%;
+    }
+    #diagramaFlujo4edu{
+        margin-top: 1%;
+    }
+}
+
+@media (max-width: 350px) {
+    #tituloCreación{
+        padding-left: 13%;
+        margin-top: -18%;
+    }
+
+}
+
+
+
+
+/*Parte Leer*/
+#tituloLeerMedium{
+    margin-top: 25%;
+    font-size: 16px;
+    color: #F8BAAB;
+    margin-bottom: 1%;
+}
+.leerMas{
     font-size: 16px;
     background-color: #931941;
     color: white;
     border: none;
-    margin-top: 3%;
-    padding-top: 2%;
-    padding-bottom: 2%;
-    padding-left: 5%;
-    padding-right: 35%;
-    float: right;
-
+    padding: 3% 14%;
+    margin-top: 30%;
 }
-#verPrototipoFinal:hover{
-    box-shadow: 10px 10px 10px 0px rgba(0,0,0,0.24);
+.leerMas:hover{
+    background-color: #F8BAAB;
+    color: #931941;
 }
 @media (min-width: 960px) {
-    #colorFondoParte4{
-        margin-top: 20%;
-        height: 185%;
-    }
-    #tituloCreación{
-        font-size: 30px;
-        margin-top: 68%;
+    #tituloLeerMedium{
         padding-left: 2.5%;
+        margin-top: 25%;
+        color: #F8BAAB;
+        font-size: 32px;
+        margin-bottom: 4%;
     }
-    #parrafoPrototipoAF{
-        font-size: 18px;
-        margin-top: 0%;
-        margin-bottom: 0%;
-        padding-top: 0%;
-    }
-    #prototipoAlta4edu{
-        padding-top: 10%;
-    }
-    #tituloVerPrototipoFinal{
-        font-size: 20px;
-        padding-top: 5%;
-        margin-left: 0%;
-    }
-    #verPrototipoFinal{
-        font-size: 24px;
-        padding-top: 0.5%;
-        padding-bottom: 0.5%;
-        padding-left: 3%;
-        padding-right: 50%;
-    }
-}
-@media (min-width: 420px) {
-
-    #colorFondoParte4{
-        margin-top: 36%;
-        height: 215%;
+    .leerMas{
+        font-size: 22px;
+        margin-top: 27%;
+        padding: 1.5% 12%;
+        margin-left: 20%;
     }
 }
 @media (max-width: 350px) {
-    #tituloCreación{
+    #tituloLeerMedium{
         padding-left: 13%;
     }
-    #colorFondoParte4{
-        height: 183%;
+    .leerMas{
+        margin-top: 5%;
     }
-
 }
 
 
-#parte4{
-    padding-bottom: 20%;
+#parteLeer{
+    padding-bottom: 10%;
 }
+
 @media (min-width: 960px) {
-    #parte4{
-        padding-bottom: 12%;
+    #parteLeer{
+        padding-bottom: 8%;
     }
 }
-@media (max-width: 350px) {
-    #parte4{
-        padding-bottom: 22%;
-    }
-}
-
-
 
 
 
@@ -668,3 +644,4 @@ a:hover{
         padding: 3%;
     }
 }
+

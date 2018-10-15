@@ -441,10 +441,10 @@ h1, h2, h3{
     font-size: 14px;
     margin-left: 0%;
 }
-#diagramaFlujo4edu{
+#fotoPrototipoMF{
     margin-top: 5%;
 }
-#diagramaFlujo4edu:hover{
+#fotoPrototipoMF:hover{
     opacity: 0.7;
 }
 @media (min-width: 960px) {
@@ -464,7 +464,7 @@ h1, h2, h3{
         font-size: 18px;
         margin-top: 1%;
     }
-    #diagramaFlujo4edu{
+    #fotoPrototipoMF{
         margin-top: 17%;
     }
 }
@@ -489,10 +489,10 @@ h1, h2, h3{
     font-size: 18px;
     padding-top: 1%;
 }
-#landingFinanzas{
+#diagramaFlujo4edu{
     margin-top: 5%;
 }
-#landingFinanzas:hover{
+#diagramaFlujo4edu:hover{
     opacity: 0.7;
 }
 #parrafoPrototipoAF{
@@ -535,8 +535,8 @@ h1, h2, h3{
     #creaciónPrototipoAF{
         padding-top: 10%;
     }
-    #landingFinanzas{
-        margin-top: 5%;
+    #diagramaFlujo4edu{
+        margin-top: 1%;
     }
 }
 

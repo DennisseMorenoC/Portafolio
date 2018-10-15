@@ -310,7 +310,7 @@ h1, h2, h3{
     color: #F8BAAB;
     margin-bottom: 15%;
 }
-#personaTusFinanzas:hover{
+#benchmark4edu:hover{
     opacity: 0.7;
 }
 #parrafoInterviews{
@@ -352,10 +352,22 @@ h1, h2, h3{
 #imagenProcesoF2:hover{
     opacity: 0.7;
 }
-#verTest{
+#escuchar{
     font-size: 18px;
     margin-left: 0%;
     margin-top: 10%;
+}
+#audio{
+    font-size: 16px;
+    background-color: #931941;
+    color: white;
+    border: none;
+    padding: 3% 14%;
+    margin-top: 30%;
+}
+#audio:hover{
+    background-color: #F8BAAB;
+    color: #931941;
 }
 @media (min-width: 960px) {
     #colorFondoSeccion{
@@ -389,12 +401,16 @@ h1, h2, h3{
     #imagenProcesoF2{
         margin-top: 15%;
     }
-    #verTest{
+    #escuchar{
         font-size: 28px;
         padding-bottom: 3%;
+        margin-top: 14%;
     }
-    #videoTest{
-        margin-top: 11%;
+    #audio{
+        font-size: 22px;
+        margin-top: 20%;
+        padding: 1.5% 12%;
+        margin-left: 20%;
     }
 }
 @media (max-width: 350px) {
@@ -575,7 +591,6 @@ h1, h2, h3{
         font-size: 22px;
         margin-top: 27%;
         padding: 1.5% 12%;
-        border: none;
         margin-left: 20%;
     }
 }

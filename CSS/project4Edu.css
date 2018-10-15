@@ -1,8 +1,12 @@
-body{
+bbody{
     color: #363636;
     font-family: 'Roboto', sans-serif;
 }
-/*Sección Navbar*/
+
+h1, h2, h3{
+    font-family: 'Source Serif Pro', serif;
+    font-style: italic;
+}
 #logo{
     max-width: 20%;
 
@@ -13,15 +17,9 @@ body{
         margin-right: 20%;
     }
 }
-#nombre{
-    font-family: 'Source Serif Pro', serif;
-    color: #363636;
-    font-size: 21px;
-}
 #portafolio{
     color: #363636;
     font-size: 18px;
-    font-family: 'Roboto', sans-serif;
 }
 #portafolio:hover{
     color: #931941;
@@ -30,7 +28,6 @@ body{
 #sobreMi{
     color: #363636;
     font-size: 18px;
-    font-family: 'Roboto', sans-serif;
 }
 #sobreMi:hover{
     color: #931941;
@@ -41,6 +38,7 @@ body{
 }*/
 .navbar-light .navbar-toggler {
     border-color: #FEEFEC;
+    color: #931941;
 
 }
 .navbar-brand {
@@ -51,12 +49,18 @@ body{
     line-height: inherit;
     white-space: nowrap;
 }
+
 .navbar{
     padding-top: 10px;
     padding-bottom: 10px;
     padding-right: 1px;
     padding-left: 9px;
 }
+
+.navbar-nav{
+    margin-top: 4%;
+}
+
 
 
 
@@ -65,24 +69,18 @@ body{
 /*Color Rosado Fondo Superior*/
 #colorFondo{
     background-color: #FEEFEC;
-    height: 16%;
+    height: 20%;
     width: 50%;
     position: absolute;
     margin-left: 50%;
 }
+ 
 @media (min-width: 960px) {
     #nombrecol{
         text-align: center;
     }
     #nombre{
         font-size: 40px;
-
-    }
-    .navbar{
-        padding-left: 12px;
-    }
-    .navbar-nav{
-        margin-left: 0;
     }
     #portafolio{
         font-size: 20px;
@@ -95,20 +93,23 @@ body{
     }
     #colorFondo{
         background-color: #FEEFEC;
-        height: 28%;
-        width: 50%;
-        position: absolute;
-        margin-left: 50%;
-    }
+        height: 30%;
+        width: 55%;
+        margin-left: 45%;
+    } 
 }
+
 @media (max-width: 350px) {
     #nombre{
         font-size: 18px;
     }
     #colorFondo{
-        height: 17%;
+        height: 15%;
     }
 }
+
+
+
 
 
 

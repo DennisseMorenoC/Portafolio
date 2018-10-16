@@ -1,12 +1,18 @@
+html{
+    scroll-behavior: smooth;
+}
 body{
     color: #363636;
     font-family: 'Roboto', sans-serif;
 }
 
-h1, h2, h3{
+h1, h2{
     font-family: 'Source Serif Pro', serif;
+}
+h2{
     font-style: italic;
 }
+/*Sección Navbar*/
 #logo{
     max-width: 20%;
 
@@ -17,19 +23,27 @@ h1, h2, h3{
         margin-right: 20%;
     }
 }
-#portafolio{
+#menuPort{
     color: #363636;
     font-size: 18px;
 }
-#portafolio:hover{
+#menuPort:hover{
     color: #931941;
     font-weight: 700;
 }
-#sobreMi{
+#menuMi{
     color: #363636;
     font-size: 18px;
 }
-#sobreMi:hover{
+#menuMi:hover{
+    color: #931941;
+    font-weight: 700;
+}
+#menuContacto{
+    color: #363636;
+    font-size: 18px;
+}
+#menuContacto:hover{
     color: #931941;
     font-weight: 700;
 }
@@ -53,14 +67,8 @@ h1, h2, h3{
 .navbar{
     padding-top: 10px;
     padding-bottom: 10px;
-    padding-right: 1px;
     padding-left: 9px;
 }
-
-.navbar-nav{
-    margin-top: 4%;
-}
-
 
 
 
@@ -79,13 +87,13 @@ h1, h2, h3{
     #nombrecol{
         text-align: center;
     }
-    #nombre{
-        font-size: 40px;
-    }
-    #portafolio{
+    #menuPort{
         font-size: 20px;
     }
-    #sobreMi{
+    #menuMi{
+        font-size: 20px;
+    }
+    #menuContacto{
         font-size: 20px;
     }
     .navbar-expand-lg .navbar-nav .nav-link {

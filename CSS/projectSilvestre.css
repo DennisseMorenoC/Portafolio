@@ -1,3 +1,6 @@
+html{
+    scroll-behavior: smooth;
+}
 body{
     color: #363636;
     font-family: 'Roboto', sans-serif;
@@ -7,8 +10,10 @@ h1, h2, h3{
     font-family: 'Source Serif Pro', serif;
     font-style: italic;
 }
+/*Sección Navbar*/
 #logo{
     max-width: 20%;
+
 }
 @media (min-width: 960px) {
     #logo{
@@ -46,6 +51,7 @@ h1, h2, h3{
 .navbar-light .navbar-toggler {
     border-color: #FEEFEC;
     color: #931941;
+
 }
 .navbar-brand {
     display: contents;
@@ -55,14 +61,11 @@ h1, h2, h3{
     line-height: inherit;
     white-space: nowrap;
 }
+
 .navbar{
     padding-top: 10px;
     padding-bottom: 10px;
-    padding-right: 1px;
     padding-left: 9px;
-}
-.navbar-nav{
-    margin-top: 4%;
 }
 
 

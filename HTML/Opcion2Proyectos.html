@@ -5,14 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Index</title>
+    <title>Joyería Silvestre</title>
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,700|Source+Serif+Pro:400,600,700" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/brands.css" integrity="sha384-7xAnn7Zm3QC1jFjVc1A6v/toepoG3JXboQYzbM0jrPzou9OFXm/fY6Z/XiIebl/k" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/fontawesome.css" integrity="sha384-ozJwkrqb90Oa3ZNb+yKFW2lToAWYdTiF1vt8JiH5ptTGHTGcN7qdoR1F95e0kYyG" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
-    <link rel="stylesheet" href="../CSS/index.css">
+    <link rel="stylesheet" href="../CSS/opcion2.css">
 </head>
 
 <body>
@@ -20,8 +20,8 @@
         <div id="colorFondo"></div>
         <section class="container">
             <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
-                <a class="navbar-brand" href="index.html">
-                    <img id="logo" class="img-fluid" src="./img/logo rosa.png" alt="imagenLogo">
+                <a class="navbar-brand" href="../index.html">
+                    <img id="logo" class="img-fluid" src="..//img/logo rosa.png" alt="imagenLogo">
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -29,14 +29,20 @@
                 </button>
                 <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                     <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a id="menuPort" class="nav-link" href="#tituloSeccionP">Portafolio</a>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle menuPort" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Portafolio
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="./projectTusFinanzas.html">Plataforma Financiera</a>
+                                <a class="dropdown-item" href="./project4Edu.html">4edu</a>
+                            </div>
                         </li>
                         <li class="nav-item">
-                            <a id="menuMi" class="nav-link" href="#tituloSobreMi">Sobre Mí</a>
+                            <a id="menuMi" class="nav-link" href="../index.html#tituloSobreMi">Sobre Mi</a>
                         </li>
                         <li class="nav-item">
-                            <a id="menuContacto" class="nav-link" href="#contacto">Contacto</a>
+                            <a id="menuContacto" class="nav-link" href="../index.html#contacto">Contacto</a>
                         </li>
                     </ul>
                 </div>
@@ -45,212 +51,258 @@
     </header>
 
 
-    <section class="container">
+
+
+    <section id="parte1" class="container">
         <div class="row">
-            <div id="saludoBienvenida" class="col-11 col-md-11 col-lg-10">
-                <p id="parrafo">Soy Dennisse Moreno, <span id="ux">UX Designer </span>
-                    y mi meta es crear productos que esten centrados en la usabilidad,
-                    que beneficien tanto a las personas como las empresas.
-                </p>
-
-            </div>
-        </div>
-    </section>
-
-
-    <section id="portafolio" class="container">
-        <div class="row">
-            <div class="col-12 col-md-12 col-lg-12">
-                <h1 id="tituloSeccionP">PORTAFOLIO</h1>
-            </div>
-            <div class="subrayado"></div>
-        </div>
-    </section>
-
-
-    
-
-
-
-    <section class="container colorFondoProyecto">
-        <div class="row">
-            <div class="col-3 col-md-4 col-lg-4">
-                <h2 class="nombreProyecto">Comercio Digital</h2>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-7 col-md-6 col-lg-6">
-                <div class="parrafoInfoProyecto">
-                    <p>
-                        Ayudar a una pequeña empresa de redes cociales a
-                        posicionarse como e-commerce.
-                    </p>
-                </div>
-                <div class="grupoListaProcesos">
-                    <p class="d-inline p-2 bg-white text-dark">#user research</p>
-                    <p class="d-inline p-2 bg-white text-dark">#arquitectura información</p>
-                    <p class="d-inline p-2 bg-white text-dark">#user testing</p>
-                    <p class="d-inline p-2 bg-white text-dark">#ideación</p>
-                    <p class="d-inline p-2 bg-white text-dark">#diseño prototipado</p>
-                    <p class="d-inline p-2 bg-white text-dark">#interaction design</p>
-                </div>
-                <div>
-                    <a href="./HTML/projectSilvestre.html">
-                        <button type="button" class="leerMas"> Leer más <i class="fas fa-caret-right flecha"></i>
-                        </button>
-                    </a>
-                </div>
-            </div>
             <div class="col-5 col-md-6 col-lg-6">
-                <img class="fotoPrototipoCompu2" src="./img/joyeriaSilvestreAppGrandeRecortada.png" alt="Silvestrel">
-                <img class="fotoPrototipoCelu" src="./img/joyeriaSilvestreAppGrandeRecortadaMitad.png" alt="Silvestre">
-            </div>
-        </div>
-    </section>
-
-
-
-
-
-    <section  class="container colorFondoProyecto">
-        <div class="row">
-            <div class="col-3 col-md-4 col-lg-4">
-                <h2 class="nombreProyecto">Plataforma Financiera</h2>
+                <h1 id="tituloComercio">Comercio Digital</h1>
+                <div id="subrayado"></div>
             </div>
         </div>
         <div class="row">
-            <div class="col-7 col-md-6 col-lg-6">
-                <div class="parrafoInfoProyecto">
-                    <p>
-                        Rediseñar una App Financiera para incentivar el ahorro en el país.
-                    </p>
-                </div>
-                <div class="grupoListaProcesos">
-                    <p class="d-inline p-2 bg-white text-dark">#user research</p>
-                    <p class="d-inline p-2 bg-white text-dark">#arquitectura información</p>
-                    <p class="d-inline p-2 bg-white text-dark">#user testing</p>
-                    <p class="d-inline p-2 bg-white text-dark">#ideación</p>
-                    <p class="d-inline p-2 bg-white text-dark">#diseño prototipado</p>
-                    <p class="d-inline p-2 bg-white text-dark">#research</p>
-                </div>
-                <div>
-                    <a href="./HTML/projectTusFinanzas.html">
-                        <button type="button" class="leerMas"> Leer más <i class="fas fa-caret-right flecha"></i>
-                        </button>
-                    </a>
-                </div>
-            </div>
-            <div class="col-5 col-md-6 col-lg-6">
-                <img class="fotoPrototipoCompu2" src=".//img/rediseñoFinancieroAppGrandeRecortada.png" alt="Finanzas">
-                <img class="fotoPrototipoCelu" src="./img/rediseñoFinancieroAppGrandeRecortadaMitad.png" alt="Finanzas">
-            </div>
-        </div>
-    </section>
-
-
-    <section id="ultimoProyecto" class="container colorFondoProyecto">
-            <div class="row">
-                <div class="col-3 col-md-4 col-lg-4">
-                    <h2 class="nombreProyecto">Red Social</h2>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-7 col-md-6 col-lg-6">
-                    <div class="parrafoInfoProyecto">
-                        <p>
-                            Centrada en educación, fomenta el aprendizaje
-                            de forma lúdica e innovadora a través de la tecnología.
-                        </p>
-                    </div>
+            <div class="col-6 col-md-6 col-lg-6">
+                <div class="rol">
+                    <h2 id="tituloRol">Rol</h2>
                     <div class="grupoListaProcesos">
-                        <p class="d-inline p-2 bg-white text-dark">#user research</p>
-                        <p class="d-inline p-2 bg-white text-dark">#arquitectura información</p>
-                        <p class="d-inline p-2 bg-white text-dark">#user testing</p>
-                        <p class="d-inline p-2 bg-white text-dark">#ideación</p>
-                        <p class="d-inline p-2 bg-white text-dark">#diseño prototipado</p>
-                        <p class="d-inline p-2 bg-white text-dark">#desarrolladora FrontEnd</p>
+                        <p class="d-inline p-2 text-dark lista">#user research</p>
+                        <p class="d-inline p-2 text-dark lista">#arquitecturaInformación</p>
+                        <p class="d-inline p-2 text-dark lista">#user testing</p>
+                        <p class="d-inline p-2 text-dark lista">#ideación</p>
+                        <p class="d-inline p-2 text-dark lista">#diseñoPrototipado</p>
+                        <p class="d-inline p-2 text-dark lista">#research</p>
                     </div>
-                    <div>
-                        <a href="./HTML/project4Edu.html">
-                            <button type="button" class="leerMas"> Leer más <i class="fas fa-caret-right flecha"></i>
-                            </button>
+                </div>
+                <div class="problematica">
+                    <h2 id="tituloProblemática">Problemática</h2>
+                    <p id="descProblemáticaCompu">Asesorar a Joyerías Silvestre un negocio de redes
+                        sociales, para que amplíe su mercado e ingresos, creando un e-commerse para su
+                        emprendimiento de venta de accesorios, que son diseñados por las personas a
+                        su gusto. Encontrando que nuestro mayor desafío fue el crear una página
+                        para un público variado y centrada en el auto diseño de joyas.
+                    </p>
+                    <p id="descProblemáticaCelu">Asesorar a Joyerías Silvestre un negocio de redes
+                        sociales, para que amplíe su mercado e ingresos, creando un e-commerse para su
+                        emprendimiento de venta de accesorios, que son diseñados por las personas a
+                        su gusto.
+                    </p>
+
+                </div>
+                <div>
+                    <h2 id="tituloSoluciónCompu">Solución</h2>
+                    <p id="descSoluciónCompu">Abordamos el problema enfocándonos en realizar una fuerte
+                        investigación de lo que se encuentra actualmente en el mercado tanto
+                        en joyería como en creación por encargo, y hablando con los usuarios.
+                        Para así obtener un producto completamente centrado en las personas.
+                    </p>
+                </div>
+            </div>
+            <div class="col-6 col-md-6 col-lg-6">
+                <img class="img-fluid" id="fotoPrototipoCompu" src="../img/joyeriaSilvestreAppGrandeRecortada.png" alt="Silvestre">
+                <img class="img-fluid" id="fotoPrototipoCelu" src="../img/joyeriaSilvestreAppGrandeRecortadaMitad.png" alt="Silvestre">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <p id="descProblemáticaCelu2"> Encontrando que nuestro mayor desafío fue el crear una página
+                    para un público variado y centrada en el auto diseño de joyas.
+                </p>
+                <h2 id="tituloSoluciónCelu">Solución</h2>
+                <p id="descSoluciónCelu">Abordamos el problema enfocándonos en realizar una fuerte
+                    investigación de lo que se encuentra actualmente en el mercado tanto
+                    en joyería como en creación por encargo, y hablando con los usuarios.
+                    Para así obtener un producto completamente centrado en las personas.
+                </p>
+            </div>
+        </div>
+
+
+    </section>
+
+
+
+
+    <section id="colorFondoSeccion">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-12 col-lg-12">
+                    <h2 id="tituloResearch">Research</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-6">
+                    <a href="https://drive.google.com/open?id=1BFV7TSgMP2KJXE-AlcSraQB36L2b5_Xp" target="_blank">
+                        <img class="img-fluid" id="personaJoyeriaImagen" src="../img/personaJoyeriaSilvestre.jpg" alt="userPersonaJoyeriaSilvestre">
+                    </a>
+                    <figcaption class="pieFoto">User Persona</figcaption>
+                </div>
+                <div class="col-12 col-md-6 col-lg-6">
+                    <p id="parrafoInterviews">
+                        Comenzamos el proceso de research con una investigación
+                        de mercado, de lo que se encuentra actualmente en redes
+                        sociales o e-commerse convencionales sobre venta de joyas.
+                        Además en paralelo tuvimos entrevistas con el stakeholder,
+                        la dueña del emprendimiento, y con los usuarios, realizamos
+                        un total de cinco entrevistas a usuarios que compran en redes
+                        sociales para obtener sus experiencias. Éstas nos entregaron
+                        información necesaria para descubrir a tres tipos de usuarios
+                        que compraban en nuestra tienda, y con ellos creamos nuestros
+                        users personas y costumers journey map en base a los anteriores.
+                    </p>
+                    <p id="parrafoInterviews2">
+                        El recabo de esta información nos permitió descubrir las <span id="resaltar">problemáticas
+                            que enfrentan las personas a la hora de realizar compras online, y con
+                            qué requerimientos debíamos realizar nuestro producto.</span>
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-11 col-lg-12">
+                    <a href="https://drive.google.com/open?id=1cSbU0x0p0ywcu8k88U5ngC2HIH-5nQ5j" target="_blank">
+                        <img class="img-fluid" id="journeJoyeriaImagen" src="../img/CustomerJMSilvestre.jpg" alt="journeyMapJoyeriaSilvestre">
+                    </a>
+                    <figcaption class="pieFoto">Customer Journey Map</figcaption>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-6 col-md-6 col-lg-6">
+                    <a href="https://drive.google.com/open?id=1nx2DhZ_o-W2LGZSxfQiHlgbyRQZgx3Da" target="_blank">
+                        <img class="img-fluid" id="imagenProcesoJ1" src="../img/ProcesoSilvestre1.jpg" alt="imagenProcesoJoyería1">
+                    </a>
+                    <figcaption class="pieFoto">User Insights</figcaption>
+                </div>
+                <div class="col-6 col-md-6 col-lg-6">
+                    <a href="https://drive.google.com/open?id=1_anGb4J_O4PG1JHPuY0HBaXr9t8_Rii3" target="_blank">
+                        <img class="img-fluid" id="imagenProcesoJ2" src="../img/ProcesoSilvestre2.jpg" alt="imagenProcesoJoyería2">
+                    </a>
+                    <figcaption class="pieFoto">How might we?</figcaption>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <section id="parte3">
+        <div class="container">
+            <div class="row">
+                <div class="col-4 col-md-4 col-lg-4">
+                    <h2 id="tituloIdeación">Ideación</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-6">
+                    <a href="https://drive.google.com/open?id=1RWjDSrgnximTHV66vY_0FkPunoBjxWgX" target="_blank">
+                        <img class="img-fluid" id="fotoPrototipoBF1" src="../img/fotoPrototipoBF1.jpg" alt="fotoPrototipoBF1">
+                    </a>
+                    <figcaption class="pieFoto">Imagen 1 Prototipo Baja Fidelidad</figcaption>
+                </div>
+                <div class="col-12 col-md-6 col-lg-6">
+                    <a href="https://drive.google.com/open?id=18gHcxJ7dbomnx4SHbV-2dwiIgQSzFkif" target="_blank">
+                        <img class="img-fluid" id="fotoPrototipoBF2" src="../img/fotoPrototipoBF2.jpg" alt="fotoPrototipoBF2">
+                    </a>
+                    <figcaption class="pieFoto">Imagen 2 Prototipo Baja Fidelidad</figcaption>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-6">
+                    <h3 id="verTest">Puedes observar uno de nuestros testeos</h3>
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe id="videoTesteo" src="https://www.youtube.com/embed/MogLpomWfrc" frameborder="0" allow="autoplay; encrypted-media"
+                            allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div id="parrafoMedio" class="col-12 col-md-9 col-lg-6">
+                    <p id="parrafoPrototipoBF">
+                        En base a la investigación realizada pasamos a la etapa de creación y
+                        comenzamos con un prototipo rápido de baja fidelidad para poder testear
+                        con los usuarios y así obtener feedback de lo que habíamos obtenido.
+                        Realizamos éste testeo con cinco usuarios, de los que <span id="resaltar">
+                            obtuvimos variados y nutridos feedback y oportunidades de mejora para poder
+                            volver a atrás, sentarnos e iterar</span> sobre algunos de los puntos que
+                        se encontraban con mayores inconvenientes para las personas.
+                    </p>
+                    <p id="parrafoPrototipoBF2">
+                        De éste proceso obtuvimos mucha información importante de parte de las
+                        personas al interactuar con el proyecto para poder mejorar nuestra idea y
+                        prototipo inicial.
+                    </p>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+    <section id="colorFondoSeccion">
+        <div class="container">
+            <div class="row">
+                <div class="col-4 col-md-4 col-lg-4">
+                    <h2 id="tituloCreación">Creación</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-6">
+                    <h3 id="tituloVerPrototipoFinal">Puedes ver nuestro prototipo final</h3>
+                    <div class="prototipoAlta">
+                        <iframe src="https://marvelapp.com/74f3f36?emb=1&iosapp=false&frameless=false" width="100%"
+                            height="640" allowTransparency="true" frameborder="0"></iframe>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-6">
+                    <p id="parrafoPrototipoAF">
+                        Luego de tener claro el prototipo de baja fidelidad pasamos a diseñar
+                        un prototipo de alta fidelidad, para ya agregarle colores, tipografías
+                        y fotografías al e-commerse, realizamos un primer prototipo que procedimos
+                        a testear para poder identificar cómo perciben ellos la jerarquización y
+                        disposición de colores.
+                    </p>
+                    <p id="parrafoPrototipoAF2">
+                        Al realizarlo notamos que para algunas personas el flujo de diseño del
+                        producto les parecía engorroso, por lo que<span id="resaltar"> volvimos un
+                            paso, realizamos una nueva iteración al prototipo de alta definición y
+                            volvimos a repensar el sistema de pedidos, </span> para que resultara más
+                        amigable y reconocible para las personas.
+                    </p>
+                    <div id="flujoMarvel">
+                        <a href="https://userflows.marvelapp.com/74f3f36?utm_campaign=prototype-player&utm_source=other&utm_medium=web-app&utm_term=player&utm_content=userflows" target="_blank">
+                            <img class="img-fluid" id="flujoJSilvestre" src="../img/flowJSilvestrepng" alt="flujoJoyeriaSilvestre">
                         </a>
+                        <figcaption class="pieFoto">User Flow</figcaption>
                     </div>
                 </div>
-                <div class="col-5 col-md-6 col-lg-6">
-                    <img class="fotoPrototipoCompu" src="./img/4EduAppGrandeRecortada.png" alt="RedSocial">
-                    <img class="fotoPrototipoCelu" src="./img/4EduAppGrandeRecortadaMitad.png" alt="RedSocial">
-                </div>
-            </div>
-        </section>
-
-
-    <section id="SeccionSobreMi" class="container">
-        <div class="row">
-            <div class="col-12 col-md-12 col-lg-12">
-                <h1 id="tituloSobreMi">SOBRE MÍ</h1>
-            </div>
-            <div class="subrayado"></div>
-        </div>
-        <div class="row">
-            <div class="col-12 col-md-12 col-lg-6">
-                <img id="fotoPerfil" src="./img/perfilRecortada1.jpg" alt="fotoPerfil">
-            </div>
-            <div class="col-12 col-md-4 col-lg-6">
-                <h2 id="nombrePerfil">Soy<br>Dennisse<br>UX Designer</h2>
-                <p id="parrafoSobreMi">
-                    Responsable, empática, simpática y curiosa. <span id="trabajarEquipo">
-                        Me gusta trabajar en equipo
-                    </span>
-                    y poder ser un aporte a los desarrollos de proyectos y mejorar constantemente
-                    diversos productos.
-                    Actualmente soy estudiante de Ux del Bootcamp de Laboratoria, en el cual he
-                    <span id="trabajarEquipo">aprendido lo que es trabajo en equipo; dar y recibir
-                        feedback; y metodología ágil.</span>
-                </p>
-                <p id="parrafoSobreMi2">
-                    Además de conocimientos técnicos como <span id="trabajarEquipo"> Js, HTML, CSS,</span>
-                    freamworks como Boostrap y Materialize, y herramientas de prototipado como Figma y Marvel.
-                    con un importante conocimiento y aprendizaje del diseño centrado en el usuario, lo más
-                    importante y necesario para mi es la usabilidad.
-                </p>
             </div>
         </div>
+    </section>
+
+
+
+
+
+
+    <section id="parteLeer" class="container">
         <div class="row">
-            <div class="col-12 col-md-12 col-lg-6">
-                <p id="textoVerCv">
-                    Si quieres leer más de mi puedes ver
-                </p>
-                <a href="./img/CV Dennisse Moreno.pdf">
-                    <button type="button" id="botonVerCv"> Cv aquí <i class="fas fa-caret-right flecha"></i>
-                    </button>
-                </a>
-                <p id="textoVerMedium">
-                    O puedes leer mis historias en Medium
-                </p>
-                <a href="https://medium.com/@deni.moreno11">
-                    <button type="button" id="botonVerMedium"> Ver medium <i class="fas fa-caret-right flecha"></i>
+            <div class="col-6 col-md-4 col-lg-6">
+                <h2 id="tituloLeerMedium">¿Quieres acceder a Medium y leer más sobre éste proyecto?</h2>
+            </div>
+            <div class="col-6 col-md-4 col-lg-6">
+                <a href="https://medium.com/@deni.moreno11/marketplace-825f2e7465bc" target="_blank">
+                    <button type="button" class="leerMas"> Leer más <i class="fas fa-caret-right flecha"></i>
                     </button>
                 </a>
             </div>
         </div>
     </section>
-    <section id="contacto" class="container">
-        <div class="row">
-            <div class="col-12 col-md-12 col-lg-12">
-                <h1 id="tituloContacto">CONTÁCTAME!</h1>
-            </div>
-            <div class="subrayado"></div>
-        </div>
-        <div class="row">
-            <div class="col-12 col-md-12 col-lg-4">
-                <h2 id="tituloEmail"><i>Puedes enviarme un email a</i></h2>
-            </div>
-            <div class="col-12 col-md-12 col-lg-4">
-                <h3 id="email">deni.moreno11@gmail.com</h3>
-            </div>
-        </div>
-    </section>
+
+
+
+
 
 
 
@@ -258,23 +310,24 @@
         <div class="container">
             <div class="row">
                 <div id="medium" class="col-4 col-md-4 col-lg-4">
-                    <a href="https://medium.com/@deni.moreno11">
+                    <a href="https://medium.com/@deni.moreno11" target="_blank">
                         <i id="iconMedium" class="fab fa-medium-m fa-2x"></i>
                     </a>
                 </div>
                 <div id="linkedin" class="col-4 col-md-4 col-lg-4">
-                    <a href="https://www.linkedin.com/in/dennisse-moreno-cornejo-/">
+                    <a href="https://www.linkedin.com/in/dennissemorenoc/" target="_blank">
                         <i id="iconLinkedin" class="fab fa-linkedin-in fa-2x"></i>
                     </a>
                 </div>
                 <div id="github" class="col-4 col-md-4 col-lg-4">
-                    <a href="https://github.com/DennisseMorenoC">
+                    <a href="https://github.com/DennisseMorenoC" target="_blank">
                         <i id="iconGithub" class="fab fa-github fa-2x"></i>
                     </a>
                 </div>
             </div>
         </div>
     </footer>
+
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>

@@ -6,10 +6,8 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
-h1, h2{
+h1, h2, h3{
     font-family: 'Source Serif Pro', serif;
-}
-h2{
     font-style: italic;
 }
 /*Sección Navbar*/
@@ -23,11 +21,17 @@ h2{
         margin-right: 20%;
     }
 }
-#menuPort{
+.menuPort{
     color: #363636;
     font-size: 18px;
 }
-#menuPort:hover{
+.navbar-light .navbar-nav .nav-link {
+    color: #363636;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #931941;
+}
+.menuPort:hover{
     color: #931941;
     font-weight: 700;
 }
@@ -75,11 +79,10 @@ h2{
 
 
 
-
 /*Color Rosado Fondo Superior*/
 #colorFondo{
     background-color: #FEEFEC;
-    height: 65%;
+    height: 20%;
     width: 50%;
     position: absolute;
     margin-left: 50%;
@@ -89,7 +92,7 @@ h2{
     #nombrecol{
         text-align: center;
     }
-    #menuPort{
+    .menuPort{
         font-size: 20px;
     }
     #menuMi{
@@ -103,18 +106,17 @@ h2{
     }
     #colorFondo{
         background-color: #FEEFEC;
-        height: 83%;
+        height: 30%;
         width: 55%;
         margin-left: 45%;
     } 
 }
-
 @media (max-width: 350px) {
     #nombre{
         font-size: 18px;
     }
     #colorFondo{
-        height: 70%;
+        height: 15%;
     }
 }
 
@@ -126,129 +128,421 @@ h2{
 
 
 
-/*Sección Burdeo Saludo */
 
-#saludoBienvenida{
-    background-color: #931941;
-    border: none;
-    margin-left: 4.5%;
-    margin-top: 8%;
-    margin-bottom: 35%
+/*Projecto*/
 
-}
-#ux{
-    color: #F8BAAB;
-    font-size: 18px;
-}
-#parrafo{
-    padding-top: 5%;
-    color: white;
-    font-size: 18px;
-}
-
-@media (min-width: 960px) {
-    #saludoBienvenida{
-        margin-left: 1.5%;
-        margin-bottom: 30%
-    }
-    #parrafo{
-        font-size: 26px;
-        padding-bottom: 3%;
-    }
-    #ux{
-        font-size: 33px;
-    }
-}
-
-@media (max-width: 350px) {
-    #saludoBienvenida{
-        margin-bottom: 15%
-    }
-    #ux{
-        font-size: 18px;
-    }
-    #parrafo{
-        font-size: 16px;
-    }
-}
-
-
-
-
-
-
-/*Sección Portafolio*/
-
-#tituloSeccionP{
+#tituloComercio{
+    font-size: 30px;
     font-weight: 300;
-    text-align: center;
-    margin-bottom: 0%; 
-    font-size: 28px;
-    letter-spacing: 2px;
+    margin-top: 30%;
+    margin-bottom: 0%;
 }
-.subrayado{
+#subrayado{
     background-color: #931941;
-    width: 30%;
-    margin-left: 35%;
-    padding-top: 0;
-    padding-bottom: 1%;
-    height: 1%;
-   
+    width: 70%;
+    margin-left: 10%;
+    padding-top: 3%;
+    margin-top: 0%;
+}
+#fotoPrototipoCompu{
+    display: none;
+}
+#fotoPrototipoCelu{
+    margin-left: 8%;
 }
 @media (min-width: 960px) {
-    .subrayado{
-        width: 14%;
-        margin-left: 43%;
-        padding-bottom: 5px;
+    #tituloComercio{
+        padding-top: 20%;
+        margin-top: 4%; 
+        font-size: 70px;
     }
-    #tituloSeccionP{
-        font-size: 35px;
+    #subrayado{
+        width: 70%;
+        margin-left: 12%;
+        padding-bottom: 0.5%;
+        padding-top: 0.5%;
+    }
+    #fotoPrototipoCompu{
+        width: 80%;
+        padding-top: 20%;
+        margin-left: 20%;
+        display: inherit;
+    }
+    #fotoPrototipoCelu{
+        display: none;
     }
 }
-
 @media (max-width: 350px) {
-    #tituloSeccionP{
-        font-size: 20px;
-        padding-top: 50%;
+    #tituloComercio{
+        font-size: 26px;
+        margin-bottom: 0%;
+    }
+    #subrayado{
+        padding-top: 2.5%;
+        margin-top: 1%;
+        margin-left: 8%;
+        width: 80%;
     }
 }
 
-
-
-
-
-
-
-
-/*Sección Portafolio*/
-.colorFondoProyecto{
-    background-color: #FEEFEC;
-    margin-top: 18%;
-    padding-bottom: 5%;
-}
-.nombreProyecto{
-    margin-top: -30%;
-}
-.parrafoInfoProyecto{
-    font-size: 16px;
-    margin-top: 7%;
+#tituloRol{
+    padding-top: 25%;
+    font-size: 24px;
+    color: #F8BAAB;
+    margin-bottom: 1%;
 }
 .grupoListaProcesos{
-    font-size: 14px;
-    font-weight: 300;
-    margin-bottom: 5%;
+    margin-top: 10%;
+}
+.lista{
+    background-color: #FEEFEC;
     line-height: 2.7;
+    font-size: 14px;
 }
-.fotoPrototipoCompu{
+#tituloProblemática{
+    padding-top: 30%;
+    font-size: 22px;
+    color: #F8BAAB;
+    margin-bottom: 3%;
+}
+#descProblemáticaCelu{
+    font-size: 14px;
+}
+#descProblemáticaCelu2{
+    font-size: 14px;
+}
+#descProblemáticaCompu{
     display: none;
 }
-.fotoPrototipoCompu2{
+#tituloSoluciónCelu{
+    padding-top: 10%;
+    font-size: 24px;
+    color: #F8BAAB;
+    margin-bottom: 2%;
+}
+#tituloSoluciónCompu{
     display: none;
 }
-.fotoPrototipoCelu{
-    width: 110%;
+#descSoluciónCelu{
+    margin-bottom: 0%;
+    font-size: 14px;
+}
+#descSoluciónCompu{
+    display: none;
+}
+@media (min-width: 960px) {
+    #tituloRol{
+        padding-top: 25%;
+        font-size: 34px;
+        margin-bottom: 4%;
+    }
+    .grupoListaProcesos{
+        margin-top: 0%;
+    }
+    .lista{
+        font-size: 16px;
+    }
+    #tituloProblemática{
+        padding-top: 15%;
+        font-size: 34px;
+        margin-bottom: 4%;
+    }
+    #descProblemáticaCompu{
+        margin-bottom: 0%;
+        font-size: 18px;
+        margin-bottom: 0%;
+        display: block;
+    }
+    #descProblemáticaCelu{
+        display: none;
+    }
+    #descProblemáticaCelu2{
+        display: none;
+    }
+    #tituloSoluciónCompu{
+        padding-top: 15%;
+        font-size: 34px;
+        margin-bottom: 4%;
+        color: #F8BAAB;
+        display: inherit;
+    }
+    #tituloSoluciónCelu{
+        display: none;
+    }
+    #descSoluciónCompu{
+        font-size: 18px;
+        margin-bottom: 0%;
+        display: inherit;
+    }
+    #descSoluciónCelu{
+    display: none;
+    }  
+}
+@media (max-width: 350px) {
+    #tituloRol{
+        padding-top: 20%;
+    }
+    #tituloProblemática{
+        padding-top: 25%;
+    }
+    .grupoListaProcesos{
+        margin-top: 5%;
+    }
+    .lista{
+        font-size: 12px;
+    }
+    #descProblemáticaCelu{
+        padding-top: 5%;
+    }
+    #tituloSolución{
+        padding-top: 40%;
+    }
+}
+
+
+
+
+
+
+/*Sección2*/
+
+#colorFondoSeccion{
+    background-color: #FEEFEC;
+    margin-top: 25%;
+    padding-bottom: 7%;
+}
+#tituloResearch{
+    margin-top: -4%;
+    font-size: 24px;
+    color: #F8BAAB;
+    margin-bottom: 15%;
+}
+#personaJoyeriaImagen:hover{
+    opacity: 0.7;
+}
+#parrafoInterviews{
+    font-size: 14px;
     margin-left: 0%;
-    margin-top: -70%;
+    padding-top: 7%;
+}
+#parrafoInterviews2{
+    font-size: 14px;
+    margin-left: 0%;
+    padding-top: 2%;
+}
+#resaltar{
+    background-color: #F8BAAB;
+    padding-right: 1.5%;
+    padding-bottom: 1%;
+}
+#journeJoyeriaImagen{
+    margin-left: -2%;
+    margin-top: 10%;
+}
+#journeJoyeriaImagen:hover{
+    opacity: 0.7;
+}
+.pieFoto{
+    font-size: 12px;
+    padding-top: 1%;
+    color: #931941;
+}
+#imagenProcesoJ1{
+    margin-top: 20%;
+}
+#imagenProcesoJ1:hover{
+    opacity: 0.7;
+}
+#imagenProcesoJ2{
+    margin-top: 20%;
+}
+#imagenProcesoJ2:hover{
+    opacity: 0.7;
+}
+@media (min-width: 960px) {
+    #colorFondoSeccion{
+        margin-top: 15%;
+        padding-bottom: 5%;
+    }
+    #tituloResearch{
+        margin-top: -2%;
+        font-size: 34px;
+        margin-bottom: 7%;
+    }
+    #parrafoInterviews{
+        font-size: 18px;
+        margin-left: 5%;
+        padding-top: 0%;
+    }
+    #parrafoInterviews2{
+        font-size: 18px;
+        margin-left: 5%;
+    }
+    #journeJoyeriaImagen{
+        margin-left: 0%;
+        margin-top: 5%;
+    }
+    .pieFoto{
+        font-size: 14px;
+    }
+    #imagenProcesoJ1{
+        margin-top: 15%;
+    }
+    #imagenProcesoJ2{
+        margin-top: 15%;
+    }
+}
+@media (max-width: 350px) {
+    #tituloResearch{
+        margin-top: -5%;
+    }
+}
+
+
+
+
+
+
+/*Parte 3*/
+#tituloIdeación{
+    margin-top: 80%;
+    font-size: 24px;
+    color: #F8BAAB;
+    margin-bottom: 30%;
+}
+#fotoPrototipoBF2{
+    margin-top: 7%;
+}
+#fotoPrototipoBF1:hover{
+    opacity: 0.7;
+}
+#fotoPrototipoBF2:hover{
+    opacity: 0.7;
+}
+#parrafoPrototipoBF{
+    font-size: 14px;
+    margin-left: 0%;
+    margin-top: 10%;
+}
+#parrafoPrototipoBF2{
+    font-size: 14px;
+    margin-left: 0%;
+}
+#verTest{
+    font-size: 18px;
+    margin-left: 0%;
+    padding-top: 10%;
+}
+@media (min-width: 960px) {
+    #tituloIdeación{
+        margin-top: 50%;
+        font-size: 34px;
+        margin-bottom: 15%;
+    }
+    #fotoPrototipoBF2{
+        margin-top: 0%;
+    }
+    #parrafoPrototipoBF{
+        font-size: 18px;
+        margin-top: 20%;
+        margin-bottom: 0%;
+    }
+    #parrafoPrototipoBF2{
+        font-size: 18px;
+        margin-top: 1%;
+    }
+    #verTest{
+        font-size: 28px;
+        margin-top: 5%;
+        padding-bottom: 3%;
+    }
+}
+@media (max-width: 350px) {
+    #tituloIdeación{
+        padding-left: 13%;
+    }
+}
+
+
+
+
+/*Parte4*/
+
+#tituloCreación{
+    font-size: 24px;
+    color: #F8BAAB;
+    margin-bottom: 25%;
+    margin-top: -14%;
+}
+#tituloVerPrototipoFinal{
+    font-size: 18px;
+    padding-top: 1%;
+}
+#flujoJSilvestre{
+    margin-top: 5%;
+}
+#flujoJSilvestre:hover{
+    opacity: 0.7;
+}
+#parrafoPrototipoAF{
+    font-size: 14px;
+    margin-left: 0%;
+    padding-top: 7%;
+}
+#parrafoPrototipoAF2{
+    font-size: 14px;
+}
+#creaciónPrototipoAF{
+    width: 100%;
+}
+@media (min-width: 960px) {
+    #colorFondoParte4{
+        margin-top: 20%;
+        height: 180%;
+    }
+    #tituloCreación{
+        font-size: 34px;
+        margin-top: -6%;
+        margin-bottom: 15%;
+    }
+    #tituloVerPrototipoFinal{
+        font-size: 26px;
+        padding-top: 5%;
+    }
+    .prototipoAlta{
+        margin-top: 5%;
+    }
+    #parrafoPrototipoAF{
+        font-size: 18px;
+        margin-top: 9%;
+    }
+    #parrafoPrototipoAF2{
+        font-size: 18px;
+    }
+    #creaciónPrototipoAF{
+        padding-top: 10%;
+    }
+    #flujoJSilvestre{
+        margin-top: 7%;
+    }
+}
+@media (max-width: 350px) {
+    #tituloCreación{
+        padding-left: 13%;
+        margin-top: -18%;
+    }
+
+}
+
+
+
+
+/*Parte Leer*/
+#tituloLeerMedium{
+    margin-top: 25%;
+    font-size: 16px;
+    color: #F8BAAB;
+    margin-bottom: 1%;
 }
 .leerMas{
     font-size: 16px;
@@ -256,286 +550,45 @@ h2{
     color: white;
     border: none;
     padding: 3% 14%;
-    margin-top: 8%;
+    margin-top: 30%;
 }
 .leerMas:hover{
     background-color: #F8BAAB;
     color: #931941;
 }
-
 @media (min-width: 960px) {
-    .colorFondoProyecto{
-        margin-top: 11.5%;
-        padding-bottom: 2%;
-    }
-    .nombreProyecto{
-        margin-top: -9%;
-        font-size: 50px;
-        padding-left: 5%;
-    }
-    .parrafoInfoProyecto{
-        font-size: 22px;
-        padding-top: 3%;
-        padding-left: 4%;
-    }
-    .grupoListaProcesos{
-        font-size: 16px;
-        padding-top: 6%;
-        padding-left: 4%;
-        line-height: 2.6;
-    }
-    .fotoPrototipoCompu{
-        width: 70%;
-        margin-top: -15%;
-        margin-left: 20%;
-        display: inherit;
-    }
-    .fotoPrototipoCompu2{
-        width: 70%;
-        margin-top: -28%;
-        margin-left: 20%;
-        display: inherit;
-    }
-    .fotoPrototipoCelu{
-        display: none;
+    #tituloLeerMedium{
+        padding-left: 2.5%;
+        margin-top: 25%;
+        color: #F8BAAB;
+        font-size: 32px;
+        margin-bottom: 4%;
     }
     .leerMas{
         font-size: 22px;
-        margin-top: 25%;
+        margin-top: 27%;
         padding: 1.5% 12%;
         border: none;
-        margin-left: 5%;
+        margin-left: 20%;
     }
 }
-
 @media (max-width: 350px) {
-    .colorFondoProyectos{
-        margin-top: 17.5%;
-    }
-    .nombreProyecto{
-        font-size: 26px;
-    }
-    .parrafoInfoProyecto{
-        font-size: 14px;
-        margin-top: -1%;
-    }
-    .grupoListaProcesos{
-        padding-top: 0%;
-        line-height: 2.8;
-        font-size: 12px;
-    }
-    .fotoPrototipoCelu{
-        width: 115%;
-    }
     .leerMas{
-        margin-top: 5%;
+        margin-top: 40%;
     }
 }
 
 
-
-
-#ultimoProyecto{
-    margin-bottom: 50%;
+#parteLeer{
+    padding-bottom: 10%;
 }
 @media (min-width: 960px) {
-    #ultimoProyecto{
-        margin-bottom: 20%;
-    }
-}
-@media (max-width: 350px) {
-    #ultimoProyecto{
-        margin-bottom: 40%;
+    #parteLeer{
+        padding-bottom: 8%;
     }
 }
 
 
-
-
-/*Sobre Mi*/
-
-#tituloSobreMi{
-    font-weight: 300;
-    text-align: center;
-    margin-bottom: 0%;
-    font-size: 28px;
-}
-@media (min-width: 960px) {
-    #tituloSobreMi{
-        font-size: 35px;
-    }
-}
-@media (max-width: 350px) {
-    #tituloSobreMi{
-        font-size: 20px;
-    }
-}
-
-
-
-
-
-
-
-
-#fotoPerfil{
-    width: 100%;
-    padding-top: 10%;
-}
-#nombrePerfil{
-    margin-top: -17%;
-}
-#parrafoSobreMi{
-    font-size: 16px;
-    margin-top: 7%;
-}
-#parrafoSobreMi2{
-    font-size: 16px;
-    margin-top: 0%;
-}
-#trabajarEquipo{
-    background-color: #F8BAAB;
-    padding-right: 1.5%;
-    padding-bottom: 1%;
-}
-#textoVerCv{
-    font-size: 16px;
-    margin-bottom: 1%;
-}
-#botonVerCv{
-    font-size: 16px;
-    background-color: #931941;
-    color: white;
-    padding: 3% 15%;
-    margin-top: 0%;
-    border: none;
-}
-#botonVerCv:hover{
-    background-color: #F8BAAB;
-    color: #931941;
-}
-#textoVerMedium{
-    font-size: 16px;
-    margin-top: 10%;
-    margin-bottom: 1%;
-}
-#botonVerMedium{
-    font-size: 16px;
-    background-color: #931941;
-    color: white;
-    padding: 3% 10%;
-    margin-top: 0%;
-    border: none;
-}
-#botonVerMedium:hover{
-    background-color: #F8BAAB;
-    color: #931941;
-}
-@media (min-width: 960px) {
-    #fotoPerfil{
-        margin-top: 10%;
-    }
-    #nombrePerfil{
-        font-size: 50px;
-        margin-top: 14%;
-        margin-left: -13%;
-
-    }
-    #parrafoSobreMi{
-        font-size: 22px;
-        margin-top: 6%;
-    }
-    #parrafoSobreMi2{
-        font-size: 22px;
-        margin-top: 5%;   
-    }
-    #textoVerCv{
-        font-size: 22px;
-        margin-top: -40%; 
-    }
-    #botonVerCv{
-        font-size: 22px;
-        padding: 1.5% 12%;
-    }
-    #textoVerMedium{
-        font-size: 22px;
-        margin-top: 7%;
-    }
-    #botonVerMedium{
-        font-size: 22px;
-        padding: 1.5% 7%;
-    }
-
-}
-@media (max-width: 350px) {
-    #nombrePerfil{
-        margin-top: -20%;
-    }
-    #fotoPerfil{
-        padding-top: 14%;
-    }
-    #botonVerMedium{
-        padding: 3% 10%;
-    }
-}
-
-
-
-
-
-/*Sección Contacto*/
-#tituloContacto{
-    font-weight: 300;
-    text-align: center;
-    padding-top: 40%;  
-    margin-bottom: 0%;
-    font-size: 28px;
-}
-#tituloEmail{
-    padding-top: 12%;
-    margin-bottom: 0;
-    padding-left: 7%;
-}
-#email{
-    color: #931941;
-    padding-top: 5%;
-    margin-bottom: 0;
-    padding-left: 7%;
-    font-size: 22px;
-}
-#contacto{
-    padding-bottom: 17%;
-}
-@media (min-width: 960px) {
-    #tituloContacto{
-        font-size: 35px;
-        padding-top: 15%;
-    }
-    #tituloEmail{
-        font-size: 50px;
-        margin-top: 25%;
-        padding-left: 6%;
-        padding-top: 0%;
-    }
-    #email{
-        font-size: 38px;
-        margin-top: 44%;
-        padding-left: 6%;
-        padding-top: 0%;
-    }
-}
-@media (max-width: 350px) {
-    #tituloContacto{
-        font-size: 20px;
-        padding-top: 25%;
-    }
-    #tituloEmail{
-        padding-top: 15%;
-    }
-    #email{
-        padding-top: 5%;
-    }
-}
 
 
 /*Footer*/
@@ -559,7 +612,6 @@ a:hover{
 #github{
     text-align: center;
 }
-
 @media (min-width: 960px) {
     #iconMedium{
         font-size: 70px;

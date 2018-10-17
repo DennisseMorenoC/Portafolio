@@ -1,12 +1,18 @@
+html{
+    scroll-behavior: smooth;
+}
 body{
     color: #363636;
     font-family: 'Roboto', sans-serif;
 }
 
-h1, h2, h3{
+h1, h2{
     font-family: 'Source Serif Pro', serif;
+}
+h2{
     font-style: italic;
 }
+/*Sección Navbar*/
 #logo{
     max-width: 20%;
 
@@ -17,19 +23,27 @@ h1, h2, h3{
         margin-right: 20%;
     }
 }
-#portafolio{
+#menuPort{
     color: #363636;
     font-size: 18px;
 }
-#portafolio:hover{
+#menuPort:hover{
     color: #931941;
     font-weight: 700;
 }
-#sobreMi{
+#menuMi{
     color: #363636;
     font-size: 18px;
 }
-#sobreMi:hover{
+#menuMi:hover{
+    color: #931941;
+    font-weight: 700;
+}
+#menuContacto{
+    color: #363636;
+    font-size: 18px;
+}
+#menuContacto:hover{
     color: #931941;
     font-weight: 700;
 }
@@ -53,13 +67,9 @@ h1, h2, h3{
 .navbar{
     padding-top: 10px;
     padding-bottom: 10px;
-    padding-right: 1px;
     padding-left: 9px;
 }
 
-.navbar-nav{
-    margin-top: 4%;
-}
 
 
 
@@ -69,7 +79,7 @@ h1, h2, h3{
 /*Color Rosado Fondo Superior*/
 #colorFondo{
     background-color: #FEEFEC;
-    height: 20%;
+    height: 65%;
     width: 50%;
     position: absolute;
     margin-left: 50%;
@@ -79,13 +89,13 @@ h1, h2, h3{
     #nombrecol{
         text-align: center;
     }
-    #nombre{
-        font-size: 40px;
-    }
-    #portafolio{
+    #menuPort{
         font-size: 20px;
     }
-    #sobreMi{
+    #menuMi{
+        font-size: 20px;
+    }
+    #menuContacto{
         font-size: 20px;
     }
     .navbar-expand-lg .navbar-nav .nav-link {
@@ -93,7 +103,7 @@ h1, h2, h3{
     }
     #colorFondo{
         background-color: #FEEFEC;
-        height: 30%;
+        height: 83%;
         width: 55%;
         margin-left: 45%;
     } 
@@ -104,7 +114,7 @@ h1, h2, h3{
         font-size: 18px;
     }
     #colorFondo{
-        height: 15%;
+        height: 70%;
     }
 }
 
@@ -116,180 +126,50 @@ h1, h2, h3{
 
 
 
+/*Sección Burdeo Saludo */
 
-/*Projecto*/
-
-#tituloTusFinanzas{
-    font-size: 30px;
-    font-weight: 300;
-    margin-top: 30%;
-    margin-bottom: 0%;
-}
-#subrayado{
+#saludoBienvenida{
     background-color: #931941;
-    width: 70%;
-    margin-left: 8%;
-    padding-top: 2%;
-    margin-top: 0%;
+    border: none;
+    margin-left: 4.5%;
+    margin-top: 8%;
+    margin-bottom: 35%
+
 }
-#fotoPrototipoCompu{
-    display: none;
+#ux{
+    color: #F8BAAB;
+    font-size: 18px;
 }
-#fotoPrototipoCelu{
-    margin-left: 8%;
+#parrafo{
+    padding-top: 5%;
+    color: white;
+    font-size: 18px;
 }
 
 @media (min-width: 960px) {
-    #tituloTusFinanzas{
-        padding-top: 14%;
-        margin-top: 4%; 
-        font-size: 70px;
+    #saludoBienvenida{
+        margin-left: 1.5%;
+        margin-bottom: 30%
     }
-    #subrayado{
-        width: 30%;
-        margin-left: 6%;
-        padding-bottom: 0.4%;
-        padding-top: 0.4%;
-    }
-    #fotoPrototipoCompu{
-        width: 80%;
-        padding-top: 20%;
-        margin-left: 20%;
-        display: inherit;
-    }
-    #fotoPrototipoCelu{
-        display: none;
-    }
-}
-@media (max-width: 350px) {
-    #tituloTusFinanzas{
+    #parrafo{
         font-size: 26px;
-        margin-bottom: 0%;
+        padding-bottom: 3%;
     }
-    #subrayado{
-        padding-top: 2.5%;
-        margin-top: 1%;
-        margin-left: 8%;
-        width: 80%;
+    #ux{
+        font-size: 33px;
     }
-
 }
 
-#tituloRol{
-    padding-top: 25%;
-    font-size: 24px;
-    color: #F8BAAB;
-    margin-bottom: 1%;
-}
-.grupoListaProcesos{
-    margin-top: 10%;
-}
-.lista{
-    background-color: #FEEFEC;
-    line-height: 2.7;
-    font-size: 14px;
-
-}
-#tituloProblemática{
-    padding-top: 30%;
-    font-size: 22px;
-    color: #F8BAAB;
-    margin-bottom: 3%;
-}
-#descProblemáticaCelu{
-    font-size: 14px;
-}
-#descProblemáticaCelu2{
-    font-size: 14px;
-}
-#descProblemáticaCompu{
-    display: none;
-}
-#tituloSoluciónCelu{
-    padding-top: 10%;
-    font-size: 24px;
-    color: #F8BAAB;
-    margin-bottom: 2%;
-}
-#tituloSoluciónCompu{
-    display: none;
-}
-#descSoluciónCelu{
-    margin-bottom: 0%;
-    font-size: 14px;
-}
-#descSoluciónCompu{
-    display: none;
-}
-@media (min-width: 960px) {
-    #tituloRol{
-        padding-top: 25%;
-        font-size: 34px;
-        margin-bottom: 4%;
+@media (max-width: 350px) {
+    #saludoBienvenida{
+        margin-bottom: 15%
     }
-    .grupoListaProcesos{
-        margin-top: 0%;
+    #ux{
+        font-size: 18px;
     }
-    .lista{
+    #parrafo{
         font-size: 16px;
     }
-    #tituloProblemática{
-        padding-top: 15%;
-        font-size: 34px;
-        margin-bottom: 4%;
-    }
-    #descProblemáticaCompu{
-        margin-bottom: 0%;
-        font-size: 18px;
-        margin-bottom: 0%;
-        display: block;
-    }
-    #descProblemáticaCelu{
-        display: none;
-    }
-    #descProblemáticaCelu2{
-        display: none;
-    }
-    #tituloSoluciónCompu{
-        padding-top: 15%;
-        font-size: 34px;
-        margin-bottom: 4%;
-        color: #F8BAAB;
-        display: inherit;
-    }
-    #tituloSoluciónCelu{
-        display: none;
-    }
-    #descSoluciónCompu{
-        font-size: 18px;
-        margin-bottom: 0%;
-        display: inherit;
-    }
-    #descSoluciónCelu{
-    display: none;
-    }
-    
-}
-@media (max-width: 350px) {
-    #tituloRol{
-        padding-top: 25%;
-    }
-    #tituloProblemática{
-        padding-top: 25%;
-    }
-    .grupoListaProcesos{
-        margin-top: 5%;
-    }
-    .lista{
-        font-size: 12px;
-    }
-    #descProblemáticaCelu{
-        padding-top: 5%;
-    }
-    #tituloSolución{
-        padding-top: 40%;
-    }
-
 }
 
 
@@ -297,118 +177,40 @@ h1, h2, h3{
 
 
 
-/*Sección2*/
+/*Sección Portafolio*/
 
-#colorFondoSeccion{
-    background-color: #FEEFEC;
-    margin-top: 25%;
-    padding-bottom: 7%;
+#tituloSeccionP{
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 0%; 
+    font-size: 28px;
+    letter-spacing: 2px;
 }
-#tituloResearch{
-    margin-top: -4%;
-    font-size: 24px;
-    color: #F8BAAB;
-    margin-bottom: 15%;
-}
-#benchmark4edu:hover{
-    opacity: 0.7;
-}
-#parrafoInterviews{
-    font-size: 14px;
-    margin-left: 0%;
-    padding-top: 7%;
-}
-#parrafoInterviews2{
-    font-size: 14px;
-    margin-left: 0%;
-    padding-top: 2%;
-}
-#resaltar{
-    background-color: #F8BAAB;
-    padding-right: 1.5%;
-    padding-bottom: 1%;
-}
-#journeJoyeriaImagen{
-    margin-left: -2%;
-    margin-top: 10%;
-}
-#journeJoyeriaImagen:hover{
-    opacity: 0.7;
-}
-.pieFoto{
-    font-size: 12px;
-    padding-top: 1%;
-    color: #931941;
-}
-#imagenProcesoF1{
-    margin-top: 5%;
-}
-#imagenProcesoF1:hover{
-    opacity: 0.7;
-}
-#escuchar{
-    font-size: 18px;
-    margin-left: 0%;
-    margin-top: 10%;
-}
-#audio{
-    font-size: 16px;
+.subrayado{
     background-color: #931941;
-    color: white;
-    border: none;
-    padding: 3% 14%;
-    margin-top: 5%;
-}
-#audio:hover{
-    background-color: #F8BAAB;
-    color: #931941;
+    width: 30%;
+    margin-left: 35%;
+    padding-top: 0;
+    padding-bottom: 1%;
+    height: 1%;
+   
 }
 @media (min-width: 960px) {
-    #colorFondoSeccion{
-        margin-top: 15%;
-        padding-bottom: 5%;
+    .subrayado{
+        width: 14%;
+        margin-left: 43%;
+        padding-bottom: 5px;
     }
-    #tituloResearch{
-        margin-top: -2%;
-        font-size: 34px;
-        margin-bottom: 7%;
-    }
-    #parrafoInterviews{
-        font-size: 18px;
-        margin-left: 5%;
-        padding-top: 0%;
-    }
-    #parrafoInterviews2{
-        font-size: 18px;
-        margin-left: 5%;
-    }
-    #journeJoyeriaImagen{
-        margin-left: 0%;
-        margin-top: 5%;
-    }
-    .pieFoto{
-        font-size: 14px;
-    }
-    #imagenProcesoF1{
-        margin-top: 15%;
-    }
-    #escuchar{
-        font-size: 28px;
-        padding-bottom: 3%;
-        margin-top: 14%;
-    }
-    #audio{
-        font-size: 22px;
-        margin-top: 10%;
-        padding: 1.5% 12%;
-        margin-left: 20%;
+    #tituloSeccionP{
+        font-size: 35px;
     }
 }
+
 @media (max-width: 350px) {
-    #tituloResearch{
-        margin-top: -5%;
+    #tituloSeccionP{
+        font-size: 20px;
+        padding-top: 50%;
     }
-
 }
 
 
@@ -416,147 +218,37 @@ h1, h2, h3{
 
 
 
-/*Parte 3*/
-#tituloIdeación{
-    margin-top: 80%;
-    font-size: 24px;
-    color: #F8BAAB;
-    margin-bottom: 30%;
+
+
+/*Sección Portafolio*/
+.colorFondoProyecto{
+    background-color: #FEEFEC;
+    margin-top: 18%;
+    padding-bottom: 5%;
 }
-#fotoPrototipoBF2{
+.nombreProyecto{
+    margin-top: -30%;
+}
+.parrafoInfoProyecto{
+    font-size: 16px;
     margin-top: 7%;
 }
-#fotoPrototipoBF1:hover{
-    opacity: 0.7;
-}
-#fotoPrototipoBF2:hover{
-    opacity: 0.7;
-}
-#parrafoPrototipoBF{
+.grupoListaProcesos{
     font-size: 14px;
+    font-weight: 300;
+    margin-bottom: 5%;
+    line-height: 2.7;
+}
+.fotoPrototipoCompu{
+    display: none;
+}
+.fotoPrototipoCompu2{
+    display: none;
+}
+.fotoPrototipoCelu{
+    width: 110%;
     margin-left: 0%;
-    margin-top: 10%;
-}
-.parrafoPrototipoBF2{
-    font-size: 14px;
-    margin-left: 0%;
-}
-#fotoPrototipoMF{
-    margin-top: 5%;
-}
-#fotoPrototipoMF:hover{
-    opacity: 0.7;
-}
-@media (min-width: 960px) {
-    #tituloIdeación{
-        margin-top: 50%;
-        font-size: 34px;
-        margin-bottom: 15%;
-    }
-    #fotoPrototipoBF2{
-        margin-top: 0%;
-    }
-    #parrafoPrototipoBF{
-        font-size: 18px;
-        margin-top: 17%;
-    }
-    .parrafoPrototipoBF2{
-        font-size: 18px;
-        margin-top: 1%;
-    }
-    #fotoPrototipoMF{
-        margin-top: 17%;
-    }
-}
-@media (max-width: 350px) {
-    #tituloIdeación{
-        padding-left: 13%;
-    }
-}
-
-
-
-
-/*Parte4*/
-
-#tituloCreación{
-    font-size: 24px;
-    color: #F8BAAB;
-    margin-bottom: 25%;
-    margin-top: -14%;
-}
-#tituloVerPrototipoFinal{
-    font-size: 18px;
-    padding-top: 1%;
-}
-#diagramaFlujo4edu{
-    margin-top: 5%;
-}
-#diagramaFlujo4edu:hover{
-    opacity: 0.7;
-}
-#parrafoPrototipoAF{
-    font-size: 14px;
-    margin-left: 0%;
-    padding-top: 7%;
-}
-#parrafoPrototipoAF2{
-    font-size: 14px;
-}
-#creaciónPrototipoAF{
-    width: 100%;
-}
-
-
-@media (min-width: 960px) {
-    #colorFondoParte4{
-        margin-top: 20%;
-        height: 180%;
-    }
-    #tituloCreación{
-        font-size: 34px;
-        margin-top: -6%;
-        margin-bottom: 15%;
-    }
-    #tituloVerPrototipoFinal{
-        font-size: 26px;
-        padding-top: 5%;
-    }
-    .prototipoAlta{
-        margin-top: 5%;
-    }
-    #parrafoPrototipoAF{
-        font-size: 18px;
-        margin-top: 9%;
-    }
-    #parrafoPrototipoAF2{
-        font-size: 18px;
-    }
-    #creaciónPrototipoAF{
-        padding-top: 10%;
-    }
-    #diagramaFlujo4edu{
-        margin-top: 1%;
-    }
-}
-
-@media (max-width: 350px) {
-    #tituloCreación{
-        padding-left: 13%;
-        margin-top: -18%;
-    }
-
-}
-
-
-
-
-/*Parte Leer*/
-#tituloLeerMedium{
-    margin-top: 25%;
-    font-size: 16px;
-    color: #F8BAAB;
-    margin-bottom: 1%;
+    margin-top: -70%;
 }
 .leerMas{
     font-size: 16px;
@@ -564,30 +256,76 @@ h1, h2, h3{
     color: white;
     border: none;
     padding: 3% 14%;
-    margin-top: 30%;
+    margin-top: 8%;
 }
 .leerMas:hover{
     background-color: #F8BAAB;
     color: #931941;
 }
+
 @media (min-width: 960px) {
-    #tituloLeerMedium{
-        padding-left: 2.5%;
-        margin-top: 25%;
-        color: #F8BAAB;
-        font-size: 32px;
-        margin-bottom: 4%;
+    .colorFondoProyecto{
+        margin-top: 11.5%;
+        padding-bottom: 2%;
+    }
+    .nombreProyecto{
+        margin-top: -9%;
+        font-size: 50px;
+        padding-left: 5%;
+    }
+    .parrafoInfoProyecto{
+        font-size: 22px;
+        padding-top: 3%;
+        padding-left: 4%;
+    }
+    .grupoListaProcesos{
+        font-size: 16px;
+        padding-top: 6%;
+        padding-left: 4%;
+        line-height: 2.6;
+    }
+    .fotoPrototipoCompu{
+        width: 70%;
+        margin-top: -15%;
+        margin-left: 20%;
+        display: inherit;
+    }
+    .fotoPrototipoCompu2{
+        width: 70%;
+        margin-top: -28%;
+        margin-left: 20%;
+        display: inherit;
+    }
+    .fotoPrototipoCelu{
+        display: none;
     }
     .leerMas{
         font-size: 22px;
-        margin-top: 27%;
+        margin-top: 25%;
         padding: 1.5% 12%;
-        margin-left: 20%;
+        border: none;
+        margin-left: 5%;
     }
 }
+
 @media (max-width: 350px) {
-    #tituloLeerMedium{
-        padding-left: 13%;
+    .colorFondoProyectos{
+        margin-top: 17.5%;
+    }
+    .nombreProyecto{
+        font-size: 26px;
+    }
+    .parrafoInfoProyecto{
+        font-size: 14px;
+        margin-top: -1%;
+    }
+    .grupoListaProcesos{
+        padding-top: 0%;
+        line-height: 2.8;
+        font-size: 12px;
+    }
+    .fotoPrototipoCelu{
+        width: 115%;
     }
     .leerMas{
         margin-top: 5%;
@@ -595,17 +333,209 @@ h1, h2, h3{
 }
 
 
-#parteLeer{
-    padding-bottom: 10%;
-}
 
+
+#ultimoProyecto{
+    margin-bottom: 50%;
+}
 @media (min-width: 960px) {
-    #parteLeer{
-        padding-bottom: 8%;
+    #ultimoProyecto{
+        margin-bottom: 20%;
+    }
+}
+@media (max-width: 350px) {
+    #ultimoProyecto{
+        margin-bottom: 40%;
     }
 }
 
 
+
+
+/*Sobre Mi*/
+
+#tituloSobreMi{
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 0%;
+    font-size: 28px;
+}
+@media (min-width: 960px) {
+    #tituloSobreMi{
+        font-size: 35px;
+    }
+}
+@media (max-width: 350px) {
+    #tituloSobreMi{
+        font-size: 20px;
+    }
+}
+
+
+
+
+
+
+
+
+#fotoPerfil{
+    width: 100%;
+    padding-top: 10%;
+}
+#nombrePerfil{
+    margin-top: -17%;
+}
+#parrafoSobreMi{
+    font-size: 16px;
+    margin-top: 7%;
+}
+#parrafoSobreMi2{
+    font-size: 16px;
+    margin-top: 0%;
+}
+#trabajarEquipo{
+    background-color: #F8BAAB;
+    padding-right: 1.5%;
+    padding-bottom: 1%;
+}
+#textoVerCv{
+    font-size: 16px;
+    margin-bottom: 1%;
+}
+#botonVerCv{
+    font-size: 16px;
+    background-color: #931941;
+    color: white;
+    padding: 3% 15%;
+    margin-top: 0%;
+    border: none;
+}
+#botonVerCv:hover{
+    background-color: #F8BAAB;
+    color: #931941;
+}
+#textoVerMedium{
+    font-size: 16px;
+    margin-top: 10%;
+    margin-bottom: 1%;
+}
+#botonVerMedium{
+    font-size: 16px;
+    background-color: #931941;
+    color: white;
+    padding: 3% 10%;
+    margin-top: 0%;
+    border: none;
+}
+#botonVerMedium:hover{
+    background-color: #F8BAAB;
+    color: #931941;
+}
+@media (min-width: 960px) {
+    #fotoPerfil{
+        margin-top: 10%;
+    }
+    #nombrePerfil{
+        font-size: 50px;
+        margin-top: 14%;
+        margin-left: -13%;
+
+    }
+    #parrafoSobreMi{
+        font-size: 22px;
+        margin-top: 6%;
+    }
+    #parrafoSobreMi2{
+        font-size: 22px;
+        margin-top: 5%;   
+    }
+    #textoVerCv{
+        font-size: 22px;
+        margin-top: -40%; 
+    }
+    #botonVerCv{
+        font-size: 22px;
+        padding: 1.5% 12%;
+    }
+    #textoVerMedium{
+        font-size: 22px;
+        margin-top: 7%;
+    }
+    #botonVerMedium{
+        font-size: 22px;
+        padding: 1.5% 7%;
+    }
+
+}
+@media (max-width: 350px) {
+    #nombrePerfil{
+        margin-top: -20%;
+    }
+    #fotoPerfil{
+        padding-top: 14%;
+    }
+    #botonVerMedium{
+        padding: 3% 10%;
+    }
+}
+
+
+
+
+
+/*Sección Contacto*/
+#tituloContacto{
+    font-weight: 300;
+    text-align: center;
+    padding-top: 40%;  
+    margin-bottom: 0%;
+    font-size: 28px;
+}
+#tituloEmail{
+    padding-top: 12%;
+    margin-bottom: 0;
+    padding-left: 7%;
+}
+#email{
+    color: #931941;
+    padding-top: 5%;
+    margin-bottom: 0;
+    padding-left: 7%;
+    font-size: 22px;
+}
+#contacto{
+    padding-bottom: 17%;
+}
+@media (min-width: 960px) {
+    #tituloContacto{
+        font-size: 35px;
+        padding-top: 15%;
+    }
+    #tituloEmail{
+        font-size: 50px;
+        margin-top: 25%;
+        padding-left: 6%;
+        padding-top: 0%;
+    }
+    #email{
+        font-size: 38px;
+        margin-top: 44%;
+        padding-left: 6%;
+        padding-top: 0%;
+    }
+}
+@media (max-width: 350px) {
+    #tituloContacto{
+        font-size: 20px;
+        padding-top: 25%;
+    }
+    #tituloEmail{
+        padding-top: 15%;
+    }
+    #email{
+        padding-top: 5%;
+    }
+}
 
 
 /*Footer*/

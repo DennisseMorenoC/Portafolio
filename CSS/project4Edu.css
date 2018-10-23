@@ -23,11 +23,17 @@ h2{
         margin-right: 20%;
     }
 }
-#menuPort{
+.navbar-light .navbar-nav .nav-link {
+    color: #363636;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #931941;
+}
+.menuPort{
     color: #363636;
     font-size: 18px;
 }
-#menuPort:hover{
+.menuPort:hover{
     color: #931941;
     font-weight: 700;
 }
@@ -63,13 +69,24 @@ h2{
     line-height: inherit;
     white-space: nowrap;
 }
-
 .navbar{
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 9px;
 }
-
+.dropdown-item:active {
+    color: #931941;
+    text-decoration: none;
+    background-color: #F8BAAB;
+}
+.dropdown-item:hover {
+    color: #fff;
+    background-color: #931941;
+}
+.dropdown-menu {
+    border: none;
+    padding: 0;
+}
 
 
 
@@ -84,10 +101,13 @@ h2{
 }
  
 @media (min-width: 960px) {
+    .dropdown-menu {
+        padding: .5rem 0;
+    }
     #nombrecol{
         text-align: center;
     }
-    #menuPort{
+    .menuPort{
         font-size: 20px;
     }
     #menuMi{

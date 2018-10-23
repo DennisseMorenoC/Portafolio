@@ -179,7 +179,7 @@ h2{
 
 /*Sección Portafolio*/
 
-#tituloSeccionP{
+#Portafolio{
     font-weight: 300;
     text-align: center;
     margin-bottom: 0%; 
@@ -201,13 +201,13 @@ h2{
         margin-left: 43%;
         padding-bottom: 5px;
     }
-    #tituloSeccionP{
+    #Portafolio{
         font-size: 35px;
     }
 }
 
 @media (max-width: 350px) {
-    #tituloSeccionP{
+    #Portafolio{
         font-size: 20px;
         padding-top: 50%;
     }
@@ -354,19 +354,19 @@ h2{
 
 /*Sobre Mi*/
 
-#tituloSobreMi{
+#SobreMi{
     font-weight: 300;
     text-align: center;
     margin-bottom: 0%;
     font-size: 28px;
 }
 @media (min-width: 960px) {
-    #tituloSobreMi{
+    #SobreMi{
         font-size: 35px;
     }
 }
 @media (max-width: 350px) {
-    #tituloSobreMi{
+    #SobreMi{
         font-size: 20px;
     }
 }
@@ -483,7 +483,7 @@ h2{
 
 
 /*Sección Contacto*/
-#tituloContacto{
+#Contacto{
     font-weight: 300;
     text-align: center;
     padding-top: 40%;  
@@ -502,11 +502,11 @@ h2{
     padding-left: 7%;
     font-size: 22px;
 }
-#contacto{
+#contactoContainer{
     padding-bottom: 17%;
 }
 @media (min-width: 960px) {
-    #tituloContacto{
+    #Contacto{
         font-size: 35px;
         padding-top: 17%;
     }
@@ -524,7 +524,7 @@ h2{
     }
 }
 @media (max-width: 350px) {
-    #tituloContacto{
+    #Contacto{
         font-size: 20px;
         padding-top: 25%;
     }
